@@ -1,9 +1,13 @@
 module.exports = {
   siteMetadata: {
     url: 'https://lumen.netlify.com',
+    pathPrefix: '',
     title: 'Blog by John Doe',
+    titleAlt: 'Blog by John regarding Stuff', // for SEO
+    shareImage: '', // Path to an image when sharing a post on a social network
     subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     copyright: '© All rights reserved.',
+    facebookAppID: '', // Facebook Application ID for using app insights
     disqusShortname: '',
     menu: [
       {

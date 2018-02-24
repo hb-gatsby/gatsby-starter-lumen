@@ -5,12 +5,15 @@ import TagTemplateDetails from '../components/TagTemplateDetails';
 
 class TagTemplate extends React.Component {
   render() {
-    const { title } = this.props.data.site.siteMetadata;
+    const { title, subtitle } = this.props.data.site.siteMetadata;
     const { tag } = this.props.pathContext;
 
     return (
       <div>
-        <Helmet title={`All Posts tagged as "${tag}" - ${title}`} />
+        <Helmet>
+          <title>{`All Posts tagged as "${tag}" - ${title}`}</title>
+          <meta name="description" content={subtitle} />
+        </Helmet>
         <Sidebar {...this.props} />
         <TagTemplateDetails {...this.props} />
       </div>
