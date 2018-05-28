@@ -1,4 +1,5 @@
 [![GitHub release](https://img.shields.io/github/release/alxshelepenok/gatsby-starter-lumen.svg)](https://github.com/alxshelepenok/gatsby-starter-lumen) [![Code Climate](https://img.shields.io/codeclimate/maintainability/alxshelepenok/gatsby-starter-lumen.svg)](https://codeclimate.com/github/alxshelepenok/gatsby-starter-lumen) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alxshelepenok/gatsby-starter-lumen/master/LICENSE) [![Twitter](https://img.shields.io/twitter/url/https/github.com/alxshelepenok/gatsby-starter-lumen.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://github.com/alxshelepenok/gatsby-starter-lumen)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falxshelepenok%2Fgatsby-starter-lumen.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Falxshelepenok%2Fgatsby-starter-lumen?ref=badge_shield)
 
 # Lumen
 
@@ -116,3 +117,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Falxshelepenok%2Fgatsby-starter-lumen.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Falxshelepenok%2Fgatsby-starter-lumen?ref=badge_large)
