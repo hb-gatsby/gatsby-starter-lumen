@@ -19,12 +19,12 @@ class Disqus extends Component {
     this.setState({ toasts });
   }
   render() {
-    const { postNode, siteMetadata } = this.props;
+    const { postNode, siteMetadata, path } = this.props;
     if (!siteMetadata.disqusShortname) {
       return null;
     }
     const post = postNode.frontmatter;
-    const url = siteMetadata.url + postNode.fields.slug;
+    const url = siteMetadata.url + path;
     return (
       <ReactDisqusComments
         shortname={siteMetadata.disqusShortname}
