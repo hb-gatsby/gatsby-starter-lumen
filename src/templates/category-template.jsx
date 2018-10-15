@@ -5,12 +5,15 @@ import CategoryTemplateDetails from '../components/CategoryTemplateDetails';
 
 class CategoryTemplate extends React.Component {
   render() {
-    const { title } = this.props.data.site.siteMetadata;
+    const { title, subtitle } = this.props.data.site.siteMetadata;
     const { category } = this.props.pathContext;
 
     return (
       <div>
-        <Helmet title={`${category} - ${title}`} />
+        <Helmet>
+          <title>{`${category} - ${title}`}</title>
+          <meta name="description" content={subtitle} />
+        </Helmet>
         <Sidebar {...this.props} />
         <CategoryTemplateDetails {...this.props} />
       </div>

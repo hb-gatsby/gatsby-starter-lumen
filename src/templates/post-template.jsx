@@ -1,10 +1,12 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import SEO from '../components/SEO';
 import PostTemplateDetails from '../components/PostTemplateDetails';
 
 class PostTemplate extends React.Component {
   render() {
     const { title, subtitle } = this.props.data.site.siteMetadata;
+    const { slug } = this.props.pathContext;
     const post = this.props.data.markdownRemark;
     const { title: postTitle, description: postDescription } = post.frontmatter;
     const description = postDescription !== null ? postDescription : subtitle;
@@ -13,8 +15,8 @@ class PostTemplate extends React.Component {
       <div>
         <Helmet>
           <title>{`${postTitle} - ${title}`}</title>
-          <meta name="description" content={description} />
         </Helmet>
+        <SEO postPath={slug} postNode={post} config={this.props.data.site.siteMetadata} postSEO />
         <PostTemplateDetails {...this.props} />
       </div>
     );
@@ -27,9 +29,14 @@ export const pageQuery = graphql`
   query PostBySlug($slug: String!) {
     site {
       siteMetadata {
+        url
+        pathPrefix
         title
+        titleAlt
+        shareImage
         subtitle
         copyright
+        facebookAppID
         author {
           name
           twitter
