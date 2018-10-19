@@ -4,7 +4,8 @@ import PostTemplateDetails from '../components/PostTemplateDetails';
 
 class PostTemplate extends React.Component {
   render() {
-    const { title, subtitle } = this.props.data.site.siteMetadata;
+    const siteMetadata = this.props.data.site.siteMetadata;
+    const { title, subtitle } = siteMetadata;
     const post = this.props.data.markdownRemark;
     const { title: postTitle, description: postDescription } = post.frontmatter;
     const description = postDescription !== null ? postDescription : subtitle;
@@ -15,7 +16,7 @@ class PostTemplate extends React.Component {
           <title>{`${postTitle} - ${title}`}</title>
           <meta name="description" content={description} />
         </Helmet>
-        <PostTemplateDetails {...this.props} />
+        <PostTemplateDetails siteMetadata={siteMetadata} post={post} />
       </div>
     );
   }
@@ -29,7 +30,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         subtitle
-        copyright
         author {
           name
           twitter

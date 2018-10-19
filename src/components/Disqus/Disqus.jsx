@@ -27,7 +27,7 @@ class Disqus extends Component {
     const url = siteMetadata.url + path;
     return (
       <ReactDisqusComments
-        shortname={siteMetadata.disqusShortname}
+        shortname={shortName}
         identifier={post.title}
         title={post.title}
         url={url}

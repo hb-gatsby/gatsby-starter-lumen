@@ -11,8 +11,8 @@ class TagTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`All Posts tagged as "${tag}" - ${title}`} />
-        <Sidebar {...this.props} />
-        <TagTemplateDetails {...this.props} />
+        <Sidebar siteMetadata={this.props.data.site.siteMetadata} />
+        <TagTemplateDetails posts={this.props.data.allMarkdownRemark.edges} tag={tag} />
       </div>
     );
   }
@@ -24,22 +24,7 @@ export const pageQuery = graphql`
   query TagPage($tag: String) {
     site {
       siteMetadata {
-        title
-        subtitle
-        copyright
-        menu {
-          label
-          path
-        }
-        author {
-          name
-          email
-          telegram
-          twitter
-          github
-          rss
-          vk
-        }
+        ...sidebarFragment
       }
     }
     allMarkdownRemark(

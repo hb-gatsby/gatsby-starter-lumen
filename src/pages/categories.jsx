@@ -12,7 +12,7 @@ class CategoriesRoute extends React.Component {
     return (
       <div>
         <Helmet title={`All Categories - ${title}`} />
-        <Sidebar {...this.props} />
+        <Sidebar siteMetadata={this.props.data.site.siteMetadata} />
         <div className="content">
           <div className="content__inner">
             <div className="page">
@@ -44,22 +44,7 @@ export const pageQuery = graphql`
   query CategoryesQuery {
     site {
       siteMetadata {
-        title
-        subtitle
-        copyright
-        menu {
-          label
-          path
-        }
-        author {
-          name
-          email
-          telegram
-          twitter
-          github
-          rss
-          vk
-        }
+        ...sidebarFragment
       }
     }
     allMarkdownRemark(

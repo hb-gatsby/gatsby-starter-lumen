@@ -6,8 +6,8 @@ import './style.scss';
 
 class PostTemplateDetails extends React.Component {
   render() {
-    const { subtitle, author } = this.props.data.site.siteMetadata;
-    const post = this.props.data.markdownRemark;
+    const { subtitle, author, disqusShortname, url } = this.props.siteMetadata;
+    const post = this.props.post;
     const tags = post.fields.tagSlugs;
 
     const homeBlock = (
@@ -60,7 +60,7 @@ class PostTemplateDetails extends React.Component {
                 <br /> <strong>{author.name}</strong> on Twitter
               </a>
             </p>
-            {commentsBlock}
+            {disqusShortname && commentsBlock}
           </div>
         </div>
       </div>

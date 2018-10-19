@@ -4,11 +4,11 @@ import './style.scss';
 
 class PageTemplateDetails extends React.Component {
   render() {
-    const page = this.props.data.markdownRemark;
+    const page = this.props.page;
 
     return (
       <div>
-        <Sidebar {...this.props} />
+        <Sidebar siteMetadata={this.props.siteMetadata} />
         <div className="content">
           <div className="content__inner">
             <div className="page">

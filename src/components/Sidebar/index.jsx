@@ -9,7 +9,7 @@ import './style.scss';
 class Sidebar extends React.Component {
   render() {
     const { location } = this.props;
-    const { author, subtitle, copyright, menu } = this.props.data.site.siteMetadata;
+    const { author, subtitle, copyright, menu } = this.props.siteMetadata;
     const isHomePage = get(location, 'pathname', '/') === '/';
 
     /* eslint-disable jsx-a11y/img-redundant-alt */
@@ -58,3 +58,25 @@ class Sidebar extends React.Component {
 }
 
 export default Sidebar;
+
+export const conponentQuery = graphql`
+  fragment sidebarFragment on siteMetadata_2{
+    title
+    subtitle
+    copyright
+    menu {
+      label
+      path
+    }
+    author {
+      name
+      email
+      telegram
+      twitter
+      github
+      rss
+      vk
+    }
+  }
+`;
+

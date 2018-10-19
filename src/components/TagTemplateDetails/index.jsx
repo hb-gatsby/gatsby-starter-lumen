@@ -4,8 +4,8 @@ import Post from '../Post';
 class TagTemplateDetails extends React.Component {
   render() {
     const items = [];
-    const tagTitle = this.props.pathContext.tag;
-    const posts = this.props.data.allMarkdownRemark.edges;
+    const tagTitle = this.props.tag;
+    const posts = this.props.posts;
     posts.forEach((post) => {
       items.push(<Post data={post} key={post.node.fields.slug} />);
     });

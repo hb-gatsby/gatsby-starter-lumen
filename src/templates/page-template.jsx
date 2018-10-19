@@ -4,7 +4,8 @@ import PageTemplateDetails from '../components/PageTemplateDetails';
 
 class PageTemplate extends React.Component {
   render() {
-    const { title, subtitle } = this.props.data.site.siteMetadata;
+    const siteMetadata = this.props.data.site.siteMetadata;
+    const { title, subtitle } = siteMetadata;
     const page = this.props.data.markdownRemark;
     const { title: pageTitle, description: pageDescription } = page.frontmatter;
     const description = pageDescription !== null ? pageDescription : subtitle;
@@ -15,7 +16,10 @@ class PageTemplate extends React.Component {
           <title>{`${pageTitle} - ${title}`}</title>
           <meta name="description" content={description} />
         </Helmet>
-        <PageTemplateDetails {...this.props} />
+        <PageTemplateDetails
+          siteMetadata={siteMetadata}
+          page={page}
+        />
       </div>
     );
   }
@@ -27,22 +31,7 @@ export const pageQuery = graphql`
   query PageBySlug($slug: String!) {
     site {
       siteMetadata {
-        title
-        subtitle
-        copyright
-        menu {
-          label
-          path
-        }
-        author {
-          name
-          email
-          telegram
-          twitter
-          github
-          rss
-          vk
-        }
+        ...sidebarFragment
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
