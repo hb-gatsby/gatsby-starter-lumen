@@ -22,7 +22,7 @@ export const PureComments = ({ data, postTitle, postSlug }) => {
         url={siteUrl + postSlug}
       />
     );
-  } else if (gitalkConf && isBrowser) {
+  } else if (gitalkConf.turnOn && isBrowser) {
     // MD5 post URL to avoid github label limitation.
     // https://github.com/gitalk/gitalk/issues/115#issuecomment-375954482
     // You can also overwrite options at here.
@@ -52,6 +52,7 @@ export const Comments = (props) => (
             disqusShortname
             url
             gitalkConf {
+              turnOn
               clientID
               clientSecret
               repo

@@ -10,6 +10,7 @@ module.exports = {
     subtitle: siteConfig.subtitle,
     copyright: siteConfig.copyright,
     disqusShortname: siteConfig.disqusShortname,
+    gitalkConf: siteConfig.gitalkConf,
     menu: siteConfig.menu,
     author: siteConfig.author
   },

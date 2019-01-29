@@ -7,6 +7,7 @@ module.exports = {
   copyright: '© All rights reserved.',
   disqusShortname: '',
   gitalkConf: {
+    turnOn: false, // Set to true to turn in gitalk
     clientID: 'GITHUB_CLIENT_ID',
     clientSecret: 'GITHUB_CLIENT_SECRET',
     repo: 'GITHUB_REPO',
