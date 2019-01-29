@@ -33,7 +33,7 @@
 + Pagination support.
 + [Netlify CMS](https://www.netlifycms.org) support.
 + Google Analytics.
-+ Disqus Comments.
++ Disqus/[gitalk](https://github.com/gitalk/gitalk) Comments.
 
 ## Quick Start
 
