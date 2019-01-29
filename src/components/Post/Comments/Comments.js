@@ -12,6 +12,7 @@ export const PureComments = ({ data, postTitle, postSlug }) => {
     gitalkConf
   } = data.site.siteMetadata;
 
+  const isBrowser = typeof window !== 'undefined';
   if (disqusShortname) {
     return (
       <ReactDisqusComments
@@ -21,7 +22,7 @@ export const PureComments = ({ data, postTitle, postSlug }) => {
         url={siteUrl + postSlug}
       />
     );
-  } else if (gitalkConf) {
+  } else if (gitalkConf && isBrowser) {
     // MD5 post URL to avoid github label limitation.
     // https://github.com/gitalk/gitalk/issues/115#issuecomment-375954482
     // You can also overwrite options at here.
