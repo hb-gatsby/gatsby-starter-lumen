@@ -6,6 +6,13 @@ module.exports = {
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
+  gitalkConf: {
+    clientID: 'GITHUB_CLIENT_ID',
+    clientSecret: 'GITHUB_CLIENT_SECRET',
+    repo: 'GITHUB_REPO',
+    admin: ['GITHUB_REPO_OWNER_AND_COLLABORATORS'],
+    owner: 'GITHUB_REPO_OWNER'
+  },
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
   menu: [
