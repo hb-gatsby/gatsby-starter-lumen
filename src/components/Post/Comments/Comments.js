@@ -12,9 +12,10 @@ export const PureComments = ({ data, postTitle, postSlug }) => {
     gitalkConf
   } = data.site.siteMetadata;
 
+  let output;
   const isBrowser = typeof window !== 'undefined';
   if (disqusShortname) {
-    return (
+    output = (
       <ReactDisqusComments
         shortname={disqusShortname}
         identifier={postTitle}
@@ -31,16 +32,17 @@ export const PureComments = ({ data, postTitle, postSlug }) => {
       id: md5(postSlug)
     });
 
-    return (
+    output = (
       <div>
         <GitalkComponent
           options={gitalkIds}
         />
       </div>
-    )
+    );
   } else {
-    return null;
+    output = null;
   }
+  return output;
 };
 
 export const Comments = (props) => (
