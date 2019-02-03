@@ -17,6 +17,9 @@ const getContactHref = (name, contact) => {
     case 'email':
       href = `mailto:${contact}`;
       break;
+    case 'facebook':
+      href = href = `https://www.facebook.com/${contact}`;
+      break;
     default:
       href = contact;
       break;
