@@ -94,7 +94,7 @@
     "eslint": "5.12.1",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-jest": "22.2.2",
+    "eslint-plugin-jest": "22.3.0",
     "eslint-plugin-react": "7.12.4",
     "eslint-watch": "4.0.2",
     "babel-eslint": "10.0.1",
