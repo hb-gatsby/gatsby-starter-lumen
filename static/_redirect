@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://determined-lumiere-2f200a.netlify.com/* https://www.vasandani.me/:splat 301!
