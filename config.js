@@ -32,7 +32,8 @@ module.exports = {
       twitter: '#',
       github: '#',
       rss: '#',
-      vkontakte: '#'
+      vkontakte: '#',
+      linkedin: '#'
     }
   }
 };

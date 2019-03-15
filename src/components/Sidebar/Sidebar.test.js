@@ -18,7 +18,8 @@ describe('Sidebar', () => {
                 vkontakte: '#',
                 github: '#',
                 rss: '#',
-                telegram: '#'
+                telegram: '#',
+                linkedin: '#'
               }
             },
             copyright: 'copyright',
