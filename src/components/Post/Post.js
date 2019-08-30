@@ -13,12 +13,12 @@ import type { Node } from '../../types';
 type Props = {
   post: Node,
   next: {
-    title: string,
-    slug: string,
+    title: string | undefined,
+    slug: string | undefined,
   },
   prev: {
-    title: string,
-    slug: string,
+    title: string | undefined,
+    slug: string | undefined,
   },
 };
 
