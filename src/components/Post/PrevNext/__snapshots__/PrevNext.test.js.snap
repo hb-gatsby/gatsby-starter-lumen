@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrevNext renders correctly 1`] = `
+<div
+  className="prev-next"
+>
+  <div
+    className="prev-next__prev"
+  >
+    <a
+      className="prev-next__prev-link"
+      href="/posts/test-post-1"
+    >
+      ← Test Post 1
+    </a>
+  </div>
+  <div
+    className="prev-next__next"
+  >
+    <a
+      className="prev-next__next-link"
+      href="/posts/test-post-3"
+    >
+      Test Post 3 →
+    </a>
+  </div>
+</div>
+`;

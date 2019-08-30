@@ -12,19 +12,19 @@ const createPages = async ({ graphql, actions }) => {
   // 404
   createPage({
     path: '/404',
-    component: path.resolve('./src/templates/not-found-template.js')
+    component: path.resolve('./src/templates/not-found-template.js'),
   });
 
   // Tags list
   createPage({
     path: '/tags',
-    component: path.resolve('./src/templates/tags-list-template.js')
+    component: path.resolve('./src/templates/tags-list-template.js'),
   });
 
   // Categories list
   createPage({
     path: '/categories',
-    component: path.resolve('./src/templates/categories-list-template.js')
+    component: path.resolve('./src/templates/categories-list-template.js'),
   });
 
   // Posts and pages from markdown
@@ -32,11 +32,13 @@ const createPages = async ({ graphql, actions }) => {
     {
       allMarkdownRemark(
         filter: { frontmatter: { draft: { ne: true } } }
+        sort: { fields: frontmatter___date, order: DESC }
       ) {
         edges {
           node {
             frontmatter {
               template
+              title
             }
             fields {
               slug
@@ -49,18 +51,20 @@ const createPages = async ({ graphql, actions }) => {
 
   const { edges } = result.data.allMarkdownRemark;
 
-  _.each(edges, (edge) => {
-    if (_.get(edge, 'node.frontmatter.template') === 'page') {
+  edges.forEach((edge, index) => {
+    if (edge.node.frontmatter.template === 'page') {
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve('./src/templates/page-template.js'),
-        context: { slug: edge.node.fields.slug }
+        context: { slug: edge.node.fields.slug },
       });
-    } else if (_.get(edge, 'node.frontmatter.template') === 'post') {
+    } else if (edge.node.frontmatter.template === 'post') {
+      const prev = index === 0 ? false : edges[index - 1].node;
+      const next = index === edges.length - 1 ? false : edges[index + 1].node;
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve('./src/templates/post-template.js'),
-        context: { slug: edge.node.fields.slug }
+        context: { slug: edge.node.fields.slug, prev, next },
       });
     }
   });
@@ -70,6 +74,5 @@ const createPages = async ({ graphql, actions }) => {
   await createCategoriesPages(graphql, actions);
   await createPostsPages(graphql, actions);
 };
-
 
 module.exports = createPages;

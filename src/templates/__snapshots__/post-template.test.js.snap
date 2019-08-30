@@ -95,6 +95,30 @@ exports[`PostTemplate renders correctly 1`] = `
           </a>
         </p>
       </div>
+      <div
+        className="prev-next"
+      >
+        <div
+          className="prev-next__prev"
+        >
+          <a
+            className="prev-next__prev-link"
+            href="/posts/test-1"
+          >
+            ← Test 1
+          </a>
+        </div>
+        <div
+          className="prev-next__next"
+        >
+          <a
+            className="prev-next__next-link"
+            href="/posts/test-3"
+          >
+            Test 3 →
+          </a>
+        </div>
+      </div>
     </div>
     <div
       className="post__comments"

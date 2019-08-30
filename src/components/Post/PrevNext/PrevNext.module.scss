@@ -1,0 +1,48 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.prev-next {
+  @include margin-top(2);
+  @include margin-bottom(2);
+  display: flex;
+
+  &__prev {
+    width: 50%;
+    text-align: left;
+
+    &-link {
+      color: $color-base;
+      font-size: 0.85rem;
+
+      &:hover,
+      &:focus {
+        color: $color-primary;
+      }
+
+      &--disable {
+        pointer-events: none;
+        color: lighten($color-gray, 20%);
+      }
+    }
+  }
+
+  &__next {
+    width: 50%;
+    text-align: right;
+
+    &-link {
+      color: $color-base;
+      font-size: 0.85rem;
+
+      &:hover,
+      &:focus {
+        color: $color-primary;
+      }
+
+      &--disable {
+        pointer-events: none;
+        color: lighten($color-gray, 20%);
+      }
+    }
+  }
+}
