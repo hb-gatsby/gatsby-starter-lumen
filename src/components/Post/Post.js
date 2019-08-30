@@ -12,13 +12,13 @@ import type { Node } from '../../types';
 
 type Props = {
   post: Node,
-  next: {
-    title: string | undefined,
-    slug: string | undefined,
+  next?: {
+    title: string,
+    slug: string,
   },
-  prev: {
-    title: string | undefined,
-    slug: string | undefined,
+  prev?: {
+    title: string,
+    slug: string,
   },
 };
 
@@ -41,7 +41,7 @@ const Post = ({ post, next, prev }: Props) => {
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
         <Author />
-        <PrevNext next={next} prev={prev} />
+        <PrevNext next={next || undefined} prev={prev || undefined} />
       </div>
 
       <div className={styles['post__comments']}>
