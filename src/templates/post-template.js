@@ -19,17 +19,14 @@ const PostTemplate = ({ data, pathContext }: Props) => {
   const { title: postTitle, description: postDescription, socialImage } = frontmatter;
   const { next, prev } = pathContext;
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
-  const nextPost =
-    next && next.frontmatter.template === 'post'
-      ? { title: next.frontmatter.title, slug: next.fields.slug }
-      : undefined;
-  const prevPost =
-    prev && prev.frontmatter.template === 'post'
-      ? { title: prev.frontmatter.title, slug: prev.fields.slug }
-      : undefined;
+  const nextPost = next && next.frontmatter.template === 'post' ? { title: next.frontmatter.title, slug: next.fields.slug } : undefined;
+  const prevPost = prev && prev.frontmatter.template === 'post' ? { title: prev.frontmatter.title, slug: prev.fields.slug } : undefined;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage}>
+    <Layout
+      title={`${postTitle} - ${siteTitle}`}
+      description={metaDescription}
+      socialImage={socialImage}>
       <Post post={data.markdownRemark} next={nextPost} prev={prevPost} />
     </Layout>
   );
