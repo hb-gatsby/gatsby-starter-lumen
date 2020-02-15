@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by Terminal',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Terminal Blog',
+  subtitle: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,37 +12,29 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Blogs',
       path: '/'
     },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
-    name: 'Terminal',
+    name: 'Terminal Blog',
     photo: '/photo.jpg',
     bio: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'mailto:hi@terminal.co',
+      facebook: 'terminaldotco',
+      telegram: '',
+      twitter: 'terminaldotco',
+      github: 'terminal-systems',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: '',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
       codepen: '',
-      youtube: '',
+      youtube: 'https://www.youtube.com/channel/UCBzlwYM0JjZpjDZ52-SLUmw',
       soundcloud: '',
     }
   }
