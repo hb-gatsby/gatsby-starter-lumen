@@ -21,11 +21,12 @@ module.exports = {
     photo: '/photo.jpg',
     bio: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
     contacts: {
+      twitter: 'terminaldotco',
+      youtube: 'UCBzlwYM0JjZpjDZ52-SLUmw',
       email: 'mailto:hi@terminal.co',
+      github: 'terminal-systems',
       facebook: 'terminaldotco',
       telegram: '',
-      twitter: 'terminaldotco',
-      github: 'terminal-systems',
       rss: '',
       vkontakte: '',
       linkedin: '',
@@ -34,7 +35,6 @@ module.exports = {
       gitlab: '',
       weibo: '',
       codepen: '',
-      youtube: 'https://www.youtube.com/channel/UCBzlwYM0JjZpjDZ52-SLUmw',
       soundcloud: '',
     }
   }
