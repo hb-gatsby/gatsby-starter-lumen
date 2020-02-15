@@ -30,9 +30,9 @@ module.exports = {
     bio: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
     contacts: {
       email: '',
-      facebook: 'terminaldotco',
+      facebook: '#',
       telegram: '#',
-      twitter: 'terminaldotco',
+      twitter: '#',
       github: '#',
       rss: '',
       vkontakte: '',
