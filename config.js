@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
+  title: 'Blog by Terminal',
   subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -25,14 +25,14 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Terminal',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
     contacts: {
       email: '',
-      facebook: '#',
+      facebook: 'terminaldotco',
       telegram: '#',
-      twitter: '#',
+      twitter: 'terminaldotco',
       github: '#',
       rss: '',
       vkontakte: '',
