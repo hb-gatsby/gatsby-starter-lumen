@@ -5,7 +5,7 @@ slug: introducing-terminal-v2
 draft: false
 date: 2020-02-15T18:06:49.154Z
 description: >-
-  oday, we’re excited to launch a new version of Terminal - the easiest way to
+  Today, we’re excited to launch a new version of Terminal - the easiest way to
   build, deploy, and host websites & apps on IPFS. From local development to
   global deployment, Terminal provides one seamless workflow with everything you
   need to build fast, modern sites & web apps hosted on IPFS.
