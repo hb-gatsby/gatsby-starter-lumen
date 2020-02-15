@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://elastic-babbage-4d428d.netlify.com/',
   pathPrefix: '/',
   title: 'Terminal Blog',
   subtitle: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
