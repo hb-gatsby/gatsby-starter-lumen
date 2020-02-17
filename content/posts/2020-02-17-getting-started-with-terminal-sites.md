@@ -10,6 +10,8 @@ tags:
   - general
   - getting started
 ---
+![](/media/Getting Started.png)
+
 Here at Terminal we are committed to helping build the world’s decentralized web infrastructure. While blockchain technology has revolutionized the ways in which we are capable of transacting and computing without intermediaries or centralized servers, fundamentally most real world applications of blockchain will require users to interact with the blockchain through a centralized website or web application. Our newest product, Terminal Sites, aims to solve this by providing the ability to easily deploy and maintain your website in a fully distributed fashion using the IPFS (Interplanetary File System) protocol. If you are interested in learning more about IPFS, you can read about the [basics](https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0). In this guide I will walk through deploying a Gatsby website to IPFS using Terminal Sites.
 
 For this walkthrough I will assume you already have a website you are ready to deploy. If you don’t have a site ready to deploy, feel free to use any of the gatsby starter [](https://www.gatsbyjs.org/starters/?v=2)[websites](https://www.gatsbyjs.org/starters/?v=2) to follow along.
