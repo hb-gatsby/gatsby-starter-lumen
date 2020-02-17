@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Terminal Blog',
   subtitle: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
-  copyright: '© All rights reserved.',
+  copyright: '© 2020 Deployed on IPFS with Terminal, — Built with Gatsby',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-73379983-2',
