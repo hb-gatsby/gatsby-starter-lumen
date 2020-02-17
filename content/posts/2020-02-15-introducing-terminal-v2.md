@@ -10,7 +10,7 @@ description: >-
   global deployment, Terminal provides one seamless workflow with everything you
   need to build fast, modern sites & web apps hosted on IPFS.
 category: General
-socialImage: /media/Intro.png
+socialImage: /media/Intro.png 
 tags:
   - general
   - launch
