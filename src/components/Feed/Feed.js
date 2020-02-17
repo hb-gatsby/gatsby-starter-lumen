@@ -10,12 +10,11 @@ type Props = {
   edges: Edges
 };
 
-const Feed = ({ edges }: Props) => {
-  const socialImage = get(edges[0], 'node.frontmatter.socialImage', null);
-  console.log(edges);
-  return (
+const Feed = ({ edges }: Props) => (
     <div className={styles['feed']}>
-      {edges.map((edge) => (
+      {edges.map((edge) => {
+        const socialImage = get(edge, 'node.frontmatter.socialImage', null);
+        return (
         <div className={styles['feed__item']} key={edge.node.fields.slug}>
           <div className={styles['feed__item-meta']}>
             <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>
@@ -33,9 +32,10 @@ const Feed = ({ edges }: Props) => {
           <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
           <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read</Link>
         </div>
-      ))}
+        );
+      })
+    }
     </div>
-  );
-};
+);
 
 export default Feed;
