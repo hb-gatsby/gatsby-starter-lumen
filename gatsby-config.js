@@ -4,7 +4,7 @@ const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
 module.exports = {
-  pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
+  pathPrefix: siteConfig.pathPrefix,
   siteMetadata: {
     url: siteConfig.url,
     title: siteConfig.title,
@@ -15,7 +15,6 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
-    'gatsby-plugin-ipfs',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
