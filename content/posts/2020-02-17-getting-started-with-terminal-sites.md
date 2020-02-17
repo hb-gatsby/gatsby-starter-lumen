@@ -6,7 +6,6 @@ draft: false
 date: 2020-02-17T19:22:21.659Z
 description: Get started deploying your first site to IPFS with Terminal
 category: getting started
-socialImage: /media/Getting Started.png
 tags:
   - general
   - getting started
