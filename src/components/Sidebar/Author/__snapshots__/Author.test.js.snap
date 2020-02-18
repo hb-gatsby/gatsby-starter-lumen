@@ -11,7 +11,7 @@ exports[`Author renders correctly 1`] = `
       alt="test"
       className="author__photo"
       height="75"
-      src="/photo.jpg"
+      src="/faveiconblog.png"
       width="75"
     />
   </a>

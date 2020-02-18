@@ -18,7 +18,7 @@ module.exports = {
   ],
   author: {
     name: 'Terminal Blog',
-    photo: '/photo.jpg',
+    photo: '/faviconblog.png',
     bio: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
     contacts: {
       email: 'mailto:hi@terminal.co',
