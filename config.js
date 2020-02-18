@@ -15,6 +15,10 @@ module.exports = {
       label: 'Blogs',
       path: '/'
     },
+    {
+      label: 'Home',
+      path: 'https://terminal.co'
+    }
   ],
   author: {
     name: 'Terminal Blog',
