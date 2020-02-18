@@ -84,4 +84,34 @@ Now that you have deployed a performant website on IPFS, lets add or buy a domai
 
 ![Encrypted](/media/Cert.png "Encrypted")
 
+## Adding a root domain
+
+### 1. **Click “Add or Buy Custom Domain” on the overview tab in the getting started, or go to the settings tab and navigate to the domain management section using the left navigation**
+
+![Add 1](/media/add domain1.png "Add 1")
+
+![Add2](/media/add domain2.png "Add2")
+
+### **2. Type in your root domain that is managed in an external DNS provider and click “Verify”**
+
+![Verify](/media/Verify.png "Verify")
+
+### **3. Click “Yes, Add Domain” to verify this domain is owned by you**
+
+![Yes](/media/yes.png "Yes")
+
+### 4. **The root domain and an additional www. Subdomain, to redirect to the root domain, will be added to your domain management settings. Click on “Check DNS Configuration” next to the root domain to see the instructions to add the A record to your domain in your DNS provider for the root domain. For the www. Subdomain configuration, follow step 4 through step 6 to get set up**
+
+![Check DNS](/media/check dns.png "Check DNS")
+
+### 5. **Follow the instructions to add the A record to your DNS provider. Once you’ve created a record in your DNS provider, click “Verify DNS Configuration” to check the propagation of the DNS to your site. If it fails please wait a few more minutes for the DNS to finish propagating and try again**
+
+![Verify DNS Config](/media/dns.png "Verify DNS Config")
+
+![Verify DNS Config 2](/media/dns2.png "Verify DNS Config 2")
+
+### 6. **Your site has successfully propagated and received a free SSL certificate from Let’s Encrypt. You can see details about the SSL certificate below in your domain management settings.**
+
+![Encrypted](/media/certroot.png "Encrypted")
+
 If you run into any issues during this process please feel free to reach out on our website, in our [Community Chat](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg), on our [Twitter](https://twitter.com/terminaldotco) or at hi@terminal.co as we are always more than happy to help out.
