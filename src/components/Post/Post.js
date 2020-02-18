@@ -20,8 +20,10 @@ const Post = ({ post }: Props) => {
 
   return (
     <div className={styles['post']}>
+      <div className={styles['post__home-button-container']}>
       <Link className={styles['post__home-button']} to="/">Go Back</Link>
-
+      <a className={styles['post__home-button']} href="https://terminal.co" target="_blank">Terminal.co</a>
+      </div>
       <div className={styles['post__content']}>
         <Content body={html} title={title} />
       </div>
