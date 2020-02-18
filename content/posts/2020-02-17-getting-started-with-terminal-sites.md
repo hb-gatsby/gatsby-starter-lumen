@@ -6,7 +6,6 @@ draft: false
 date: 2020-02-17T19:22:21.659Z
 description: Get started deploying your first site to IPFS with Terminal
 category: getting started
-socialImage: /media/Getting Started.png
 tags:
   - general
   - getting started
@@ -115,4 +114,4 @@ Now that you have deployed a performant website on IPFS, lets add or buy a domai
 
 ![Encrypted](/media/certroot.png "Encrypted")
 
-If you run into any issues during this process please feel free to reach out on our website, in our [Community Chat](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg), on our [Twitter](https://twitter.com/terminaldotco) or at hi@terminal.co as we are always more than happy to help out.
+If you run into any issues during this process please feel free to reach out on our website, in our [Community Chat](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg), on our [Twitter](https://twitter.com/terminaldotco) or at support@terminal.co as we are always more than happy to help out.
