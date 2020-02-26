@@ -10,7 +10,7 @@ exports[`Author renders correctly 1`] = `
     Test bio
     <a
       className="author__bio-twitter"
-      href="https://www.twitter.com/#"
+      href="https://twitter.com/#"
       rel="noopener noreferrer"
       target="_blank"
     >

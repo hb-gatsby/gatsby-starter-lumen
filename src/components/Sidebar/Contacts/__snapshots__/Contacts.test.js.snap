@@ -34,7 +34,7 @@ exports[`Contacts renders correctly 1`] = `
     >
       <a
         className="contacts__list-item-link"
-        href="https://www.twitter.com/#"
+        href="https://twitter.com/#"
         rel="noopener noreferrer"
         target="_blank"
       >
