@@ -49,7 +49,7 @@ If the content changes, the hash will change and the link will change.
 
 This can be a headache if you‘re adding/updating content. Imagine a blog with new articles everyday. You’ll have to generate a new hash every time something changes.
 
-Everything downstream will also be changed. If you have a domain name (myawesomeipfswebsiteblog.com), then you’ll have to update the[values](https://medium.com/coinmonks/how-to-host-a-website-on-ipfs-with-dns-82f1f2fe6361)to the new hash.
+Everything downstream will also be changed. If you have a domain name (myawesomeipfswebsiteblog.com), then you’ll have to update the[ values](https://medium.com/coinmonks/how-to-host-a-website-on-ipfs-with-dns-82f1f2fe6361) to the new hash.
 
 ![Photo by Aditya Chinchure on Unsplash](/media/waterfall.jpeg)
 
@@ -64,12 +64,12 @@ Some features:
 * Terminal accommodates many frameworks such as gatsby, jekyll, create-react-app etc.
 * Terminal also handles DNS records. Either purchase a domain from them or point it to a domain you purchased elsewhere.
 * No need to manually update hashes, TXT values etc.
-* Terminal provides a[CID](https://docs.ipfs.io/guides/concepts/cid/)(content identifier) for more IPFS features such as verification and self hosting.
+* Terminal provides a [CID](https://docs.ipfs.io/guides/concepts/cid/)(content identifier) for more IPFS features such as verification and self hosting.
 
 ![](/media/deploypage.png)
 
 ## More Info
 
 * To request early access, visit [Terminal Beta](https://terminalbeta.typeform.com/to/kionHH).
-* For more details, check out their[documentation](https://docs.terminal.co/). (More content soon)
-* For additional questions and 24/7 support, join their[Slack](https://app.slack.com/client/TT3NZ3XDY).
+* For more details, check out their [documentation](https://docs.terminal.co/). (More content soon)
+* For additional questions and 24/7 support, join their [Slack](https://app.slack.com/client/TT3NZ3XDY).
