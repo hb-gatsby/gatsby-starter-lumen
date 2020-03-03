@@ -9,6 +9,7 @@ description: >-
   deploy and manage sites on IPFS. Focus on content and code. Terminal handles
   the rest.
 category: Informational
+socialImage: /media/terminal+IPFS.png 
 tags:
   - Informational
   - Guide
