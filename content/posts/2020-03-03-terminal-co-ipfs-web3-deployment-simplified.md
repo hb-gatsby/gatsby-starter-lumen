@@ -55,12 +55,10 @@ Everything downstream will also be changed. If you have a domain name (myawesome
 
 ## Terminal.co
 
-\
 Terminal aims to simplify web development into one seamless workflow. Simply push changes to Git and Terminal will automatically update, pin and deploy changes downstream.
 
 ![](/media/terminalsupplychain.png)
 
-\
 Some features:
 
 * Terminal accommodates many frameworks such as gatsby, jekyll, create-react-app etc.
