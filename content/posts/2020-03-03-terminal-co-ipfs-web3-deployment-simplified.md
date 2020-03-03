@@ -2,7 +2,7 @@
 template: post
 title: 'Terminal.co + IPFS: Web3 Deployment Simplified'
 slug: Terminal+IPFS
-draft: true
+draft: false
 date: 2020-03-03T02:39:47.298Z
 description: >-
   Terminal.co offers a seamless workflow. It offers all the tools needed to
