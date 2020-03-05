@@ -4,7 +4,7 @@ title: >-
   Release Update: Custom Docker, Environment Variables, Faster Performance, and
   more..
 slug: Release-update-1
-draft: true
+draft: false
 date: 2020-03-05T04:30:23.237Z
 description: >-
   We are currently in private beta and from all the amazing feedback from our
@@ -12,35 +12,35 @@ description: >-
   the deployment process. We've also enhanced the experience all around the app
   and fixed many bugs.
 category: Release
-socialImage: /media/metaimage copy.jpg 
 tags:
   - Release
 ---
 ## Release Notes:
 
-From starting the private beta a couple of weeks ago we have already onboarded 100+ users individually and received copious amounts of feedback. The feedback has mostly been around supporting all types of deployments so we have released several features around that alone, as well as other features to enhance performance and fix bugs.
+From starting the private beta a couple of weeks ago we have already onboarded 100+ users individually and received copious amounts of feedback. The feedback has mostly been around supporting all types of deployments so we have released several features around that alone, as well as other features to enhance performance and bug fixes.
 
-### Deployment Improvements:
+### \
+Deployment Improvements:
 
-**Custom Docker Images (BYOD: Bring Your Own Dockerfile):**
+##### Custom Docker Images (BYOD: Bring Your Own Dockerfile):
 
 Before your app or site is deployed onto IPFS it is built using docker images. We already store many docker images that support the most popular frameworks (Create React App, NextJS, GatsbyJS, etc.), however there are many different frameworks, web servers, languages, versions, etc. so being able to pull your own docker image for the build process makes it easy and can support any custom configurations.
 
 ![](/media/Screen Shot 2020-03-05 at 12.01.29 AM.png "Dockerfile upload component")
 
-**Environment Variables:**
+##### Environment Variables:
 
 Users can now specify any number of environment variables before deploying their app. They can also be edited and updated later on to support flexible and robust dev ops practices. 
 
 ![](/media/Screen Shot 2020-03-05 at 12.01.19 AM.png "Environment Variables Component")
 
-**No Build Command or Publish Directory:**
+##### No Build Command or Publish Directory:
 
-Deploy any combination of files or directories that do not require specifying any build command or publish directory. Just link your Git provider repo of files and click deploy. You'll have a IPFS hash and subdomain to view those files directly in your browser.
+Deploy any combination of files or directories that do not require specifying any build command or publish directory. Just link your Git provider repo of files and click deploy. You’ll have an IPFS hash and subdomain to view those files directly in your browser.
 
 ![](/media/Screen Shot 2020-03-05 at 12.07.12 AM.png "Build Command and Publish Directory components")
 
-**To Sum Up All the Deployment Improvements in One Screenshot:**
+##### To Sum Up All the Deployment Improvements in One Screenshot:
 
 ![](/media/Screen Shot 2020-03-05 at 12.19.21 AM.png)
 
