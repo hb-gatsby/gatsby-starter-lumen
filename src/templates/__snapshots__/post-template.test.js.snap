@@ -7,12 +7,23 @@ exports[`PostTemplate renders correctly 1`] = `
   <div
     className="post"
   >
-    <a
-      className="post__home-button"
-      href="/"
+    <div
+      className="post__home-button-container"
     >
-      All Articles
-    </a>
+      <a
+        className="post__home-button"
+        href="/"
+      >
+        Go Back
+      </a>
+      <a
+        className="post__home-button"
+        href="https://terminal.co"
+        target="_blank"
+      >
+        Terminal.co
+      </a>
+    </div>
     <div
       className="post__content"
     >
@@ -87,12 +98,7 @@ exports[`PostTemplate renders correctly 1`] = `
             href="https://www.twitter.com/#"
             rel="noopener noreferrer"
             target="_blank"
-          >
-            <strong>
-              Test name
-            </strong>
-             on Twitter
-          </a>
+          />
         </p>
       </div>
     </div>

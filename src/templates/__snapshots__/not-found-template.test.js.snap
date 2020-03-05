@@ -19,9 +19,7 @@ exports[`NotFoundTemplate renders correctly 1`] = `
           <img
             alt="Test name"
             className="author__photo"
-            height="75"
             src="/test.jpg"
-            width="75"
           />
         </a>
         <h2
