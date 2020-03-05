@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meta renders correctly 1`] = `
+<div
+  className="meta"
+>
+  <p
+    className="meta__date"
+  >
+    Published 
+    1 Sep 2016
+  </p>
+</div>
+`;
