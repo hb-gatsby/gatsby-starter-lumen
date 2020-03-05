@@ -12,7 +12,7 @@ description: >-
   the deployment process. We've also enhanced the experience all around the app
   and fixed many bugs.
 category: Release
-socialImage: /media/metaimage copy.jpg 
+socialImage: /media/Release Notes.png 
 tags:
   - Release
 ---
