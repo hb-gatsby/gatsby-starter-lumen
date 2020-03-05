@@ -1,10 +1,10 @@
 ---
 template: post
 title: >-
-  Release Update: Custom Docker, Environment Variables, Performance
-  Enhancements...
+  Release Update: Custom Docker, Environment Variables, Faster Performance, and
+  more..
 slug: Release-update-1
-draft: false
+draft: true
 date: 2020-03-05T04:30:23.237Z
 description: >-
   We are currently in private beta and from all the amazing feedback from our
