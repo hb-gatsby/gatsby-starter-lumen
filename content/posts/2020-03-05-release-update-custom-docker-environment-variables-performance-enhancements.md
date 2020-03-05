@@ -12,6 +12,7 @@ description: >-
   the deployment process. We've also enhanced the experience all around the app
   and fixed many bugs.
 category: Release
+socialImage: /media/metaimage copy.jpg 
 tags:
   - Release
 ---
@@ -19,8 +20,7 @@ tags:
 
 From starting the private beta a couple of weeks ago we have already onboarded 100+ users individually and received copious amounts of feedback. The feedback has mostly been around supporting all types of deployments so we have released several features around that alone, as well as other features to enhance performance and bug fixes.
 
-### \
-Deployment Improvements:
+### Deployment Improvements:
 
 ##### Custom Docker Images (BYOD: Bring Your Own Dockerfile):
 
