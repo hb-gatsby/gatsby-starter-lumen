@@ -14,12 +14,17 @@ type Props = {
 
 const PostTemplate = ({ data }: Props) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
-  const { frontmatter } = data.markdownRemark;
-  const { title: postTitle, description: postDescription, socialImage } = frontmatter;
+  const { frontmatter, fields } = data.markdownRemark;
+  const { slug } = fields;
+  const { title: postTitle, description: postDescription } = frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImage} >
+    <Layout
+      title={`${postTitle} - ${siteTitle}`}
+      description={metaDescription}
+      slug={slug}
+    >
       <Post post={data.markdownRemark} />
     </Layout>
   );

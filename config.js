@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://elastic-babbage-4d428d.netlify.com/',
+  url: 'https://blog.terminal.co',
   pathPrefix: '/',
   title: 'Terminal Blog',
   subtitle: 'From local development to global deployment, Terminal is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
