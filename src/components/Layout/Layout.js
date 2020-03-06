@@ -26,6 +26,7 @@ const Layout = ({
   const pathToSocialImg = SOCIAL_MEDIA_IMAGES[slugWithoutPrefix] || SOCIAL_MEDIA_IMAGES.default;
   const absolutePathToSocialImage = `${url}${withPrefix(pathToSocialImg)}`;
   console.log('absolutePathToSocialImage', absolutePathToSocialImage);
+
   return (
     <div className={styles.layout}>
       <Helmet>
