@@ -6,6 +6,7 @@ draft: false
 date: 2020-03-06T03:02:20.010Z
 description: Create your first static website using Terminal and IPFS
 category: Tutorial
+socialImage: /media/1st photo.jpeg 
 tags:
   - Tutorial
   - Resource
@@ -16,9 +17,7 @@ Create your first static website using Terminal and IPFS
 
 ## Overview
 
-
-
-We’ll create a simple `index.html `file and deploy it with [Terminal.co](http://terminal.co/). This whole process should take 5 minutes. Deployment should take 30 seconds.
+We’ll create a simple `index.html` file and deploy it with [Terminal.co](http://terminal.co/). This whole process should take 5 minutes. Deployment should take 30 seconds.
 
 Tools:
 
@@ -32,7 +31,7 @@ Create an empty repository, clone it and start coding.
 
 ![](/media/image 2.png)
 
-Create an `index.html `file and add some content.
+Create an `index.html` file and add some content.
 
 ![](/media/image 3.png)
 
@@ -52,7 +51,6 @@ Sign in with Github or Email
 
 ![](/media/image 6.png)
 
-\
 Add New Site
 
 ![](/media/image 7.png)
@@ -65,7 +63,7 @@ Pick a repository.
 
 ![](/media/image 9.png)
 
-In this example, there is no `Build command `nor `Public directory`
+In this example, there is no `Build command` nor `Public directory`
 
 Deploy Site
 
