@@ -37,7 +37,7 @@ Go to <http://localhost:3000> in your browser and you will see the default creat
 
 Now, it’s time to develop the app if you wish to do so, or simply use the default application. For this tutorial, I made some slight modifications to the default react app.
 
-![](/media/CreateReactApp+Terminal.png)
+![](/media/2createreactapp.png)
 
 Terminal will grab the application from your github repo, so the next thing to do is to create a github repository with our app in it.This is the repo for the app above: <https://github.com/SamueleA/create-react-app-ipfs-deploy>Feel free to fork it.Let’s deploy it now!
 
