@@ -10,6 +10,7 @@ description: >-
   minutes. These two go together like peanut butter and jelly, allowing for
   development and deployment to be complete in a flash.
 category: Tutorial
+socialImage: /media/terminal+react.jpeg 
 tags:
   - Tutorial
   - Guide
