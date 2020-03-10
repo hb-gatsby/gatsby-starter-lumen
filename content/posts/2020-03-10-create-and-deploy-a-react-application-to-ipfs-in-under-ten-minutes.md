@@ -55,5 +55,11 @@ Success! The deployment worked and the yellow indicator at the top turned blue a
 
 ![](/media/6-og-success.png)
 
-Here is the link to see the result: <https://orange-disk-4090.tmnl.co/>You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory.Creating the default react app and deploying it to IPFS literally takes less than 10 minutes, so I invite you to create and deploy your own application by participating in the [Terminal Beta](https://terminalbeta.typeform.com/to/kionHH).**\
-Documentation**[**Create-React-App**](https://reactjs.org/docs/create-a-new-react-app.html)**[Terminal Docs](https://docs.terminal.co/)**
+Here is the link to see the result: <https://orange-disk-4090.tmnl.co/>You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory.Creating the default react app and deploying it to IPFS literally takes less than 10 minutes, so I invite you to create and deploy your own application by participating in the [Terminal Beta](https://terminalbeta.typeform.com/to/kionHH).
+
+**\
+Documentation** 
+
+**[Create-React-App](https://reactjs.org/docs/create-a-new-react-app.html)**
+
+**[Terminal Docs](https://docs.terminal.co/)**
