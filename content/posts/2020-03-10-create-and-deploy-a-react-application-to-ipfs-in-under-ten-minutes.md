@@ -18,7 +18,7 @@ A React application can be bootstrapped in a matter of minutes with create-react
 
 We will do it in two steps which are: 1. Creating a react application with create-react-app 2. Deploying our app to IPFS with terminal. This process takes less than ten minutes. Let’s go!
 
-##### Step 1: Creating a React application with create-react-app
+### Step 1: Creating a React application with create-react-app
 
 Create-react-app requires npm => 5.6 and node >= 8.10, so make sure they are installed at the correct version.\
 \
@@ -40,8 +40,7 @@ Now, it’s time to develop the app if you wish to do so, or simply use the defa
 
 Terminal will grab the application from your github repo, so the next thing to do is to create a github repository with our app in it.This is the repo for the app above: <https://github.com/SamueleA/create-react-app-ipfs-deploy>Feel free to fork it.Let’s deploy it now!
 
-**\
-Step 2: Deploying the App Through Terminal**
+### Step 2: Deploying the App Through Terminal
 
 Upon first signing up on Terminal, we are asked to add a new site.
 
