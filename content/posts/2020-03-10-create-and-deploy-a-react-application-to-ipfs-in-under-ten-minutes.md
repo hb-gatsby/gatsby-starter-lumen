@@ -10,6 +10,7 @@ description: >-
   minutes. These two go together like peanut butter and jelly, allowing for
   development and deployment to be complete in a flash.
 category: Tutorial
+socialImage: /media/terminal+react.png
 tags:
   - Tutorial
   - Guide
@@ -20,8 +21,8 @@ We will do it in two steps which are: 1. Creating a react application with creat
 
 ##### Step 1: Creating a React application with create-react-app
 
-Create-react-app requires npm => 5.6 and node >= 8.10, so make sure they are installed at the correct version.\
-\
+Create-react-app requires npm => 5.6 and node >= 8.10, so make sure they are installed at the correct version.
+
 We will start by running the following commands to create and preview the react application.
 
 `npx create-react-app my-app`
@@ -57,9 +58,13 @@ Success! The deployment worked and the yellow indicator at the top turned blue a
 
 Here is the link to see the result: <https://orange-disk-4090.tmnl.co/>You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory.Creating the default react app and deploying it to IPFS literally takes less than 10 minutes, so I invite you to create and deploy your own application by participating in the [Terminal Beta](https://terminalbeta.typeform.com/to/kionHH).
 
-**\
-Documentation** 
+**Documentation** 
 
 **[Create-React-App](https://reactjs.org/docs/create-a-new-react-app.html)**
 
 **[Terminal Docs](https://docs.terminal.co/)**
+
+* [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
+
+* [Join](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg) our #community
+
