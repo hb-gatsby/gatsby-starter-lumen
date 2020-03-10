@@ -10,7 +10,6 @@ description: >-
   minutes. These two go together like peanut butter and jelly, allowing for
   development and deployment to be complete in a flash.
 category: Tutorial
-socialImage: /media/terminal+react.png
 tags:
   - Tutorial
   - Guide
@@ -49,11 +48,11 @@ Upon first signing up on Terminal, we are asked to add a new site.
 
 Next, we input additional information such as the repo branch, the build commands and the build directory. Luckily for us, the default values will work perfectly so there is no need to change anything. Clicking the “Deploy Site” button at the bottom will commence the deployment.
 
-![](/media/4reactapp.png)
+![](/media/4redo.png)
 
 The deployment is in progress! In a few minutes, we’ll have access to our deployed app. The deploy log at the bottom of the page tracks the progress of the deployment.
 
-![](/media/5reactapp.png)
+![](/media/5redo.png)
 
 Success! The deployment worked and the yellow indicator at the top turned blue and a clickable url ending in .tmnl.co appeared. This url is provided by Terminal and it points to the IPFS deployment.
 
