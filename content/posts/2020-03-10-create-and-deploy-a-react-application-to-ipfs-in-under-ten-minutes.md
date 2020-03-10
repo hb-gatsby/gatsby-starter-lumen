@@ -32,7 +32,7 @@ We will start by running the following commands to create and preview the react 
 
 Go to <http://localhost:3000> in your browser and you will see the default create-react-app application.
 
-![](/media/1-localhost.png)
+![](/media/terminal+react.png)
 
 Now, it’s time to develop the app if you wish to do so, or simply use the default application. For this tutorial, I made some slight modifications to the default react app.
 
