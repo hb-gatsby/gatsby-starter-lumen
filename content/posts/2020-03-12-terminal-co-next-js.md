@@ -19,53 +19,60 @@ tags:
 We’ll create a Next.js app using and deploy it with Terminal.co. This whole process should take 10 minutes.
 
 Tools:
+
 * Terminal.co account
 * GitHub account
 * node.js/npm
 
 ### Step 1: Set Up a Repo on Github
+
 Create an empty repository and clone it.
 
 ![](/media/nextjs/CreateRepo.png)
 
 Create a Next.js app using:
 
-`$ mkdir nextjs && cd nextjs`
-`$ npm init --y`
-`$ npm install next react react-dom`
+`$ mkdir nextjs && cd nextjs` `$ npm init --y'
+'$ npm install next react react-dom`
 
 ![](/media/nextjs/CreateNextjsapp.png)
 
 Open `package.json` and add in the following scripts
 
-`"scripts": {`
-    `"dev": "next",`
-    `"build": "next build",`
-    `"start": "next start",`
-    `"export": "next export"`
+
+
+```
+"scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"  
 }
+```
 
 ![](/media/nextjs/Openpackagejson.png)
 
 Create a `next.config.js`1 file in the root directory
 
-`module.exports = {`
-  `exportTrailingSlash: true,`
-  `exportPathMap: function() {`
-   ` return {`
-      `'/': { page: '/' }`
-    `};`
-  `}`
-`};`
+```
+module.exports = {
+  exportTrailingSlash: true,
+  exportPathMap: function() {
+    return {
+      '/': { page: '/' }
+    };
+  }
+};
+```
 
 ![](/media/nextjs/createNextConfigJS.png)
 
-Let’s create some pages:
-Create a folder called pages
-Inside pages, create `index.js`
+Let’s create some pages: Create a folder called pages Inside pages, create `index.js`
 
+```
 // index.js
 import Link from "next/link";
+
 export default function Index() {
   return (
     <div>
@@ -76,9 +83,11 @@ export default function Index() {
     </div>
   );
 }
+```
 
 and `about.js`
 
+```
 // about.js
 export default function About() {
   return (
@@ -87,6 +96,7 @@ export default function About() {
     </div>
   );
 }
+```
 
 It should look something like this
 
@@ -99,7 +109,6 @@ To test, run `npm run dev` and visit localhost:3000
 git add, commit, push
 
 ![](/media/nextjs/gitcommit.png)
-
 
 ### Step 2: Set Up Terminal.co
 
@@ -148,7 +157,6 @@ Or verify with the CID.
 ### Step 3: Updates
 
 Terminal will automatically redeploy your website whenever you make changes on GitHub. Make sure to provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
-
 
 * [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
 * [Join](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg) our #community
