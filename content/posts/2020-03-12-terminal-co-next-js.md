@@ -8,6 +8,7 @@ description: >-
   We’ll create a Next.js app using and deploy it with Terminal.co. This whole
   process should take 10 minutes.
 category: Tutorial
+socialImage: /media/nextjs/nextjs logo.png
 tags:
   - Tutorial
   - Guide
@@ -52,7 +53,7 @@ Open `package.json` and add in the following scripts
 
 ![](/media/nextjs/Openpackagejson.png)
 
-Create a `next.config.js`1 file in the root directory
+Create a `next.config.js` file in the root directory
 
 ```
 module.exports = {
