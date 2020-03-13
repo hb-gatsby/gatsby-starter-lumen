@@ -8,11 +8,12 @@ description: >-
   We’ll create a Next.js app and deploy it with Terminal.co. This whole process
   should take 10 minutes.
 category: Tutorial
+socialImage: /media/nextjs/Next.png
 tags:
   - Tutorial
   - Guide
 ---
-![](/media/nextjs/Next.JS+Terminal.png)
+![](/media/nextjs/Next.png)
 
 ## Overview
 
