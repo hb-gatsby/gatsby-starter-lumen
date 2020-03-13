@@ -6,11 +6,13 @@ draft: false
 date: 2020-03-06T03:02:20.010Z
 description: Create your first static website using Terminal and IPFS
 category: Tutorial
-socialImage: /media/1st photo.jpeg 
+socialImage: /media/HelloWorldSocialimage.png 
 tags:
   - Tutorial
   - Resource
 ---
+![](/media/HelloWorldSocialimage.png)
+
 Create your first static website using Terminal and IPFS
 
 ![](/media/1st photo.jpeg "Photo by Markus Spiske on Unsplash")
