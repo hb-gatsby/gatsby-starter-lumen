@@ -1,6 +1,6 @@
 ---
 template: post
-title: Terminal.co + Next.js
+title: How to deploy a Next.js app onto IPFS using Terminal.co
 slug: terminal-nextJS
 draft: false
 date: 2020-03-12T14:06:38.733Z
