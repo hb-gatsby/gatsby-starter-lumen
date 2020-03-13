@@ -10,11 +10,13 @@ description: >-
   minutes. These two go together like peanut butter and jelly, allowing for
   development and deployment to be complete in a flash.
 category: Tutorial
-socialImage: /media/terminal+react.png
+socialImage: /media/CreateReactAppSocialimage.png
 tags:
   - Tutorial
   - Guide
 ---
+![](/media/CreateReactAppSocialimage.png)
+
 A React application can be bootstrapped in a matter of minutes with create-react-app. Terminal allows apps to be deployed to IPFS in a matter of minutes. These two go together like peanut butter and jelly, allowing for development and deployment to be complete in a flash.
 
 We will do it in two steps which are: 1. Creating a react application with create-react-app 2. Deploying our app to IPFS with terminal. This process takes less than ten minutes. Let’s go!
