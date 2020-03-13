@@ -5,10 +5,9 @@ slug: terminal-nextJS
 draft: false
 date: 2020-03-12T14:06:38.733Z
 description: >-
-  We’ll create a Next.js app using and deploy it with Terminal.co. This whole
-  process should take 10 minutes.
+  We’ll create a Next.js app and deploy it with Terminal.co. This whole process
+  should take 10 minutes.
 category: Tutorial
-socialImage: /media/nextjs/Next.JS+Terminal.png
 tags:
   - Tutorial
   - Guide
@@ -17,7 +16,7 @@ tags:
 
 ## Overview
 
-We’ll create a Next.js app using and deploy it with Terminal.co. This whole process should take 10 minutes.
+We’ll create a Next.js app and deploy it with Terminal.co. This whole process should take 10 minutes.
 
 Tools:
 
@@ -39,8 +38,6 @@ Create a Next.js app using:
 ![](/media/nextjs/CreateNextjsapp.png)
 
 Open `package.json` and add in the following scripts
-
-
 
 ```
 "scripts": {
