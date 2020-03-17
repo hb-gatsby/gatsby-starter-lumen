@@ -56,3 +56,7 @@ And that is all! Once the site is done deploying, which should take around a min
 ## Share!
 
 Congratulations! Your content is now deployed and a part of IPFS! Your cool site can be shared with the world either with the Terminal-provided url, or by adding one of your own domains to Terminal, or through IPFS by clicking on “Verify on IPFS”. You can now be confident that your site is safe and untouchable on IPFS!
+
+* [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
+* [Join](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg) our #community
+* [Check out](https://docs.terminal.co/) our technical documentation
