@@ -21,7 +21,7 @@ Its been a few weeks of 150+ onboarding calls with users excited to get their ha
 
 ### Pro Team Plan
 
-The Pro team plan to start includes up to 20 sites, 750 build minutes, and 100 GB Bandwidth. There's even more coming to the Pro plan for the next release including Team features.[Check out](https://terminal.co/pricing) the pricing page for more details!
+The Pro team plan to start includes up to 20 sites, 750 build minutes, and 100 GB Bandwidth. There's even more coming to the Pro plan for the next release including Team features. [Check out](https://terminal.co/pricing) the pricing page for more details!
 
 ![](/media/Screen Shot 2020-03-17 at 11.13.54 PM.png)
 
@@ -62,8 +62,7 @@ Pagination has been added to the list of sites and list of deploys. You may have
 * The same Git Repository connected to multiple sites sometimes failed to trigger the auto deploy. Fixed!         
 * In case the manual trigger of a redeploy fails, we improved the error message to explain why it did.
 
-
-## Thanks for Reading 
+## Thanks for Reading
 
 We're really excited to keep pushing out new releases and there's plenty more where that came from. Stay posted!
 
