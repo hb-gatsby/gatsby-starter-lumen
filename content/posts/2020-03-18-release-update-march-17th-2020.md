@@ -12,12 +12,9 @@ description: >-
   bandwidth, and more sites per month. The Pro team plan will also include team
   features soon.
 category: Release
-socialImage: /media/release3-17.png
 tags:
   - Release
 ---
-![](/media/release3-17.png)
-
 Its been a few weeks of 150+ onboarding calls with users excited to get their hands on Terminal. The feedback has been resounding and very appreciated. The Starter team plan comes with a full set of hosting and DNS features. Now we are releasing the Pro team plan that includes more build minutes, more bandwidth, and more sites per month. The Pro team plan will also include team features soon.
 
 ## Feature Releases
@@ -26,7 +23,7 @@ Its been a few weeks of 150+ onboarding calls with users excited to get their ha
 
 The Pro team plan to start includes up to 20 sites, 750 build minutes, and 100 GB Bandwidth. There's even more coming to the Pro plan for the next release including Team features. [Check out](https://terminal.co/pricing) the pricing page for more details!
 
-![](/media/Screen Shot 2020-03-17 at 11.13.54 PM.png)
+![](/media/Screen Shot 2020-03-17 at 11.32.41 PM.png)
 
 ### Billing Page
 
