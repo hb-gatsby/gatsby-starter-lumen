@@ -7,8 +7,8 @@ date: 2020-03-17T12:18:31.636Z
 description: >-
   Its been a few weeks of 150+ onboarding calls with users excited to get their
   hands on Terminal. The feedback has been resounding and very appreciated. The
-  "starter team plan" comes with a full set of hosting and DNS features. Now we
-  are releasing the "Pro team plan" that includes more build minutes, more
+  Starter team plan comes with a full set of hosting and DNS features. Now we
+  are releasing the Pro team plan that includes more build minutes, more
   bandwidth, and more sites per month The Pro team plan will also include team
   features soon.
 category: Release
