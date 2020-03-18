@@ -12,9 +12,12 @@ description: >-
   bandwidth, and more sites per month The Pro team plan will also include team
   features soon.
 category: Release
+socialImage: /media/release3:17.png
 tags:
   - Release
 ---
+![](/media//media/release3:17.png)
+
 ## Feature Releases
 
 ### Pro Team Plan

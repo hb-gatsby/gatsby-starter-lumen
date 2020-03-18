@@ -10,6 +10,7 @@ description: >-
   you how simple it is to export a Wordpress site, host it on IPFS and share it
   with the world.
 category: Tutorial
+socialImage: /media/WordpressSocialImage.png
 tags:
   - Tutorial
   - Guide
