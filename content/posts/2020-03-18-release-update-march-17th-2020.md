@@ -18,7 +18,7 @@ tags:
 ---
 ![](/media/release3-17.png)
 
-Its been a few weeks of 150+ onboarding calls with users excited to get their hands on Terminal. The feedback has been resounding and very appreciated. The Starter team plan comes with a full set of hosting and DNS features. Now we are releasing the Pro team plan that includes more build minutes, more bandwidth, and more sites per month. The Pro team plan will also include team features soon.
+Its been a few weeks of 250+ onboarding calls with users and tons of IPFS deployments! The feedback has been resounding and very appreciated. The Starter team plan comes with a full set of hosting and DNS features. Now we are releasing the Pro team plan that includes more build minutes, more bandwidth, and more sites per month. The Pro team plan will also include team features soon.
 
 ## Feature Releases
 
