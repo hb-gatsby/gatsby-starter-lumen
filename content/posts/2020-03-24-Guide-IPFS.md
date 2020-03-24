@@ -7,7 +7,7 @@ date: 2020-03-24T04:02:37.816Z
 description: >-
 IPFS presents itself as a radical innovation whose aim is to reshape the entire web as we know it into a system that is more secure, efficient and reliable.
 category: Tutorial
-socialImage: media/intro/terminal+IPFS.png
+socialImage: /media/intro/terminal+IPFS.png
 tags:
   - Guide
   - IPFS
@@ -18,6 +18,7 @@ tags:
 ― Buckminster Fuller
 
 IPFS presents itself as a radical innovation whose aim is to reshape the entire web as we know it into a system that is more secure, efficient and reliable. This is not science fiction. IPFS is in active development and companies are already using it to solve real world problems, including [Netflix](https://www.youtube.com/watch?v=wNfk05D887M). It is only a matter of time before IPFS gains wide adoption.
+
 But what is IPFS exactly and why should we care? In this article, we’ll answer this question in a straightforward manner. We will see the problems inherent with the web’s current architecture and discuss how IPFS addresses those issues.
 
 ## The Internet Trilogy: Return of the Web
@@ -52,11 +53,9 @@ Unlike HTTP, IPFS uses a DHT(distributed hash table) to fetch its data through a
 
 Another innovation lies in the use of **content addressing** vs location addressing. The difference is subtle, but the consequences profound. HTTP works through location addressing. The addresses you type in the browser are converted to an IP address which locates the server possessing the file. Location addressing simply fetches a certain file at a certain location and there is no guarantee that the file has not been tampered with.
 
-
 Content addressing, on the other hand, identifies files through a unique identifier, called CID. The CID contains the unique fingerprint of the file produced through cryptographic hashing, which are mathematical functions behind much of today’s encrypted systems. In other words, once the user receives the file, he can run it through a series of calculations and verify that it matches the CID he requested. If both the computed CID and the requested CID match, we know there is nothing to worry about regarding data integrity.
 
 Also, since we are searching for the content of a file, rather than its location, the file can be served from any peers, even those in close proximity. Imagine being served a file by a neighbour a few hundred meters away instead of a server in another country. Isn’t it considerably faster that way?
-
 
 The combination of the peer to peer network and content addressing solves the three problems highlighted above with Web1 and Web2 architectures and allows the internet to be **efficient, secure and censorship-resistant**.
 
