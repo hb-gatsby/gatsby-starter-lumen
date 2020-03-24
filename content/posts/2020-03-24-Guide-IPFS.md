@@ -4,9 +4,9 @@ title: A People’s Guide to IPFS
 slug: Guide-IPFS
 draft: false
 date: 2020-03-24T04:02:37.816Z
-description:
+description: >-
 IPFS presents itself as a radical innovation whose aim is to reshape the entire web as we know it into a system that is more secure, efficient and reliable.
-category: Guide
+category: Tutorial
 socialImage: media/intro/terminal+IPFS.png
 tags:
   - Guide
