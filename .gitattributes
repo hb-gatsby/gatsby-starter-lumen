@@ -3,4 +3,3 @@
 /.editorconfig export-ignore
 /.travis.yml export-ignore
 **/*.js.snap export-ignore
-/static/css export-ignore
