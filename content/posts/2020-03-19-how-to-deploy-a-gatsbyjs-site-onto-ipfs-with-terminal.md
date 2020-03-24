@@ -9,13 +9,13 @@ description: >-
   manner. In this tutorial, we will show you how to create a Gatsby project and
   deploy it to IPFS thanks to Terminal.
 category: Guide
-socialImage: /media/GatsbySocialimage.png
+socialImage: /media/intro/IPFS.png
 tags:
   - Tutorial
   - Guide
   - Gatsby
 ---
-![](/media/GatsbySocialimage.png)
+![](media/intro/IPFS.png)
 
 Gatsby allows for the creation of static sites in a simple, straightforward manner. In this tutorial, we will show you how to create a Gatsby project and deploy it to IPFS thanks to Terminal.
 
