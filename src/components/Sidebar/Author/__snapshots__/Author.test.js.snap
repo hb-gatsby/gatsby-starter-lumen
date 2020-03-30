@@ -10,7 +10,7 @@ exports[`Author renders correctly 1`] = `
     <img
       alt="test"
       className="author__photo"
-      src="/faviconblog.png"
+      src="media/BlogIcon.png"
     />
   </a>
   <h2
