@@ -6,12 +6,12 @@ draft: false
 date: 2020-03-06T03:02:20.010Z
 description: Create your first static website using Fleek and IPFS
 category: Tutorial
-socialImage: /media/HelloWorldSocialimage.png 
+socialImage: /HelloWorld.png 
 tags:
   - Tutorial
   - Resource
 ---
-![](/media/HelloWorldSocialimage.png)
+![](/HelloWorld.png)
 
 Create your first static website using Fleek and IPFS
 
@@ -47,7 +47,7 @@ Now you’re repository is ready to go!
 
 ## Step 2: Set Up Fleek
 
-Sign into: <https://sites.terminal.co/>
+Sign into: <https://app.fleek.co/>
 
 Sign in with Github or Email
 

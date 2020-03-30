@@ -12,11 +12,11 @@ description: >-
   bandwidth, and more sites per month. The Pro team plan will also include team
   features soon.
 category: Release
-socialImage: /media/release3-17.png
+socialImage: /Release-Update-Pro-plan.png
 tags:
   - Release
 ---
-![](/media/release3-17.png)
+![](/Release-Update-Pro-plan.png)
 
 Its been a few weeks of 250+ onboarding calls with users and tons of IPFS deployments! The feedback has been resounding and very appreciated. The Starter team plan comes with a full set of hosting and DNS features. Now we are releasing the Pro team plan that includes more build minutes, more bandwidth, and more sites per month. The Pro team plan will also include team features soon.
 
@@ -69,6 +69,6 @@ Pagination has been added to the list of sites and list of deploys. You may have
 
 We're really excited to keep pushing out new releases and there's plenty more where that came from. Stay posted!
 
-* [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
+* [Sign up](https://app.fleek.co) for private beta early access
 * [Join](https://join.slack.com/t/terminal-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A) our #community
 * [Check out ](https://docs.Fleek.co/)our technical documentation

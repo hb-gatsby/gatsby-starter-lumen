@@ -12,11 +12,11 @@ description: >-
   the deployment process. We've also enhanced the experience all around the app
   and fixed many bugs.
 category: Release
-socialImage: /media/Release Notes.png 
+socialImage: /Release-Update-Docker.png 
 tags:
   - Release
 ---
-![](/media/Release Notes.png)
+![](/Release-Update-Docker.png)
 
 ## Release Notes:
 

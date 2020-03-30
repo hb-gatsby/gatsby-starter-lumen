@@ -1,6 +1,6 @@
 ---
 template: post
-title: 'Fleek.co + IPFS: Web3 Deployment Simplified'
+title: 'Fleek + IPFS: Web3 Deployment Simplified'
 slug: Terminal+IPFS
 draft: false
 date: 2020-03-03T02:39:47.298Z
@@ -9,12 +9,12 @@ description: >-
   deploy and manage sites on IPFS. Focus on content and code. Fleek handles
   the rest.
 category: Informational
-socialImage: /media/terminal+IPFS.png 
+socialImage: /Fleek+IPFS.png
 tags:
   - Informational
   - Guide
 ---
-![](/media/terminal+IPFS.png)
+![](/Fleek+IPFS.png)
 
 ## Overview
 
@@ -71,6 +71,6 @@ Some features:
 
 ## More Info
 
-* To request early access, visit [Terminal Beta](https://terminalbeta.typeform.com/to/kionHH).
+* To request early access, visit [Fleek Beta](https://terminalbeta.typeform.com/to/kionHH).
 * For more details, check out their [documentation](https://docs.Fleek.co/). (More content soon)
 * For additional questions and 24/7 support, join their [Slack](https://app.slack.com/client/TT3NZ3XDY).
