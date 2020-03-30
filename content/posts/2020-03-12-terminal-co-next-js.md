@@ -111,7 +111,7 @@ git add, commit, push
 
 ### Step 2: Set Up Fleek
 
-Sign into: https://sites.Fleek.co/
+Sign into: https://app.fleek.co/
 
 Sign in with Github
 

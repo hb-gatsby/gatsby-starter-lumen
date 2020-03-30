@@ -54,7 +54,7 @@ Everything downstream will also be changed. If you have a domain name (myawesome
 
 ![Photo by Aditya Chinchure on Unsplash](/media/waterfall.jpeg)
 
-## Fleek.co
+## Fleek
 
 Fleek aims to simplify web development into one seamless workflow. Simply push changes to Git and Fleek will automatically update, pin and deploy changes downstream.
 
