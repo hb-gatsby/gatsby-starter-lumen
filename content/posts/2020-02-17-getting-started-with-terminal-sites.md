@@ -1,10 +1,10 @@
 ---
 template: post
-title: Getting Started with Fleek
+title: Getting Started on Fleek
 slug: getting-started
 draft: false
 date: 2020-02-17T19:22:21.659Z
-description: Get started deploying your first site on IPFS with Fleek
+description: Get started deploying your first site on IPFS on Fleek
 category: getting started
 socialImage: /media/Getting Started.png 
 tags:
@@ -13,7 +13,7 @@ tags:
 ---
 ![](/media/Getting Started.png)
 
-So you're ready to get started with Fleek? Well, let's get right into it. In this guide we will walk through deploying a website to IPFS using Fleek. This guide is most helpful if you are already signed up for Fleek. If you haven’t already signed up you can [request early access](https://terminalbeta.typeform.com/to/kionHH).
+So you're ready to get started on Fleek? Well, let's get right into it. In this guide we will walk through deploying a website to IPFS using Fleek. This guide is most helpful if you are already signed up for Fleek. If you haven’t already signed up you can [request early access](https://terminalbeta.typeform.com/to/kionHH).
 
 Let’s get started by signing up for Fleek and deploying a website:
 

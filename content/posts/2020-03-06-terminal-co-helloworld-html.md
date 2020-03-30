@@ -1,6 +1,6 @@
 ---
 template: post
-title: Fleek.co + HelloWorld.html
+title: Fleek + HelloWorld.html
 slug: terminal+helloWorld
 draft: false
 date: 2020-03-06T03:02:20.010Z
@@ -23,7 +23,7 @@ We’ll create a simple `index.html` file and deploy it with [Fleek.co](http://F
 
 Tools:
 
-* Fleek.co account
+* Fleek account
 * GitHub account
 * Text editor
 
@@ -45,7 +45,7 @@ Now you’re repository is ready to go!
 
 ![](/media/image 5.png)
 
-## Step 2: Set Up Fleek.co
+## Step 2: Set Up Fleek
 
 Sign into: <https://sites.terminal.co/>
 

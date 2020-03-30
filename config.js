@@ -26,9 +26,9 @@ module.exports = {
     bio: 'From local development to global deployment, Fleek is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
     contacts: {
       email: 'mailto:hi@Fleek.co',
-      twitter: 'Fleekdotco',
+      twitter: 'FleekHQ',
       github: 'FleekLabs',
-      facebook: 'Fleekdotco',
+      facebook: 'FleekHQ',
       telegram: '',
       rss: '',
       vkontakte: '',

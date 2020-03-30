@@ -1,6 +1,6 @@
 ---
 template: post
-title: How to Deploy a GatsbyJS site onto IPFS with Fleek
+title: How to Deploy a GatsbyJS site onto IPFS on Fleek
 slug: Gatsby-Terminal
 draft: false
 date: 2020-03-19T04:02:37.816Z

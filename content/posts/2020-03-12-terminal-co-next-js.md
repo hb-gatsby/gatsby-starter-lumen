@@ -1,11 +1,11 @@
 ---
 template: post
-title: How to deploy a Next.js app onto IPFS using Fleek.co
+title: How to deploy a Next.js app onto IPFS using Fleek
 slug: terminal-nextJS
 draft: false
 date: 2020-03-12T14:06:38.733Z
 description: >-
-  We’ll create a Next.js app and deploy it with Fleek.co. This whole process
+  We’ll create a Next.js app and deploy it on Fleek. This whole process
   should take 10 minutes.
 category: Tutorial
 socialImage: /media/nextjs/Next.png
@@ -17,11 +17,11 @@ tags:
 
 ## Overview
 
-We’ll create a Next.js app and deploy it with Fleek.co. This whole process should take 10 minutes.
+We’ll create a Next.js app and deploy it on Fleek. This whole process should take 10 minutes.
 
 Tools:
 
-* Fleek.co account
+* Fleek account
 * GitHub account
 * node.js/npm
 
@@ -109,7 +109,7 @@ git add, commit, push
 
 ![](/media/nextjs/gitcommit.png)
 
-### Step 2: Set Up Fleek.co
+### Step 2: Set Up Fleek
 
 Sign into: https://sites.Fleek.co/
 
