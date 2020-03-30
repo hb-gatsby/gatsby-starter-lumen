@@ -22,7 +22,7 @@ module.exports = {
   ],
   author: {
     name: 'Fleek Blog',
-    photo: 'media/BlogIcon.png',
+    photo: '/BlogIcon.png',
     bio: 'From local development to global deployment, Fleek is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
     contacts: {
       email: 'mailto:hi@Fleek.co',

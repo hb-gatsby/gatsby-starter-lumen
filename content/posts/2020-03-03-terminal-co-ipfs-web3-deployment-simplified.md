@@ -1,12 +1,12 @@
 ---
 template: post
-title: 'Terminal.co + IPFS: Web3 Deployment Simplified'
+title: 'Fleek.co + IPFS: Web3 Deployment Simplified'
 slug: Terminal+IPFS
 draft: false
 date: 2020-03-03T02:39:47.298Z
 description: >-
-  Terminal.co offers a seamless workflow. It offers all the tools needed to
-  deploy and manage sites on IPFS. Focus on content and code. Terminal handles
+  Fleek.co offers a seamless workflow. It offers all the tools needed to
+  deploy and manage sites on IPFS. Focus on content and code. Fleek handles
   the rest.
 category: Informational
 socialImage: /media/terminal+IPFS.png 
@@ -18,7 +18,7 @@ tags:
 
 ## Overview
 
-[Terminal.co](https://terminal.co/) offers a seamless workflow. It offers all the tools needed to deploy and manage sites on IPFS. Focus on content and code. Terminal handles the rest.
+[Fleek.co](https://Fleek.co/) offers a seamless workflow. It offers all the tools needed to deploy and manage sites on IPFS. Focus on content and code. Fleek handles the rest.
 
 ## IPFS & Data Integrity
 
@@ -54,23 +54,23 @@ Everything downstream will also be changed. If you have a domain name (myawesome
 
 ![Photo by Aditya Chinchure on Unsplash](/media/waterfall.jpeg)
 
-## Terminal.co
+## Fleek.co
 
-Terminal aims to simplify web development into one seamless workflow. Simply push changes to Git and Terminal will automatically update, pin and deploy changes downstream.
+Fleek aims to simplify web development into one seamless workflow. Simply push changes to Git and Fleek will automatically update, pin and deploy changes downstream.
 
 ![](/media/terminalsupplychain.png)
 
 Some features:
 
-* Terminal accommodates many frameworks such as gatsby, jekyll, create-react-app etc.
-* Terminal also handles DNS records. Either purchase a domain from them or point it to a domain you purchased elsewhere.
+* Fleek accommodates many frameworks such as gatsby, jekyll, create-react-app etc.
+* Fleek also handles DNS records. Either purchase a domain from them or point it to a domain you purchased elsewhere.
 * No need to manually update hashes, TXT values etc.
-* Terminal provides a [CID](https://docs.ipfs.io/guides/concepts/cid/)(content identifier) for more IPFS features such as verification and self hosting.
+* Fleek provides a [CID](https://docs.ipfs.io/guides/concepts/cid/)(content identifier) for more IPFS features such as verification and self hosting.
 
 ![](/media/deploypage.png)
 
 ## More Info
 
 * To request early access, visit [Terminal Beta](https://terminalbeta.typeform.com/to/kionHH).
-* For more details, check out their [documentation](https://docs.terminal.co/). (More content soon)
+* For more details, check out their [documentation](https://docs.Fleek.co/). (More content soon)
 * For additional questions and 24/7 support, join their [Slack](https://app.slack.com/client/TT3NZ3XDY).

@@ -1,11 +1,11 @@
 ---
 template: post
-title: How to deploy a Next.js app onto IPFS using Terminal.co
+title: How to deploy a Next.js app onto IPFS using Fleek.co
 slug: terminal-nextJS
 draft: false
 date: 2020-03-12T14:06:38.733Z
 description: >-
-  We’ll create a Next.js app and deploy it with Terminal.co. This whole process
+  We’ll create a Next.js app and deploy it with Fleek.co. This whole process
   should take 10 minutes.
 category: Tutorial
 socialImage: /media/nextjs/Next.png
@@ -17,11 +17,11 @@ tags:
 
 ## Overview
 
-We’ll create a Next.js app and deploy it with Terminal.co. This whole process should take 10 minutes.
+We’ll create a Next.js app and deploy it with Fleek.co. This whole process should take 10 minutes.
 
 Tools:
 
-* Terminal.co account
+* Fleek.co account
 * GitHub account
 * node.js/npm
 
@@ -109,9 +109,9 @@ git add, commit, push
 
 ![](/media/nextjs/gitcommit.png)
 
-### Step 2: Set Up Terminal.co
+### Step 2: Set Up Fleek.co
 
-Sign into: https://sites.terminal.co/
+Sign into: https://sites.Fleek.co/
 
 Sign in with Github
 
@@ -155,8 +155,8 @@ Or verify with the CID.
 
 ### Step 3: Updates
 
-Terminal will automatically redeploy your website whenever you make changes on GitHub. Make sure to provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
+Fleek will automatically redeploy your website whenever you make changes on GitHub. Make sure to provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
 
 * [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
 * [Join](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg) our #community
-* [Check out](Https://docs.terminal.co) our technical documentation
+* [Check out](Https://docs.Fleek.co) our technical documentation
