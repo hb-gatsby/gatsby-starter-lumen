@@ -13,12 +13,7 @@ exports[`Author renders correctly 1`] = `
       href="https://www.twitter.com/#"
       rel="noopener noreferrer"
       target="_blank"
-    >
-      <strong>
-        Test name
-      </strong>
-       on Twitter
-    </a>
+    />
   </p>
 </div>
 `;

@@ -5,23 +5,26 @@ import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
+import SOCIAL_MEDIA_IMAGES from '../../map-slug-to-social-image';
 
 type Props = {
   children: ReactNode,
   title: string,
   description?: string,
-  socialImage? :string
+  slug? :string
 };
 
 const Layout = ({
   children,
   title,
   description,
-  socialImage
+  slug = '',
 }: Props) => {
-  const { author, url } = useSiteMetadata();
-  const metaImage = socialImage != null ? socialImage : author.photo;
-  const metaImageUrl = url + withPrefix(metaImage);
+  const metaData = useSiteMetadata();
+  const { url } = metaData;
+  const slugWithoutPrefix = slug.replace('/posts/', '');
+  const pathToSocialImg = SOCIAL_MEDIA_IMAGES[slugWithoutPrefix] || SOCIAL_MEDIA_IMAGES.default;
+  const absolutePathToSocialImage = `${url}${withPrefix(pathToSocialImg)}`;
 
   return (
     <div className={styles.layout}>
@@ -30,11 +33,11 @@ const Layout = ({
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta property="og:site_name" content={title} />
-        <meta property="og:image" content={metaImageUrl} />
+        <meta property="og:image" content={absolutePathToSocialImage} />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={metaImageUrl} />
+        <meta name="twitter:image" content={absolutePathToSocialImage} />
       </Helmet>
       {children}
     </div>

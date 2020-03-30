@@ -5,15 +5,18 @@ slug: introducing-terminal-v2
 draft: false
 date: 2020-02-15T18:06:49.154Z
 description: >-
-  oday, we’re excited to launch a new version of Terminal - the easiest way to
+  Today, we’re excited to launch a new version of Terminal - the easiest way to
   build, deploy, and host websites & apps on IPFS. From local development to
   global deployment, Terminal provides one seamless workflow with everything you
   need to build fast, modern sites & web apps hosted on IPFS.
 category: General
+socialImage: /media/Intro.png 
 tags:
   - general
   - launch
 ---
+![](/media/Intro.png)
+
 Today, we’re excited to launch a new version of Terminal - the easiest way to build, deploy, and host websites & apps on IPFS. From local development to global deployment, Terminal provides one seamless workflow with everything you need to build fast, modern sites & web apps hosted on IPFS. All you have to do is link your github, and within a few clicks you will have your first site deployed to IPFS (and everytime after that it will happen automatically 😄)
 
 Starting today, Terminal V2 is in a closed beta. If you’re interested in getting early access to our new product and participating in the beta, request early access [here](https://terminalbeta.typeform.com/to/kionHH) and we will reach out when it’s your turn to schedule a demo and help you get started.

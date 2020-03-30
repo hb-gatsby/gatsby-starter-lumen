@@ -15,7 +15,7 @@
   }
 
   &__home-button {
-    display: block;
+    display: inline-block;
     max-width: 90px;
     height: $button-height;
     padding: 0 24px;
@@ -36,6 +36,11 @@
     }
 
   }
+  &__home-button-container {
+    display: flex;
+    width: 255px;
+    justify-content: space-between;
+  }
 
 }
 
@@ -49,7 +54,7 @@
       padding: 0;
     }
 
-    &__home-button {
+    &__home-button-container {
       position: fixed;
       max-width: auto;
       margin: 0;
