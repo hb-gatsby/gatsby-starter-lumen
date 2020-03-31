@@ -1,7 +1,7 @@
 ---
 template: post
 title: How to Deploy a GatsbyJS site onto IPFS on Fleek
-slug: Gatsby-Terminal
+slug: Gatsby-Fleek
 draft: false
 date: 2020-03-19T04:02:37.816Z
 description: >-
@@ -39,7 +39,7 @@ Beautiful!
 
 ## Deploying Through Fleek
 
-We must create a github repository to store our site so Fleek can pick it up. For this tutorial, we will use the following repo:  https://github.com/SamueleA/gatsby-Fleek
+We must create a github repository to store our site so Fleek can pick it up. For this tutorial, we will use the following repo:  https://github.com/SamueleA/gatsby-fleek
 
 Now, we must log to Fleek and add a new site.
 
@@ -49,7 +49,9 @@ We select the github repo containing the Gatsby project.
 
 ![](/media/gatsby3.png)
 
-Fleek will determine what build to use, so we can use the default ones, just make sure to select the correct branch. Click on “DEPLOY SITE” to proceed to the next step.
+Fleek will determine which build settings to use. It has automatically detected the Gatsby framework and filled the docker image with `fleek/gatsby`. This image has Gatsby installed with the latest node.js version. However, my gatsby app requires node 11, therefore I changed the docker image to `fleek/gatsby:node-11`.
+
+Click on “DEPLOY SITE” to proceed to the next step.
 
 ![](/media/gatsby4.png)
 
@@ -57,7 +59,7 @@ You will be redirected to the site’s page. We must now wait for the site to be
 
 ![](/media/gatsby5.png)
 
-Once the deployment is over the site can be accessed and shared. For this tutorial, the site can be seen here: <https://wandering-surf-0223.tmnl.co/>
+Once the deployment is over the site can be accessed and shared. For this tutorial, the site can be seen here: <https://aged-paper-1829.on.fleek.co/>
 
 ![](/media/gatsby6.png)
 
@@ -73,4 +75,4 @@ Once you are done, come back to Fleek to share your work!
 
 * [Gatsby video tutorial](https://www.youtube.com/watch?v=8t0vNu2fCCM)
 * [Gatsby docs](https://www.gatsbyjs.org/docs/)
-* [Fleek docs](https://docs.Fleek.co/)
+* [Fleek docs](https://docs.fleek.co/)
