@@ -71,6 +71,8 @@ Some features:
 
 ## More Info
 
-* To request early access, visit [Fleek Beta](https://terminalbeta.typeform.com/to/kionHH).
-* For more details, check out their [documentation](https://docs.Fleek.co/). (More content soon)
-* For additional questions and 24/7 support, join their [Slack](https://app.slack.com/client/TT3NZ3XDY).
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Contact us at support@fleek.co 
+
+Check out [Tech Docs](https://docs.fleek.co/)

@@ -95,6 +95,7 @@ Or verify with the CID.
 
 Fleek will automatically redeploy your website whenever you make changes on GitHub. The provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
 
-* [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
-* [Join](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg) our #community
-* [Check out](https://docs.Fleek.co/) our technical documentation
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 

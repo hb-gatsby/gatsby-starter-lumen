@@ -27,7 +27,7 @@ module.exports = {
     contacts: {
       email: 'mailto:hi@Fleek.co',
       twitter: 'FleekHQ',
-      github: 'FleekLabs',
+      github: 'FleekHQ',
       facebook: 'FleekHQ',
       telegram: '',
       rss: '',

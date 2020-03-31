@@ -61,11 +61,14 @@ Success! The deployment worked and the yellow indicator at the top turned blue a
 
 ![](/media/6-og-success.png)
 
-Here is the link to see the result: <https://orange-disk-4090.tmnl.co/> You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory. Creating the default react app and deploying it to IPFS literally takes less than 10 minutes, so I invite you to create and deploy your own application by participating in the [Terminal Beta](https://terminalbeta.typeform.com/to/kionHH).
+Here is the link to see the result: <https://orange-disk-4090.tmnl.co/> You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory. Creating the default react app and deploying it to IPFS literally takes less than 10 minutes, so I invite you to create and deploy your own application by signing up for [Fleek](https://app.fleek.co).
 
 **\
 Documentation** 
 
 **[Create-React-App](https://reactjs.org/docs/create-a-new-react-app.html)**
 
-**[Fleek Docs](https://docs.Fleek.co/)**
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 
