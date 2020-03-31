@@ -12,11 +12,11 @@ description: >-
   the deployment process. We've also enhanced the experience all around the app
   and fixed many bugs.
 category: Release
-socialImage: /media/Release Notes.png 
+socialImage: /Release-Update-Docker.png 
 tags:
   - Release
 ---
-![](/media/Release Notes.png)
+![](/Release-Update-Docker.png)
 
 ## Release Notes:
 
@@ -62,6 +62,8 @@ Deploy any combination of files or directories that do not require specifying an
 
 We're very excited to be launching the Public Beta soon! In the meantime:
 
-* [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
-* [Join](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg) our #community
-* [Check out](Https://docs.terminal.co) our technical documentation
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 
+

@@ -1,10 +1,10 @@
 ---
 template: post
-title: Getting Started with Terminal
+title: Getting Started on Fleek
 slug: getting-started
 draft: false
 date: 2020-02-17T19:22:21.659Z
-description: Get started deploying your first site on IPFS with Terminal
+description: Get started deploying your first site on IPFS on Fleek
 category: getting started
 socialImage: /media/Getting Started.png 
 tags:
@@ -13,9 +13,9 @@ tags:
 ---
 ![](/media/Getting Started.png)
 
-So you're ready to get started with Terminal? Well, let's get right into it. In this guide we will walk through deploying a website to IPFS using Terminal. This guide is most helpful if you are already signed up for Terminal. If you haven’t already signed up you can [request early access](https://terminalbeta.typeform.com/to/kionHH).
+So you're ready to get started on Fleek? Well, let's get right into it. In this guide we will walk through deploying a website to IPFS using Fleek. This guide is most helpful if you are already signed up for Fleek. If you haven’t already signed up you can [request early access](https://terminalbeta.typeform.com/to/kionHH).
 
-Let’s get started by signing up for Terminal and deploying a website:
+Let’s get started by signing up for Fleek and deploying a website:
 
 ### 1. Add New Site
 
@@ -25,7 +25,7 @@ Let’s get started by signing up for Terminal and deploying a website:
 
 ![Connect with GitHub](/media/Connect with GitHub.png "Connect with GitHub")
 
-### 3. **Select the GitHub account where you want to install Terminal**
+### 3. **Select the GitHub account where you want to install Fleek**
 
 #### **(Where the repository for the website or application you plan to deploy is located)**
 
@@ -51,7 +51,7 @@ While your site is deploying you’re redirected to monitor it’s progress with
 
 ![Deploy Progress](/media/Deploy In Progress2.png "Deploy Progress")
 
-Once the site is deployed successfully, the site will be uploaded to IPFS and the IPFS hash will be mapped to a Terminal subdomain. You can click on the terminal subdomain to preview your live site on IPFS!
+Once the site is deployed successfully, the site will be uploaded to IPFS and the IPFS hash will be mapped to a Fleek subdomain. You can click on the Fleek subdomain to preview your live site on IPFS!
 
 ![Success](/media/Deploy Complete.png "Success")
 
@@ -115,4 +115,8 @@ Now that you have deployed a performant website on IPFS, lets add or buy a domai
 
 ![Encrypted](/media/certroot.png "Encrypted")
 
-If you run into any issues during this process please feel free to reach out on our website, in our [Community Chat](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg), on our [Twitter](https://twitter.com/terminaldotco) or at support@terminal.co as we are always more than happy to help out.
+* [Sign up](https://app.fleek.co) to try yourself
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 

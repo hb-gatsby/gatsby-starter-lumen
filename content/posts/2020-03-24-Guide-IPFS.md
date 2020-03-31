@@ -63,7 +63,9 @@ The combination of the peer to peer network and content addressing solves the th
 
 We have but scratched the surface of the technology and innovation behind IPFS. It is already a vibrant ecosystem bustling with interesting ideas and projects. However, the summary above should give you a good understanding of why IPFS is needed, why it will radically change the way the internet operates and why it is generating so much interest.
 
-## Connect with Terminal team
-* [Sign up](sites.terminal.co) to deploy sites on Terminal
-* [Join](https://join.slack.com/t/terminal-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A) our #community
-* [Check out](https://docs.terminal.co/) our technical documentation
+## Connect with Fleek team
+* [Sign up](https://app.fleek.co) to try yourself
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 
