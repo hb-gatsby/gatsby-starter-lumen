@@ -1,7 +1,7 @@
 ---
 template: post
 title: How to Deploy a Wordpress Website onto IPFS
-slug: wordpress+terminal
+slug: wordpress+fleek
 draft: false
 date: 2020-03-17T01:24:42.196Z
 description: >-
@@ -38,7 +38,7 @@ Finally, the downloaded file can be unzipped. The folder contains the totality o
 
 ## Pushing the Site to IPFS through Fleek
 
-Fleek will take care of deploying the site to IPFS. In order to allow Fleek to get the files, we must first push the exported site to [github](https://github.com/). To do so, simply create a new repository and follow the instructions. Once you are done, the result should look similar to the following repo: <https://github.com/SamueleA/wordpress-terminal>, with the index.html file in the root folder.Then, we log into Fleek and add a new site.
+Fleek will take care of deploying the site to IPFS. In order to allow Fleek to get the files, we must first push the exported site to [github](https://github.com/). To do so, simply create a new repository and follow the instructions. Once you are done, the result should look similar to the following repo: <https://github.com/SamueleA/wordpress-fleek>, with the index.html file in the root folder.Then, we log into Fleek and add a new site.
 
 ![](/media/wordpress4.png)
 
@@ -50,7 +50,7 @@ The next step is to input information such as build command and public folder. H
 
 ![](/media/wordpress6.png)
 
-And that is all! Once the site is done deploying, which should take around a minute, the site will be available through the .tmnl.co address in blue. In our case, the blog is now accessible through IPFS at this address: [https://dawn-star-5263.tmnl.co](https://dawn-star-5263.tmnl.co/)
+And that is all! Once the site is done deploying, which should take around a minute, the site will be available through the .tmnl.co address in blue. In our case, the blog is now accessible through IPFS at this address: [https://flat-hall-3318.on.fleek.co/](https://flat-hall-3318.on.fleek.co/)
 
 ![](/media/wordpress7.png)
 
