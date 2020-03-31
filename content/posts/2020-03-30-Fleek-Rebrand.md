@@ -20,7 +20,6 @@ As part of our rebranding, below are all the new names and accounts to use:
 * Name: Fleek 
 * Website: [fleek.co](https://fleek.co)
 * Twitter: [FleekHQ](https://twitter.com/fleekHQ)
-* Github: [FleekHQ](https://github.com/FleekHQ)
 * Slack: [Community](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
 * Email: support@fleek.co
 * Company: Fleek Labs Inc.
