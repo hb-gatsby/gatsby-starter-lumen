@@ -1,7 +1,7 @@
 ---
 template: post
 title: Fleek + HelloWorld.html
-slug: terminal+helloWorld
+slug: fleek+helloWorld
 draft: false
 date: 2020-03-06T03:02:20.010Z
 description: Create your first static website using Fleek and IPFS
@@ -81,7 +81,7 @@ Once complete, view your website.
 
 You can view the website using the provided domain name.
 
-`https://<your-custom-domain>.tmnl.co`
+`https://<your-custom-domain>.on.fleek.co`
 
 ![](/media/image 13.png)
 
