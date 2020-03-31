@@ -1,7 +1,7 @@
 ---
 template: post
 title: Create and Deploy a React Application to IPFS in Under Ten Minutes
-slug: terminal-create-react-app
+slug: fleek-create-react-app
 draft: false
 date: 2020-03-10T02:38:34.993Z
 description: >-
@@ -51,6 +51,8 @@ Upon first signing up on Fleek, we are asked to add a new site.
 
 Next, we input additional information such as the repo branch, the build commands and the build directory. Luckily for us, the default values will work perfectly so there is no need to change anything. Clicking the “Deploy Site” button at the bottom will commence the deployment.
 
+Note: The default docker image is `fleek/create-react-app` which runs the latest node.js version (13 as of this writing). If you have an app requiring another version, you can specify it in the docker tag. EG: For node 10, `fleek/create-react-app:node-10`
+
 ![](/media/4reactapp.png)
 
 The deployment is in progress! In a few minutes, we’ll have access to our deployed app. The deploy log at the bottom of the page tracks the progress of the deployment.
@@ -61,7 +63,7 @@ Success! The deployment worked and the yellow indicator at the top turned blue a
 
 ![](/media/6-og-success.png)
 
-Here is the link to see the result: <https://orange-disk-4090.tmnl.co/> You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory. Creating the default react app and deploying it to IPFS literally takes less than 10 minutes, so I invite you to create and deploy your own application by signing up for [Fleek](https://app.fleek.co).
+Here is the link to see the result: <https://polished-hat-0578.on.fleek.co/> You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory. Creating the default react app and deploying it to IPFS literally takes less than 10 minutes, so I invite you to create and deploy your own application by signing up for [Fleek](https://app.fleek.co).
 
 **\
 Documentation** 
