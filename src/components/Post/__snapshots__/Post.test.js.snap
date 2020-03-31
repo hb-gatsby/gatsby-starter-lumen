@@ -15,10 +15,10 @@ exports[`Post renders correctly 1`] = `
     </a>
     <a
       className="post__home-button"
-      href="https://terminal.co"
+      href="https://Fleek.co"
       target="_blank"
     >
-      Terminal.co
+      Fleek.co
     </a>
   </div>
   <div

@@ -1,29 +1,29 @@
 ---
 template: post
-title: Terminal.co + HelloWorld.html
+title: Fleek + HelloWorld.html
 slug: terminal+helloWorld
 draft: false
 date: 2020-03-06T03:02:20.010Z
-description: Create your first static website using Terminal and IPFS
+description: Create your first static website using Fleek and IPFS
 category: Tutorial
-socialImage: /media/HelloWorldSocialimage.png 
+socialImage: /HelloWorld.png 
 tags:
   - Tutorial
   - Resource
 ---
-![](/media/HelloWorldSocialimage.png)
+![](/HelloWorld.png)
 
-Create your first static website using Terminal and IPFS
+Create your first static website using Fleek and IPFS
 
 ![](/media/1st photo.jpeg "Photo by Markus Spiske on Unsplash")
 
 ## Overview
 
-We’ll create a simple `index.html` file and deploy it with [Terminal.co](http://terminal.co/). This whole process should take 5 minutes. Deployment should take 30 seconds.
+We’ll create a simple `index.html` file and deploy it with [Fleek.co](http://Fleek.co/). This whole process should take 5 minutes. Deployment should take 30 seconds.
 
 Tools:
 
-* Terminal.co account
+* Fleek account
 * GitHub account
 * Text editor
 
@@ -45,9 +45,9 @@ Now you’re repository is ready to go!
 
 ![](/media/image 5.png)
 
-## Step 2: Set Up Terminal.co
+## Step 2: Set Up Fleek
 
-Sign into: <https://sites.terminal.co/>
+Sign into: <https://app.fleek.co/>
 
 Sign in with Github or Email
 
@@ -93,8 +93,9 @@ Or verify with the CID.
 
 ## Step 3: Updates
 
-Terminal will automatically redeploy your website whenever you make changes on GitHub. The provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
+Fleek will automatically redeploy your website whenever you make changes on GitHub. The provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
 
-* [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
-* [Join](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg) our #community
-* [Check out](https://docs.terminal.co/) our technical documentation
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 

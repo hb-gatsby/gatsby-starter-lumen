@@ -6,17 +6,17 @@ draft: false
 date: 2020-03-17T12:18:31.636Z
 description: >-
   Its been a few weeks of 150+ onboarding calls with users excited to get their
-  hands on Terminal. The feedback has been resounding and very appreciated. The
+  hands on Fleek. The feedback has been resounding and very appreciated. The
   Starter team plan comes with a full set of hosting and DNS features. Now we
   are releasing the Pro team plan that includes more build minutes, more
   bandwidth, and more sites per month. The Pro team plan will also include team
   features soon.
 category: Release
-socialImage: /media/release3-17.png
+socialImage: /Release-Update-Pro-plan.png
 tags:
   - Release
 ---
-![](/media/release3-17.png)
+![](/Release-Update-Pro-plan.png)
 
 Its been a few weeks of 250+ onboarding calls with users and tons of IPFS deployments! The feedback has been resounding and very appreciated. The Starter team plan comes with a full set of hosting and DNS features. Now we are releasing the Pro team plan that includes more build minutes, more bandwidth, and more sites per month. The Pro team plan will also include team features soon.
 
@@ -24,7 +24,7 @@ Its been a few weeks of 250+ onboarding calls with users and tons of IPFS deploy
 
 ### Pro Team Plan
 
-The Pro team plan to start includes up to 20 sites, 750 build minutes, and 100 GB Bandwidth. There's even more coming to the Pro plan for the next release including Team features. [Check out](https://terminal.co/pricing) the pricing page for more details!
+The Pro team plan to start includes up to 20 sites, 750 build minutes, and 100 GB Bandwidth. There's even more coming to the Pro plan for the next release including Team features. [Check out](https://Fleek.co/pricing) the pricing page for more details!
 
 ![](/media/Screen Shot 2020-03-17 at 11.32.41 PM.png)
 
@@ -69,6 +69,8 @@ Pagination has been added to the list of sites and list of deploys. You may have
 
 We're really excited to keep pushing out new releases and there's plenty more where that came from. Stay posted!
 
-* [Sign up](https://terminalbeta.typeform.com/to/kionHH) for private beta early access
-* [Join](https://join.slack.com/t/terminal-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A) our #community
-* [Check out ](https://docs.terminal.co/)our technical documentation
+* [Sign up](https://app.fleek.co) to try yourself
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 
