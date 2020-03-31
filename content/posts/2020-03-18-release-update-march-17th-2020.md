@@ -69,6 +69,8 @@ Pagination has been added to the list of sites and list of deploys. You may have
 
 We're really excited to keep pushing out new releases and there's plenty more where that came from. Stay posted!
 
-* [Sign up](https://app.fleek.co) for private beta early access
-* [Join](https://join.slack.com/t/terminal-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A) our #community
-* [Check out ](https://docs.Fleek.co/)our technical documentation
+* [Sign up](https://app.fleek.co) to try yourself
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 

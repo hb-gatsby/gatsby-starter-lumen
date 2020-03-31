@@ -115,4 +115,8 @@ Now that you have deployed a performant website on IPFS, lets add or buy a domai
 
 ![Encrypted](/media/certroot.png "Encrypted")
 
-If you run into any issues during this process please feel free to reach out on our website, in our [Community Chat](https://join.slack.com/t/terminal-public/shared_invite/enQtOTM1MjQ3NTExMDU3LTNkYjU1ZGJhZGUyYjgwN2I3OThjY2U5OThlMGY2MGY0OGYxMDI1OWIwMTMwYzViZGY4ZGU0NDA0YmY4ZjVhOTg), on our [Twitter](https://twitter.com/terminaldotco) or at support@Fleek.co as we are always more than happy to help out.
+* [Sign up](https://app.fleek.co) to try yourself
+* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Follow us on [Twitter](https://twitter.com/FleekHQ) 
+* Check out our [Tech Docs](https://docs.fleek.co/)
+* Contact us at support@fleek.co 
