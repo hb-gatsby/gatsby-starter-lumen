@@ -39,7 +39,7 @@ Using a .fleek.json configuration file, placed at the root of a git repository, 
 
 Fleek reads your package.json, Fleek configuration file, or other deployment services config files (ex. Netlify's toml) to auto fill your build settings for deployments. We detect the framework you're using and auto select the correct build settings you should use to deploy, whether its Gatsby, Hugo, Nextjs, etc. Of course its still completely customizable and you can even bring your own dockerfile. We've made your deployment experience as seamless as it can possibly be.
 
-![](/media/Rebrand-release/FrameworkDropdown.png)
+![](/media/Rebrand-release/frameworkDropdown.png)
 ![](/media/Rebrand-release/GatsbyPrefilledSettings.png)
 
 
