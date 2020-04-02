@@ -1,6 +1,6 @@
 ---
 template: post
-title: "Release Update:" UI Rebrand, Teams, Zero Config Deployments, Framework Auto Detection, and more!
+title: Release Update UI Rebrand, Teams, Zero Config Deployments, Framework Auto Detection, and more!
 slug: Fleek-Release-Update-UI-Rebrand
 draft: false
 date: 2020-03-31T04:02:37.816Z
