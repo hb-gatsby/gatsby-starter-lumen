@@ -1,7 +1,7 @@
 ---
 template: post
 title: How to deploy a Next.js app onto IPFS using Fleek
-slug: terminal-nextJS
+slug: fleek-nextJS
 draft: false
 date: 2020-03-12T14:06:38.733Z
 description: >-
@@ -133,7 +133,16 @@ To create a new site:
 
 Build command: `npm install && npm run build && npm run export`
 
+docker image: `fleek/next-js`
+
 Publish directory: `out`
+
+Of course, fleek will autodetect next-js and enter those configurations automatically. :P
+
+It's worth nothing that the docker image `fleek/next-js` runs the most recent version of node.js by default, which, by the time of this writing, is version 13.
+
+If you need to use another node version, you can do so via the docker tag.
+EG: For node 10, use `fleek/next-js:node-10`
 
 Deploy Site
 
@@ -145,7 +154,7 @@ Once complete, view your website.
 
 You can view the website using the provided domain name.
 
-`https://<your-custom-domain>.tmnl.co`
+`https://<your-domain>.on.fleek.co`
 
 Or verify with the CID.
 

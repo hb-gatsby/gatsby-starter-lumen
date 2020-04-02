@@ -5,7 +5,7 @@ slug: Fleek-Rebrand
 draft: false
 date: 2020-03-31T04:02:37.816Z
 description: >-
-We’re excited to announce that as of March 31, 2020, Terminal has rebranded to Fleek. 
+  We’re excited to announce that as of March 31, 2020, Terminal has rebranded to Fleek. 
 category: Announcement
 socialImage: /FleekNew.png
 tags:
@@ -17,13 +17,12 @@ tags:
 We’re excited to announce that as of March 31, 2020, Terminal has rebranded to Fleek. 
 
 As part of our rebranding, below are all the new names and accounts to use:
-Name: Fleek 
-Website: [fleek.co](https://fleek.co)
-Twitter: [FleekHQ](https://twitter.com/fleekHQ)
-Github: [FleekHQ](https://github.com/FleekHQ)
-Slack: [Community](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
-Email: support@fleek.co
-Company: Fleek Labs Inc.
+* Name: Fleek 
+* Website: [fleek.co](https://fleek.co)
+* Twitter: [FleekHQ](https://twitter.com/fleekHQ)
+* Slack: [Community](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
+* Email: support@fleek.co
+* Company: Fleek Labs Inc.
 
 Earlier this year we successfully launched a new platform, announced a new company direction, a new product roadmap focused around IPFS, etc. Everything about us was new, but we still had our old name, which made it feel like something was off. On top of that, while most users liked the name Terminal, there were a few users who let us know that they didn’t love the name and that they felt it might cause confusion given Terminal already has a separate and well established meaning in the developer world. One thing we take pride in as a company is listening to customer feedback and iterating accordingly, and this situation was no different. Given everything else about us was new, we felt a new name was the perfect way to fully complete our transition and best situate ourselves for the future. 
 
@@ -33,11 +32,4 @@ For users, the name change has no impact on the platform besides small cosmetic/
 
 As we begin our future as Fleek, we’d like to take this opportunity to thank our amazing users for all the feedback and support thus far, because without you none of this would be possible. We’ve got some super exciting stuff on the roadmap this year and can’t wait to share it with you all. 
 
- - The Fleek Team
-
-## Connect with Fleek team
-* [Sign up](https://app.fleek.co) to try yourself
-* Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
-* Follow us on [Twitter](https://twitter.com/FleekHQ) 
-* Check out our [Tech Docs](https://docs.fleek.co/)
-* Contact us at support@fleek.co 
+ \- The Fleek Team
