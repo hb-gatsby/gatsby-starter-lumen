@@ -25,21 +25,23 @@ The entire interface has been restyled with a lighter look and feel, enhanced gr
 ![](/media/Rebrand-release/UserInterfaceRebrand.png)
 
 ### Teams
-You can now collaborate, share, and ship with the rest of your team. Invite all your team members for access to the seamless deployment and DNS management experience. Teams are automatically created on the Pro Plan.
+You can now collaborate, share, and ship with the rest of your team. Invite all your team members for access to the seamless deployment and DNS management experience. Manage your team members invitations and access controls on the Members page. Teams are automatically created on the Pro Plan.
 
 ![](/media/Rebrand-release/Teams.png)
 
 ### Zero Config Deployment
 
-Using a .fleek.json configuration file, placed at the root of a git repository, you can provide options that changes the default build behavior and overrides settings in the User Interface.
+Using a .fleek.json configuration file, placed at the root of a git repository, you can provide options that changes the default build behavior and overrides settings in the User Interface. [Take a look](https://docs.fleek.co/BuildConfigurations) at our tech docs .fleek.json config file section for an example and more details how to use it.
 
 ![](/media/Rebrand-release/DeploymentConfigFile.png)
 
 ### Framework Auto-detection 
 
-Fleek reads your package.json, Fleek configuration file, or other deployment services config files (ex. Netlify's toml) to auto fill your build settings for deployments. We detect the framework you're using and auto select the correct build settings you should use to deploy, whether its Gatsby, Hugo, Nextjs, etc. We've made your deployment experience as seamless as it can possibly be.
+Fleek reads your package.json, Fleek configuration file, or other deployment services config files (ex. Netlify's toml) to auto fill your build settings for deployments. We detect the framework you're using and auto select the correct build settings you should use to deploy, whether its Gatsby, Hugo, Nextjs, etc. Of course its still completely customizable and you can even bring your own dockerfile. We've made your deployment experience as seamless as it can possibly be.
 
-![](/media/Rebrand-release/FrameworkAutoDetection.png)
+![](/media/Rebrand-release/FrameworkDropdown.png)
+![](/media/Rebrand-release/GatsbyPrefilledSettings.png)
+
 
 ## Enhancements
 
