@@ -10,12 +10,12 @@ description: >-
   global deployment, Terminal provides one seamless workflow with everything you
   need to build fast, modern sites & web apps hosted on IPFS.
 category: General
-socialImage: /media/Intro.png 
+socialImage: ./media/Intro.png 
 tags:
   - general
   - launch
 ---
-![](/media/Intro.png)
+![](./media/Intro.png)
 
 Today, we’re excited to launch a new version of Terminal - the easiest way to build, deploy, and host websites & apps on IPFS. From local development to global deployment, Terminal provides one seamless workflow with everything you need to build fast, modern sites & web apps hosted on IPFS. All you have to do is link your github, and within a few clicks you will have your first site deployed to IPFS (and everytime after that it will happen automatically 😄)
 

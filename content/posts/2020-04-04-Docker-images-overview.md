@@ -7,13 +7,13 @@ date: 2020-04-04T04:02:37.816Z
 description: >-
   A walkthrough of Fleek's Docker Hub repository. You will see Fleek's official images which we encourage you to use for your site.
 category: Tutorial
-socialImage: /media/Docker-hub-overview/cover.png
+socialImage: ./media/Docker-hub-overview/cover.png
 tags:
   - Docker
   - Resource
 ---
 
-![](/media/Docker-hub-overview/cover.png)
+![](./media/Docker-hub-overview/cover.png)
 
 Fleek has an official Docker Hub repo! We store all our official Docker Images there. In this post, we'll introduce you to its content so you can use it to create the best site ever.
 
@@ -21,11 +21,11 @@ Fleek has an official Docker Hub repo! We store all our official Docker Images t
 
 Docker Hub is like Github, but for Docker Images. When you deploy a site through Fleek and are filling the build settings, the docker images field corresponds to a docker image resting in Docker Hub.
 
-![](/media/Docker-hub-overview/1-build-settings.png)
+![](./media/Docker-hub-overview/1-build-settings.png)
 
 ## Our Repositories
 
-![](/media/Docker-hub-overview/2-list-of-repos.png)
+![](./media/Docker-hub-overview/2-list-of-repos.png)
 
 Fleek's repositories can be found [here](https://hub.docker.com/orgs/fleek/repositories). You will find images for all the frameworks we are officially supporting such as Gatsby, Hugo, etc...
 
@@ -33,7 +33,7 @@ When creating a site, you can specify one of those images by filling the docker 
 
 ## Specifying the Node version
 
-![](/media/Docker-hub-overview/3-gatsby-builds.png)
+![](./media/Docker-hub-overview/3-gatsby-builds.png)
 
 Many frameworks rely on a specific Node.js version, otherwise the build fails. By default, our docker images will use the latest Node.js version available.
 

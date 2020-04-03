@@ -12,11 +12,11 @@ description: >-
   the deployment process. We've also enhanced the experience all around the app
   and fixed many bugs.
 category: Release
-socialImage: /Release-Update-Docker.png 
+socialImage: ./Release-Update-Docker.png 
 tags:
   - Release
 ---
-![](/Release-Update-Docker.png)
+![](./Release-Update-Docker.png)
 
 ## Release Notes:
 
@@ -28,23 +28,23 @@ From starting the private beta a couple of weeks ago we have already onboarded 1
 
 Before your app or site is deployed onto IPFS it is built using docker images. We already store many docker images that support the most popular frameworks (Create React App, NextJS, GatsbyJS, etc.), however there are many different frameworks, web servers, languages, versions, etc. so being able to pull your own docker image for the build process makes it easy and can support any custom configurations.
 
-![](/media/Screen Shot 2020-03-05 at 12.01.29 AM.png "Dockerfile upload component")
+![](./media/Screen Shot 2020-03-05 at 12.01.29 AM.png "Dockerfile upload component")
 
 ##### Environment Variables:
 
 Users can now specify any number of environment variables before deploying their app. They can also be edited and updated later on to support flexible and robust dev ops practices. 
 
-![](/media/Screen Shot 2020-03-05 at 12.01.19 AM.png "Environment Variables Component")
+![](./media/Screen Shot 2020-03-05 at 12.01.19 AM.png "Environment Variables Component")
 
 ##### No Build Command or Publish Directory:
 
 Deploy any combination of files or directories that do not require specifying any build command or publish directory. Just link your Git provider repo of files and click deploy. You’ll have an IPFS hash and subdomain to view those files directly in your browser.
 
-![](/media/Screen Shot 2020-03-05 at 12.07.12 AM.png "Build Command and Publish Directory components")
+![](./media/Screen Shot 2020-03-05 at 12.07.12 AM.png "Build Command and Publish Directory components")
 
 ##### To Sum Up All the Deployment Improvements in One Screenshot:
 
-![](/media/Screen Shot 2020-03-05 at 12.19.21 AM.png)
+![](./media/Screen Shot 2020-03-05 at 12.19.21 AM.png)
 
 ### Performance Enhancements
 

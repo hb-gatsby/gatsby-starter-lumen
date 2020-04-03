@@ -7,13 +7,13 @@ date: 2020-04-04T04:02:37.816Z
 description: >-
   Get your Jekyll blog sailing on the Web3 waters! In this short tutorial, we will learn how to create a Jekyll blog and deploy it on Fleek so it can be shared through IPFS.
 category: Tutorial
-socialImage: /media/Jekyll/jekyll-social-img.png
+socialImage: ./media/Jekyll/jekyll-social-img.png
 tags:
   - Tutorial
   - Resource
 ---
 
-![](/Jekyll/jekyll-social-img.png)
+![](./Jekyll/jekyll-social-img.png)
 
 Get your Jekyll blog sailing on the Web3 waters! In this short tutorial, we will learn how to create a Jekyll blog and deploy it on Fleek so it can be shared through IPFS.
 
@@ -125,7 +125,7 @@ bundle exec jekyll serve
 ```
 Go to http://localhost:4000 and see the result.
 
-![](/Jekyll/1-result.png)
+![](./Jekyll/1-result.png)
 
 Awesome! Now we are ready to deploy to IPFS!!
 
@@ -137,22 +137,22 @@ In our case, I've pushed my project to this repo: https://github.com/SamueleA/fl
 
 Now, we must log to fleek and create a new site.
 
-![](/Jekyll/2-add-site.png)
+![](./Jekyll/2-add-site.png)
 
 Pick the repo containing your Jekyll project.
 
-![](/Jekyll/3-pick-repo.png)
+![](./Jekyll/3-pick-repo.png)
 
 Luckily for us, Fleek has automatically detected our Jekyll project and filled the build settings with the right information. All we have to do is click on `Deploy Site`.
 
-![](/Jekyll/4-deploy-site.png)
+![](./Jekyll/4-deploy-site.png)
 
 Let's wait a bit for the site to deploy. This should take no longer than a few minutes.
 
 Upon deployment, Fleek will automatically assign a default url to the site. 
 Here is mine: https://sweet-forest-4329.on.fleek.co/
 
-![](/Jekyll/5-deployed.png)
+![](./Jekyll/5-deployed.png)
 
 ## Congratulations!
 
