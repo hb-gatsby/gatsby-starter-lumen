@@ -7540,7 +7540,7 @@ gatsby-plugin-google-gtag@^1.1.22:
 
 gatsby-plugin-ipfs@^2.0.2:
   version "2.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-ipfs/-/gatsby-plugin-ipfs-2.0.2.tgz#973c53008328c77760d0c062dcb8804be2792bb8"
+  resolved "https://registry.npmjs.org/gatsby-plugin-ipfs/-/gatsby-plugin-ipfs-2.0.2.tgz#973c53008328c77760d0c062dcb8804be2792bb8"
   integrity sha512-Igh4K0axPzfvmP8T0w5Vvo789HTaaC0XHTkHG18jTkwW04J5TV+YPULCxVqRRCGL4cEJgpLuX9TR9iCgEu5igA==
   dependencies:
     globby "^8.0.1"
