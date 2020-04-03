@@ -6,16 +6,16 @@ draft: false
 date: 2020-03-06T03:02:20.010Z
 description: Create your first static website using Fleek and IPFS
 category: Tutorial
-socialImage: /HelloWorld.png 
+socialImage: ./HelloWorld.png 
 tags:
   - Tutorial
   - Resource
 ---
-![](/HelloWorld.png)
+![](./HelloWorld.png)
 
 Create your first static website using Fleek and IPFS
 
-![](/media/1st photo.jpeg "Photo by Markus Spiske on Unsplash")
+![](./media/1st photo.jpeg "Photo by Markus Spiske on Unsplash")
 
 ## Overview
 
@@ -31,19 +31,19 @@ Tools:
 
 Create an empty repository, clone it and start coding.
 
-![](/media/image 2.png)
+![](./media/image 2.png)
 
 Create an `index.html` file and add some content.
 
-![](/media/image 3.png)
+![](./media/image 3.png)
 
 add, commit, push (you know the drill)
 
-![](/media/image 4.png)
+![](./media/image 4.png)
 
 Now you’re repository is ready to go!
 
-![](/media/image 5.png)
+![](./media/image 5.png)
 
 ## Step 2: Set Up Fleek
 
@@ -51,45 +51,45 @@ Sign into: <https://app.fleek.co/>
 
 Sign in with Github or Email
 
-![](/media/image 6.png)
+![](./media/image 6.png)
 
 Add New Site
 
-![](/media/image 7.png)
+![](./media/image 7.png)
 
 Connect with Github.
 
-![](/media/image 8.png)
+![](./media/image 8.png)
 
 Pick a repository.
 
-![](/media/image 9.png)
+![](./media/image 9.png)
 
 In this example, there is no `Build command` nor `Public directory`
 
 Deploy Site
 
-![](/media/image 10.png)
+![](./media/image 10.png)
 
 Deployment takes 30 seconds.
 
-![](/media/Image 11.png)
+![](./media/Image 11.png)
 
 Once complete, view your website.
 
-![](/media/Image 12.png)
+![](./media/Image 12.png)
 
 You can view the website using the provided domain name.
 
 `https://<your-custom-domain>.on.fleek.co`
 
-![](/media/image 13.png)
+![](./media/image 13.png)
 
 Or verify with the CID.
 
 `https://ipfs.io/ipfs/<CID>`
 
-![](/media/Image 14.png)
+![](./media/Image 14.png)
 
 ## Step 3: Updates
 

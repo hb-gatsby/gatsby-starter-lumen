@@ -7,12 +7,12 @@ date: 2020-03-31T04:02:37.816Z
 description: >-
   We’re excited to announce that as of March 31, 2020, Terminal has rebranded to Fleek. 
 category: Announcement
-socialImage: /FleekNew.png
+socialImage: ./FleekNew.png
 tags:
   - Announcement
   - Rebrand
 ---
-![](/FleekNew.png)
+![](./FleekNew.png)
 
 We’re excited to announce that as of March 31, 2020, Terminal has rebranded to Fleek. 
 

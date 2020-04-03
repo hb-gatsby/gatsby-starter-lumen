@@ -7,12 +7,12 @@ date: 2020-03-24T04:02:37.816Z
 description: >-
   IPFS presents itself as a radical innovation whose aim is to reshape the entire web as we know it into a system that is more secure, efficient and reliable.
 category: Tutorial
-socialImage: /media/intro/IPFS.png
+socialImage: ./media/intro/IPFS.png
 tags:
   - Guide
   - IPFS
 ---
-![](media/intro/IPFS.png)
+![](./media/intro/IPFS.png)
 
 “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”
 ― Buckminster Fuller
@@ -29,7 +29,7 @@ Web1 corresponds to a simple static web page. Think of a simple company page wit
 
 Both Web1 and Web2 both work on HTTP. HTTP is the method of communication of the current internet. Most web browsers communicate through HTTP and it is the reason why web addresses are often prefixed with http://. This method of communication (also called a protocol) requires a client to request data to a server. For instance, let’s say you wish to connect to facebook. The client, your web browser, will ask the server, facebook’s servers, for a copy of the facebook web application. The server will then respond with the data. Similarly, fetching posts and images is done through a series of requests and responses.
 
-![](media/intro/intro1.jpg)
+![](./media/intro/intro1.jpg)
 
 However, this method comes with its own set of problems. First of all, it is **inefficient**. Requests have to be made to servers in remote locations which adds latency to requests. If we decide to exit the application and log in again, we will have to refetch the same files again even though we might still have them. The infrastructure to operate servers for millions of users is expensive and the costs keep increasing as the internet becomes data-hungrier through high-resolution images and videos, the proliferation of internet-connected devices and the everyday usage of the internet. Sudden, high influx of users can overload the system with high-throughput and send the whole thing crashing due to lack of bandwidth.
 
@@ -49,7 +49,7 @@ IPFS consists of an amalgamation of innovations in areas such as cryptography an
 
 Unlike HTTP, IPFS uses a DHT(distributed hash table) to fetch its data through a **peer-to-peer network**. This works a bit like BitTorrent, a popular file sharing protocol. For IPFS, the protocol is called BitSwap. Files are cut in many chunks and organised in a special structure called a merkle dag which allows each piece to be securely shared in a network peers. Just like in BitTorrent, the data is still available if a peer goes down. This removes the problem of having a single central server doing all the processing and the risks of that one server going down, which, in turn, creates a more robust internet infrastructure. And with reliance on a network of peers rather than a central server, the data is censorship-resistant since removing the data would require removing the data from every single peer possessing that data, which is infeasible.
 
-![](media/intro/intro2.jpg)
+![](./media/intro/intro2.jpg)
 
 Another innovation lies in the use of **content addressing** vs location addressing. The difference is subtle, but the consequences profound. HTTP works through location addressing. The addresses you type in the browser are converted to an IP address which locates the server possessing the file. Location addressing simply fetches a certain file at a certain location and there is no guarantee that the file has not been tampered with.
 
