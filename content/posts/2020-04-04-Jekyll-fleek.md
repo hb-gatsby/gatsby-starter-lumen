@@ -2,7 +2,7 @@
 template: post
 title: Deploy a Jekyll Blog on Fleek
 slug: deploy-jekyll-blog-on-fleek
-draft: true
+draft: false
 date: 2020-04-04T04:02:37.816Z
 description: >-
   Get your Jekyll blog sailing on the Web3 waters! In this short tutorial, we will learn how to create a Jekyll blog and deploy it on Fleek so it can be shared through IPFS.
