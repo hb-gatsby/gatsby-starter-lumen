@@ -12,7 +12,7 @@ description: >-
   bandwidth, and more sites per month. The Pro team plan will also include team
   features soon.
 category: Release
-socialImage: /Release-Update-Pro-plan.png
+socialImage: ./Release-Update-Pro-plan.png
 tags:
   - Release
 ---
@@ -26,23 +26,23 @@ Its been a few weeks of 250+ onboarding calls with users and tons of IPFS deploy
 
 The Pro team plan to start includes up to 20 sites, 750 build minutes, and 100 GB Bandwidth. There's even more coming to the Pro plan for the next release including Team features. [Check out](https://Fleek.co/pricing) the pricing page for more details!
 
-![](/media/Screen Shot 2020-03-17 at 11.32.41 PM.png)
+![](./media/Screen Shot 2020-03-17 at 11.32.41 PM.png)
 
 ### Billing Page
 
 The Billing page has usage metric, payment method, and billing contact info. The usage metrics track the amount of build minutes and bandwidth used for the month. You can add/change your payment method details and billing contact info.
 
-![](/media/Screen Shot 2020-03-17 at 11.36.57 PM.png)
+![](./media/Screen Shot 2020-03-17 at 11.36.57 PM.png)
 
-![](/media/Screen Shot 2020-03-17 at 11.37.10 PM.png)
+![](./media/Screen Shot 2020-03-17 at 11.37.10 PM.png)
 
 ### Deleting Sites & Domains
 
 In case you make any mistakes or change your mind you can now delete sites and domains, whether they have been propagated or not.
 
-![](/media/Screen Shot 2020-03-17 at 11.53.40 PM.png)
+![](./media/Screen Shot 2020-03-17 at 11.53.40 PM.png)
 
-![](/media/Screen Shot 2020-03-17 at 11.54.03 PM.png)
+![](./media/Screen Shot 2020-03-17 at 11.54.03 PM.png)
 
 ## Enhancements
 

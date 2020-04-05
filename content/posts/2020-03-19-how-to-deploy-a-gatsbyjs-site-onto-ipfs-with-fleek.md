@@ -9,13 +9,13 @@ description: >-
   manner. In this tutorial, we will show you how to create a Gatsby project and
   deploy it to IPFS thanks to Fleek.
 category: Guide
-socialImage: /media/GatsbySocialimage.png
+socialImage: ./media/GatsbySocialimage.png
 tags:
   - Tutorial
   - Guide
   - Gatsby
 ---
-![](/media/GatsbySocialimage.png)
+![](./media/GatsbySocialimage.png)
 
 Gatsby allows for the creation of static sites in a simple, straightforward manner. In this tutorial, we will show you how to create a Gatsby project and deploy it to IPFS thanks to Fleek.
 
@@ -33,7 +33,7 @@ This will create a new sample gatsby project which can be modified according to 
 
 For now, let’s make some changes to the basic starter site.
 
-![](/media/gatsby1.png)
+![](./media/gatsby1.png)
 
 Beautiful!
 
@@ -43,25 +43,25 @@ We must create a github repository to store our site so Fleek can pick it up. Fo
 
 Now, we must log to Fleek and add a new site.
 
-![](/media/gatsby2.png)
+![](./media/gatsby2.png)
 
 We select the github repo containing the Gatsby project.
 
-![](/media/gatsby3.png)
+![](./media/gatsby3.png)
 
 Fleek will determine which build settings to use. It has automatically detected the Gatsby framework and filled the docker image with `fleek/gatsby`. This image has Gatsby installed with the latest node.js version. However, my gatsby app requires node 11, therefore I changed the docker image to `fleek/gatsby:node-11`.
 
 Click on “DEPLOY SITE” to proceed to the next step.
 
-![](/media/gatsby4.png)
+![](./media/gatsby4.png)
 
 You will be redirected to the site’s page. We must now wait for the site to be built and deployed.
 
-![](/media/gatsby5.png)
+![](./media/gatsby5.png)
 
 Once the deployment is over the site can be accessed and shared. For this tutorial, the site can be seen here: <https://aged-paper-1829.on.fleek.co/>
 
-![](/media/gatsby6.png)
+![](./media/gatsby6.png)
 
 ## Explore more
 

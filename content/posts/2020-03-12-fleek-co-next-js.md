@@ -8,12 +8,12 @@ description: >-
   We’ll create a Next.js app and deploy it on Fleek. This whole process
   should take 10 minutes.
 category: Tutorial
-socialImage: /media/nextjs/Next.png
+socialImage: ./media/nextjs/Next.png
 tags:
   - Tutorial
   - Guide
 ---
-![](/media/nextjs/Next.png)
+![](./media/nextjs/Next.png)
 
 ## Overview
 
@@ -29,14 +29,14 @@ Tools:
 
 Create an empty repository and clone it.
 
-![](/media/nextjs/CreateRepo.png)
+![](./media/nextjs/CreateRepo.png)
 
 Create a Next.js app using:
 
 `$ mkdir nextjs && cd nextjs` `$ npm init --y'
 '$ npm install next react react-dom`
 
-![](/media/nextjs/CreateNextjsapp.png)
+![](./media/nextjs/CreateNextjsapp.png)
 
 Open `package.json` and add in the following scripts
 
@@ -49,7 +49,7 @@ Open `package.json` and add in the following scripts
 }
 ```
 
-![](/media/nextjs/Openpackagejson.png)
+![](./media/nextjs/Openpackagejson.png)
 
 Create a `next.config.js` file in the root directory
 
@@ -64,7 +64,7 @@ module.exports = {
 };
 ```
 
-![](/media/nextjs/createNextConfigJS.png)
+![](./media/nextjs/createNextConfigJS.png)
 
 Let’s create some pages: Create a folder called pages Inside pages, create `index.js`
 
@@ -99,15 +99,15 @@ export default function About() {
 
 It should look something like this
 
-![](/media/nextjs/indexJSAboutJS.png)
+![](./media/nextjs/indexJSAboutJS.png)
 
 To test, run `npm run dev` and visit localhost:3000
 
-![](/media/nextjs/localhost3000.png)
+![](./media/nextjs/localhost3000.png)
 
 git add, commit, push
 
-![](/media/nextjs/gitcommit.png)
+![](./media/nextjs/gitcommit.png)
 
 ### Step 2: Set Up Fleek
 
@@ -115,19 +115,19 @@ Sign into: https://app.fleek.co/
 
 Sign in with Github
 
-![](/media/nextjs/signin.png)
+![](./media/nextjs/signin.png)
 
 Add New Site
 
-![](/media/nextjs/addsite.png)
+![](./media/nextjs/addsite.png)
 
 Connect with Github.
 
-![](/media/nextjs/connectGithub.png)
+![](./media/nextjs/connectGithub.png)
 
 Pick your Next.js repository.
 
-![](/media/nextjs/picknextjsrepo.png)
+![](./media/nextjs/picknextjsrepo.png)
 
 To create a new site:
 
@@ -146,11 +146,11 @@ EG: For node 10, use `fleek/next-js:node-10`
 
 Deploy Site
 
-![](/media/nextjs/deploySite.png)
+![](./media/nextjs/deploySite.png)
 
 Once complete, view your website.
 
-![](/media/nextjs/viewSite.png)
+![](./media/nextjs/viewSite.png)
 
 You can view the website using the provided domain name.
 
@@ -160,7 +160,7 @@ Or verify with the CID.
 
 `https://ipfs.io/ipfs/<CID>`
 
-![](/media/nextjs/verifyCID.png)
+![](./media/nextjs/verifyCID.png)
 
 ### Step 3: Updates
 
