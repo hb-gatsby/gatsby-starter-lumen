@@ -1,6 +1,6 @@
 ---
 template: post
-title: Deploy a Jekyll Blog on Fleek
+title: Deploy a Jekyll Blog to IPFS on Fleek
 slug: deploy-jekyll-blog-on-fleek
 draft: false
 date: 2020-04-04T04:02:37.816Z
