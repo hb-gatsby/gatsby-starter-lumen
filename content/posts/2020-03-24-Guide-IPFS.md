@@ -35,7 +35,7 @@ However, this method comes with its own set of problems. First of all, it is **i
 
 Simply put, the internet is becoming a victim of its own success and needs to be redesigned to allow it to sustain further growth.
 
-Second, the system is **insecure**. How do we know the data we asked for has not been tampered with? How do we know a hacker has not compromised facebook’s server or even intercepted our requests? With current web2 systems, it is impossible to interact with the web without making dangerous assumptions regarding the trustworthiness of its actors.
+Second, the system is **unsecure**. How do we know the data we asked for has not been tampered with? How do we know a hacker has not compromised facebook’s server or even intercepted our requests? With current web2 systems, it is impossible to interact with the web without making dangerous assumptions regarding the trustworthiness of its actors.
 
 Furthermore, our data might become totally inaccessible if some catastrophic incident ever occured to the server.
 
