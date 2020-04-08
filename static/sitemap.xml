@@ -50,12 +50,12 @@
 <url>
   <loc>https://blog.fleek.co/posts/wordpress+fleek/</loc>
   <lastmod>2020-04-08T18:27:11+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blog.fleek.co/posts/fleek-nextJS/</loc>
   <lastmod>2020-04-08T18:27:11+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blog.fleek.co/category/tutorial/page/1/</loc>
@@ -105,7 +105,7 @@
 <url>
   <loc>https://blog.fleek.co/posts/Gatsby-Fleek/</loc>
   <lastmod>2020-04-08T18:27:13+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blog.fleek.co/category/release/</loc>
@@ -115,7 +115,7 @@
 <url>
   <loc>https://blog.fleek.co/posts/release+update+3+17+20/</loc>
   <lastmod>2020-04-08T18:27:13+00:00</lastmod>
-  <priority>0.64</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blog.fleek.co/page/2/</loc>
@@ -130,12 +130,12 @@
 <url>
   <loc>https://blog.fleek.co/posts/fleek-create-react-app/</loc>
   <lastmod>2020-04-08T18:27:13+00:00</lastmod>
-  <priority>0.51</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blog.fleek.co/posts/fleek+helloWorld/</loc>
   <lastmod>2020-04-08T18:27:13+00:00</lastmod>
-  <priority>0.51</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blog.fleek.co/tag/tutorial/page/1/</loc>
@@ -190,7 +190,7 @@
 <url>
   <loc>https://blog.fleek.co/posts/getting-started/</loc>
   <lastmod>2020-04-08T18:27:16+00:00</lastmod>
-  <priority>0.41</priority>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://blog.fleek.co/category/general/</loc>
