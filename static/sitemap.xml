@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://blog.fleek.co/</loc>
+  <lastmod>2020-04-08T18:27:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/category/tutorial/</loc>
+  <lastmod>2020-04-08T18:27:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/deploy-jekyll-blog-on-fleek/</loc>
+  <lastmod>2020-04-08T18:27:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/category/announcement/</loc>
+  <lastmod>2020-04-08T18:27:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/Fleek-Release-Update-UI-Rebrand/</loc>
+  <lastmod>2020-04-08T18:27:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/Fleek-Rebrand/</loc>
+  <lastmod>2020-04-08T18:27:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/Guide-IPFS/</loc>
+  <lastmod>2020-04-08T18:27:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/page/1/</loc>
+  <lastmod>2020-04-08T18:27:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/wordpress+fleek/</loc>
+  <lastmod>2020-04-08T18:27:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/fleek-nextJS/</loc>
+  <lastmod>2020-04-08T18:27:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/category/tutorial/page/1/</loc>
+  <lastmod>2020-04-08T18:27:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/tutorial/</loc>
+  <lastmod>2020-04-08T18:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/resource/</loc>
+  <lastmod>2020-04-08T18:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/announcement/</loc>
+  <lastmod>2020-04-08T18:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/release-update/</loc>
+  <lastmod>2020-04-08T18:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/rebrand/</loc>
+  <lastmod>2020-04-08T18:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/guide/</loc>
+  <lastmod>2020-04-08T18:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/ipfs/</loc>
+  <lastmod>2020-04-08T18:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/category/guide/</loc>
+  <lastmod>2020-04-08T18:27:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/Gatsby-Fleek/</loc>
+  <lastmod>2020-04-08T18:27:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/category/release/</loc>
+  <lastmod>2020-04-08T18:27:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/release+update+3+17+20/</loc>
+  <lastmod>2020-04-08T18:27:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/page/2/</loc>
+  <lastmod>2020-04-08T18:27:13+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/wordpress/</loc>
+  <lastmod>2020-04-08T18:27:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/fleek-create-react-app/</loc>
+  <lastmod>2020-04-08T18:27:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/fleek+helloWorld/</loc>
+  <lastmod>2020-04-08T18:27:13+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/tutorial/page/1/</loc>
+  <lastmod>2020-04-08T18:27:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/guide/page/1/</loc>
+  <lastmod>2020-04-08T18:27:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/gatsby/</loc>
+  <lastmod>2020-04-08T18:27:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/Release-update-1/</loc>
+  <lastmod>2020-04-08T18:27:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/release/</loc>
+  <lastmod>2020-04-08T18:27:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/category/informational/</loc>
+  <lastmod>2020-04-08T18:27:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/Terminal+IPFS/</loc>
+  <lastmod>2020-04-08T18:27:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/page/3/</loc>
+  <lastmod>2020-04-08T18:27:15+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/informational/</loc>
+  <lastmod>2020-04-08T18:27:15+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/category/getting-started/</loc>
+  <lastmod>2020-04-08T18:27:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/getting-started/</loc>
+  <lastmod>2020-04-08T18:27:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/category/general/</loc>
+  <lastmod>2020-04-08T18:27:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/posts/introducing-terminal-v2/</loc>
+  <lastmod>2020-04-08T18:27:16+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/general/</loc>
+  <lastmod>2020-04-08T18:27:17+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/getting-started/</loc>
+  <lastmod>2020-04-08T18:27:17+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://blog.fleek.co/tag/launch/</loc>
+  <lastmod>2020-04-08T18:27:17+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+
+
+</urlset>
