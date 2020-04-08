@@ -21,7 +21,7 @@ Create your first static website hosted on IPFS using Fleek.
 
 We’ll create a simple `index.html` file and deploy it to IPFS on [Fleek](http://Fleek.co/). This whole process should take 5 minutes. Deployment should take 30 seconds. 
 
-If you already have a Github Repo for your site or app in mind you can skip directly to step 2. Fleek makes it easy by auto detect any framwork or build settings you use for your site.
+If you already have a Github Repo for your site or app in mind you can skip directly to step 2. Fleek makes it easy to deploy by auto detecting any framwork or build settings you use for your site.
 
 Tools:
 
