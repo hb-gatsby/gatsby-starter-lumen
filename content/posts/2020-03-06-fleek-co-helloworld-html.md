@@ -49,9 +49,9 @@ Now you’re repository is ready to go!
 
 ## Step 2: Set Up Fleek
 
-Sign into: <https://app.fleek.co/>
+Go to: <https://app.fleek.co/>
 
-Sign in with Github or Email
+Sign in or up with Github or Email
 
 ![](./media/image 6.png)
 
