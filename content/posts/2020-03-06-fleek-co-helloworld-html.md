@@ -1,6 +1,6 @@
 ---
 template: post
-title: Deploy to IPFS in Under 5 Mins on Fleek
+title: Deploy to IPFS in Under 5 Minutes using Fleek
 slug: fleek+helloWorld
 draft: false
 date: 2020-03-06T03:02:20.010Z
@@ -13,13 +13,15 @@ tags:
 ---
 ![](./HelloWorld.png)
 
-Create your first static website using Fleek and IPFS
+Create your first static website hosted on IPFS using Fleek.
 
 ![](./media/1st photo.jpeg "Photo by Markus Spiske on Unsplash")
 
 ## Overview
 
-We’ll create a simple `index.html` file and deploy it to IPFS on [Fleek](http://Fleek.co/). This whole process should take 5 minutes. Deployment should take 30 seconds.
+We’ll create a simple `index.html` file and deploy it to IPFS on [Fleek](http://Fleek.co/). This whole process should take 5 minutes. Deployment should take 30 seconds. 
+
+If you already have a Github Repo for your site or app in mind you can skip directly to step 2. Fleek makes it easy by auto detect any framwork or build settings you use for your site.
 
 Tools:
 
