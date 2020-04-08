@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://blog.Fleek.co',
+  url: 'https://blog.fleek.co',
   pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
   title: 'Fleek Blog',
   subtitle: 'From local development to global deployment, Fleek is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',

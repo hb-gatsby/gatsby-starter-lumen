@@ -172,7 +172,7 @@ module.exports = {
         `,
         output: '/sitemap.xml',
         serialize: ({ site, allSitePage }) => allSitePage.edges.map((edge) => ({
-          url: site.siteMetadata.siteUrl + edge.node.path,
+          url: site.siteMetadata.siteUrl + edge.node.path.replace('/__GATSBY_IPFS_PATH_PREFIX__', ''),
           changefreq: 'daily',
           priority: 0.7
         }))
