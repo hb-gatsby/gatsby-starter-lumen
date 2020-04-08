@@ -1,6 +1,6 @@
 ---
 template: post
-title: Deploy to IPFS in Under 5 Minutes using Fleek
+title: Deploy to IPFS in Under 5 Minutes Using Fleek
 slug: fleek+helloWorld
 draft: false
 date: 2020-03-06T03:02:20.010Z
