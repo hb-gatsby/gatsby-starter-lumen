@@ -11,13 +11,15 @@ tags:
   - Tutorial
   - Resource
 ---
-![](./HelloWorld.png)
+![](./Fleek+IPFS.png)
 
 ## Overview
 
 We're going to deploy a site onto IPFS in under 30 seconds using [Fleek](http://Fleek.co/). Let's get started!
 
-If you dont have a site or app handy in a github repo, let's create a simple `index.html`. If you do, just skip directly to STEP 2. Fleek will connect to your git provider and auto detect whatever framework your site is using for a quick deployment (you can also customize build settings if you'd like).
+If you dont have a site or app handy in a github repo, let's create a simple `index.html`. If you do, just skip directly to STEP 2. 
+
+Fleek will connect to your git provider and auto detect whatever framework your site is using for a quick deployment (you can also customize build settings if you'd like).
 
 ![](./media/Rebrand-release/GatsbyPrefilledSettings.png)
 
