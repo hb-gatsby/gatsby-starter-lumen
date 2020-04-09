@@ -1,6 +1,6 @@
 ---
 template: post
-title: Deploy to IPFS in Under 5 Minutes Using Fleek
+title: Deploy and Host your site on IPFS Using Fleek
 slug: fleek helloWorld
 draft: false
 date: 2020-03-06T03:02:20.010Z
@@ -13,21 +13,14 @@ tags:
 ---
 ![](./HelloWorld.png)
 
-Create your first static website hosted on IPFS using Fleek.
-
-![](./media/1st photo.jpeg "Photo by Markus Spiske on Unsplash")
-
 ## Overview
 
-We’ll create a simple `index.html` file and deploy it to IPFS on [Fleek](http://Fleek.co/). This whole process should take 5 minutes. Deployment should take 30 seconds. 
+We're going to deploy a site onto IPFS in under 30 seconds using [Fleek](http://Fleek.co/). Let's get started!
 
-If you already have a Github Repo for your site or app in mind you can skip directly to step 2. Fleek makes it easy to deploy by auto detecting any framwork or build settings you use for your site.
+If you dont have a site or app handy in a github repo, let's create a simple `index.html`. If you do, just skip directly to STEP 2. Fleek will connect to your git provider and auto detect whatever framework your site is using for a quick deployment (you can also customize build settings if you'd like).
 
-Tools:
+![](./media/Rebrand-release/GatsbyPrefilledSettings.png)
 
-* Fleek account
-* GitHub account
-* Text editor
 
 ## Step 1: Set Up a Repo on Github
 
@@ -67,9 +60,9 @@ Pick a repository.
 
 ![](./media/image 9.png)
 
-In this example, there is no `Build command` nor `Public directory`
+If you're using the Hello World example, there is no framework selected and the build settings are empty for this deployment.
 
-Deploy Site
+Deploy the Site!
 
 ![](./media/image 10.png)
 
@@ -97,6 +90,7 @@ Or verify with the CID.
 
 Fleek will automatically redeploy your website whenever you make changes on GitHub. The provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
 
+* [Sign up](https://app.fleek.co)
 * Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
 * Follow us on [Twitter](https://twitter.com/FleekHQ) 
 * Check out our [Tech Docs](https://docs.fleek.co/)
