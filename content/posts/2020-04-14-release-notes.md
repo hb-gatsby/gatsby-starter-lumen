@@ -3,10 +3,10 @@ template: post
 title: Release Updates - DNS Link, Custom Fleek URLs, NuxtJS Support, Build and Bandwidth Stats and more!
 slug: Fleek-Release-Update-DNS-Link
 draft: false
-date: 2020-04-14T04:02:37.816Z
+date: 2020-04-15T04:02:37.816Z
 description: >-
 We're happy to bring you another release! This one is special because of all the request for DNS Link Support in particular. We have also released Custom Fleek URLs and custom naming of your site, NuxtJS framework auto detection, some stats on your build minutes and bandwidth, and more!
-category: Announcement
+category: 
 socialImage: /Release-Update-UI-rebrand.png
 tags:
   - Announcement
