@@ -2,8 +2,8 @@
 template: post
 title: Go with Hugo and Fleek
 slug: go-with-hugo-and-fleek
-draft: true
-date: 2020-04-11T04:02:37.816Z
+draft: false
+date: 2020-04-16T04:02:37.816Z
 description: >-
   Go with Hugo and Fleek to create a beautiful blog and deploy it on IPFS!
 category: Tutorial
