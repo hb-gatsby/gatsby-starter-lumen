@@ -2,7 +2,7 @@
 template: post
 title: Fleek is on Fleek - How the Fleek Platform is Deployed on the Fleek Platform
 slug: Fleek-On-Fleek
-draft: true
+draft: false
 date: 2020-04-23T04:02:37.816Z
 description: >-
     Did you know the ENTIRE Fleek platform is deployed using the Fleek platform?
