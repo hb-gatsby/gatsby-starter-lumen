@@ -214,6 +214,7 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
+relativeUrls = true
 
 [params]
   # dir name of your blog content (default is `content/posts`)
@@ -270,6 +271,8 @@ paginate = 5
         name = "Learn About Hugo"
         url = "https://gohugo.io"
 ```
+
+Please note the line `relativeUrls = true` which I added at the top. This line is important to make the blog work on IPFS gateways which use paths in their url in the format /ipfs/HASH. If you have issues having your site show CSS styling on an IPFS gateway, that's the line you are likely missing!
 
 And the result below:
 
