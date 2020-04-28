@@ -3,7 +3,7 @@ template: post
 title: NuxtJS through IPFS on Fleek
 slug: NuxtJS through IPFS on Fleek
 draft: false
-date: 2020-02-29
+date: 2020-02-28
 description: Get started with deploying your NuxtJS site using IPFS on Fleek
 category: getting started
 socialImage: ./media/FleekOnFleek/socialImage.png
@@ -33,7 +33,7 @@ In this article, we will show you how to deploy your site built on NuxtJS and de
 
 # What is Fleek
 
-
+![](images/nuxtjs/fleek-logo.png)
 
 Fleek is everything you need to build fast, modern sites & apps on IPFS. All in one seamless workflow, From local development to global deployment, Your site will not only runs on IPFS, it’s also supplemented with a global, enterprise-grade CDN, allowing for speed, scale, and performance that is superior to normal hosting. 
 
