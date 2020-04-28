@@ -172,3 +172,30 @@ Immediately after connection search for the name of thr repo over GitHub using t
 
 ![](images/nuxtjs/search.png)
 
+The next step is the deploy settings page, the framework/language is automatically selected by Fleek, once you have gotten to this screen click `Deploy Site`
+
+![](images/nuxtjs/deploy.png)
+
+While your app deploys, you can watch the deployment using the `Fleek Deploy Log`, it should take less than a minute to complete deploymet
+
+![](images/nuxtjs/log.png)
+
+Yes! our app has deployed, scroll to the very top and you would find a link, clicking that link takes you to your deployed site
+
+![](images/nuxtjs/link.png)
+
+# Switching name or adding a domain on Fleek
+
+Usually when you deploy a new site on Fleek, you have a very funny looking domain name for example `https://crimson-lab-6839.on.fleek.co/`, you can change that by going under settings then clicking `Change Site Name`, the put in your preferred domain.
+
+![](images/nuxtjs/setting.png)
+
+# Closing Thoughts
+
+…and that’s it! Deploying a NuxtJS site to Fleek is quick and very easy, Fleek is looking to change how deployment works on IPFS improving everything.
+
+# Resources
+
+- [GitHub Repo](https://github.com/Developerayo/deploy-nuxtjs-using-ipfs-on-fleek)
+- [Deployed Site](https://deploy-nuxtjs-using-ipfs-on-fleek.on.fleek.co/)
+- [NuxtJS Guide](https://nuxtjs.org/guide/)
