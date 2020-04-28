@@ -181,7 +181,7 @@ Yes! our app has deployed, scroll to the very top and you would find a link, cli
 
 # Switching name or adding a domain on Fleek
 
-Usually, when you deploy a new site on Fleek, you have a very funny looking domain name for example `https://crimson-lab-6839.on.fleek.co/`, you can change that by going under settings then clicking `Change Site Name`, the put in your preferred domain.
+Usually, when you deploy a new site on Fleek, you have a very funny looking domain name for example `https://crimson-lab-6839.on.fleek.co/`, you can change that by going under settings then clicking `Change Site Name`, then put in your preferred domain.
 
 ![](images/nuxtjs/setting.png)
 
