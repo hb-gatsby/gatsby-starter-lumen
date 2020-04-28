@@ -1,12 +1,12 @@
 ---
 template: post
 title: Deploying NuxtJS through IPFS on Fleek
-slug: Deploying NuxtJS through IPFS on Fleek
+slug: Deploying-nuxtJS-through-IPFS-on-Fleek
 draft: false
 date: 2020-04-28T04:02:37.816Z
 description: Get started with deploying your NuxtJS site through IPFS on Fleek
 category: getting started
-socialImage: images/nuxtjs/main.png
+socialImage: ./media/nuxtjs/main.png
 tags:
   - general
   - nuxtjs
