@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
   title: 'Fleek Blog',
   subtitle: 'From local development to global deployment, Fleek is everything you need to build fast modern websites hosted on IPFS. Welcome to the new internet.',
-  copyright: '© 2020 Deployed on IPFS on Fleek, — Built with Gatsby',
+  copyright: '© 2020 Deployed using IPFS on Fleek, — Built with Gatsby',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: 'UA-144542192-4',
