@@ -15,7 +15,7 @@ tags:
 
 ![](Release-Update-UI-rebrand.png)
 
-This release brings the IPFS community ENS Domains! Since so much of the Ethereum space uses IPFS for their sites and apps, ENS support has been one of our most requested features.
+This release brings the IPFS community ENS Domains! Sgit ince so much of the Ethereum space uses IPFS for their sites and apps, ENS support has been one of our most requested features.
 
 
 # ENS Domain Support
@@ -23,7 +23,7 @@ This release brings the IPFS community ENS Domains! Since so much of the Ethereu
 You can now easily point an ENS domain to your IPFS site and have the content automatically update for future deployments. Input your ENS domain and make one transaction, we'll take care of it for you from there. We use the ENS smart contract's "controller" role that keeps you in full control and ownership of your ENS domain, while you delegate the day to day operations to Fleek. [Check out](https://fleekhq.eth/) our Homepage on ENS! Whenever we make updates to our Homepage, Fleek handles updating the content to our ENS Domain.
 
 
-![](media/ENS.gif)
+![](media/ENSDomains.gif)
 
 
 # Other Updates
