@@ -15,7 +15,7 @@ tags:
 
 ![](Release-Update-UI-rebrand.png)
 
-This release brings the IPFS community ENS Domains! Sgit ince so much of the Ethereum space uses IPFS for their sites and apps, ENS support has been one of our most requested features.
+This release brings the IPFS community ENS Domains! Since so much of the Ethereum space uses IPFS for their sites and apps, ENS support has been one of our most requested features.
 
 
 # ENS Domain Support
