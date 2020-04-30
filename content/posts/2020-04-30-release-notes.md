@@ -5,7 +5,7 @@ slug: Fleek-Release-ENS-Domains
 draft: false
 date: 2020-04-30T04:02:37.816Z
 description: >-
-    This release is a special one because its has been the most requested feature. It makes sense since so much of the Ethereum space uses IPFS for their sites and apps. This release brings the IPFS community ENS Domains! 
+    This release brings the IPFS community ENS Domains! Since so much of the Ethereum space uses IPFS for their sites and apps, ENS support has been one of our most requested features.
 category: "Announcement"
 socialImage: /Release-Update-UI-rebrand.png
 tags:
@@ -19,7 +19,7 @@ This release is a special one because its has been the most requested feature. I
 
 # ENS Domain Support
 
-You can now easily point an ENS domain to your IPFS site and automatically update for future deployments. We are all about the deployment and developer experience and thats why we have made this the most seamless flow possible. Just Add your ENS and make one transaction that makes us a "controller." ENS provides this role that fits perfectly for this type of experience. You continue to own your ENS domain with full control and just delegate the day to day operation to Fleek. [Check out](https://fleekhq.eth/) our homepage on ENS!
+You can now easily point an ENS domain to your IPFS site and have the content automatically update for future deployments. Input your ENS domain and make one transaction, we'll take care of it for you from there. We use the ENS smart contract's "controller" role that keeps you in full control and ownership of your ENS domain, while you delegate the day to day operations to Fleek. [Check out](https://fleekhq.eth/) our Homepage on ENS! Whenever we make updates to our Homepage, Fleek handles updating the content to our ENS Domain.
 
 
 ![](media/ENS.gif)
@@ -27,13 +27,13 @@ You can now easily point an ENS domain to your IPFS site and automatically updat
 
 # Other Updates
 
-We've released a few other bugs and enhancements while helping out current users on the platform. We pride ourselves in a great user experience including getting in touch with us and receiving support for Fleek whenever you need it. 
+We've released a few other bugs and enhancements while assisting our current users. We pride ourselves on providing great customer support and the feedback has been invaluable. 
 
-We are speaking about an even more major release next week at the [IPFS Pinning Summit](https://ipfspinningsummit.com/)! That has also been a major focus of ours since our last release and we're excited to share it soon. Through the rest of this week and next we already have some upgrades to the ENS experience we plan to release.
+We've been working on a major release that you can learn about at our next talk at the [IPFS Pinning Summit](https://ipfspinningsummit.com/)! Thanks IPFS for the speaking invitation and congrats on an incredible 0.5 protocol upgrade! 
 
 # Stay Tuned!
 
-Thanks so much for reading Fleek release updates. Sign back in and check out them out!
+Thanks you for reading our release updates. Sign back in and check out them out yourself!
 
 * [Sign up](https://app.fleek.co) to try for yourself
 * [Join](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A) the #community slack channel
