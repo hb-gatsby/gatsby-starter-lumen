@@ -2,7 +2,7 @@
 template: post
 title: Immutable Links in IPFS - IPNS vs DNSLink VS ENS
 slug: immutable-ipfs
-draft: false
+draft: true
 date: 2020-05-04T04:02:37.816Z
 description: >-
     How can immutable links be generated for IPFS websites? What is IPNS, DNS Link and ENS?
