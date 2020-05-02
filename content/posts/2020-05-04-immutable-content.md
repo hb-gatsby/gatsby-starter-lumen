@@ -5,15 +5,15 @@ slug: immutable-ipfs
 draft: false
 date: 2020-05-04T04:02:37.816Z
 description: >-
-    How can immutable links be generated for IPFS? What is IPNS, DNS Link and ENS?
+    How can immutable links be generated for IPFS websites? What is IPNS, DNS Link and ENS?
 category: "General"
-socialImage: ./media/FleekOnFleek/socialImage.png
+socialImage: ./media/ImmutableLinks/thumbnail.png
 tags:
   - General
   - Informational
 ---
 
-![](./media/FleekOnFleek/socialImage.png)
+![](./media/ImmutableLinks/thumbnail.png)
 
 We tend to take immutability for granted when navigating the web. For example, if I invited you to visit Fleek's homepage, I'd give you the following link: <https://fleek.co>. This link never changes, that is why I can share it with you.
 
@@ -31,10 +31,10 @@ What would happen if we made an update, such as fixing a typo or adding more con
 
 For example, it could become: `QmRW3V9znzFW9M5FYbitSEvd5dQrPWGvPvgQD6LM22Tv8e`.
 
-If I wanted to share the Fleek homepage with you, it would be impossible to point you to a single link because the hash would change anytime I updated the site. That is because we want an *immutable* link to share my site, even though the website itself is *mutable*.
+If I wanted to share the Fleek homepage with you, it would be impossible to point to a single link because the hash would change anytime I updated the site. That is because we want an *immutable* link to share the site, even though the content of the website itself is *mutable*.
 
 
-This mutable vs immutable distinction is comparable to a real-life address and a house. If I wanted to invite you to a party at my house, I would share to you an *immutable link* in the form of the address of the house. However, the content of the house is *mutable*, because we do not know which guest has arrived yet!
+This mutable vs immutable distinction is comparable to the address of a house. If I invited you to a party at my house, I would share with you an *immutable link* in the form of the address of the house. However, the content of the house is *mutable*, because we do not know which guest has arrived yet!
 
 So how to we create immutable link to content hosted on IPFS, if a new hash is created everytime an update occurs?
 
