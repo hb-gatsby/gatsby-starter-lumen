@@ -1,6 +1,6 @@
 ---
 template: post
-title: Immutable Links in IPFS - IPNS vs DNSLink VS ENS
+title: Immutable Links in IPFS - IPNS vs DNSLink vs ENS
 slug: immutable-ipfs
 draft: false
 date: 2020-05-04T04:02:37.816Z
