@@ -47,7 +47,7 @@ IPFS addresses all of the aforementioned problems and is the Web3 that will allo
 
 IPFS consists of an amalgamation of innovations in areas such as cryptography and distributed technology, attempting to be a replacement of the HTTP protocol and a departure from the client-server architecture described above.
 
-Unlike HTTP, IPFS uses a DHT(distributed hash table) to fetch its data through a **peer-to-peer network**. This works a bit like BitTorrent, a popular file-sharing protocol. For IPFS, the protocol is called BitSwap. Files are cut in many chunks and organized in a special structure called a Merkle dag which allows each piece to be securely shared in a network peers. Just like in BitTorrent, the data is still available if a peer goes down. This removes the problem of having a single central server doing all the processing and the risks of that one server going down, which, in turn, creates a more robust internet infrastructure. And with reliance on a network of peers rather than a central server, the data is censorship-resistant since removing the data would require removing the data from every single peer possessing that data, which is infeasible.
+Unlike HTTP, IPFS uses a DHT(distributed hash table) to fetch its data through a **peer-to-peer network**. This works a bit like BitTorrent, a popular file-sharing protocol. For IPFS, the protocol is called BitSwap. Files are cut in many chunks and organized in a special structure called a Merkle dag which allows each piece to be securely shared in a network peer. Just like in BitTorrent, the data is still available if a peer goes down. This removes the problem of having a single central server doing all the processing and the risks of that one server going down, which, in turn, creates a more robust internet infrastructure. And with reliance on a network of peers rather than a central server, the data is censorship-resistant since removing the data would require removing the data from every single peer possessing that data, which is infeasible.
 
 ![](./media/intro/intro2.jpg)
 
@@ -55,13 +55,13 @@ Another innovation lies in the use of **content addressing** vs location address
 
 Content addressing, on the other hand, identifies files through a unique identifier, called CID. The CID contains the unique fingerprint of the file produced through cryptographic hashing, which are mathematical functions behind much of today’s encrypted systems. In other words, once the user receives the file, he can run it through a series of calculations and verify that it matches the CID he requested. If both the computed CID and the requested CID match, we know there is nothing to worry about regarding data integrity.
 
-Also, since we are searching for the content of a file, rather than its location, the file can be served from any peers, even those in close proximity. Imagine being served a file by a neighbour a few hundred meters away instead of a server in another country. Isn’t it considerably faster that way?
+Also, since we are searching for the content of a file, rather than its location, the file can be served from any peers, even those nearby. Imagine being served a file by a neighbor a few hundred meters away instead of a server in another country. Isn’t it considerably faster that way?
 
-The combination of the peer to peer network and content addressing solves the three problems highlighted above with Web1 and Web2 architectures and allows the internet to be **efficient, secure and censorship-resistant**.
+The combination of the peer to peer network and content addressing solves the three problems highlighted above with Web1 and Web2 architectures and allows the internet to be **efficient, secure, and censorship-resistant**.
 
 ## Wait! There’s more!
 
-We have but scratched the surface of the technology and innovation behind IPFS. It is already a vibrant ecosystem bustling with interesting ideas and projects. However, the summary above should give you a good understanding of why IPFS is needed, why it will radically change the way the internet operates and why it is generating so much interest.
+We have but scratched the surface of the technology and innovation behind IPFS. It is already a vibrant ecosystem bustling with interesting ideas and projects. However, the summary above should give you a good understanding of why IPFS is needed, why it will radically change the way the Internet operates, and why it is generating so much interest.
 
 ## Connect with Fleek team
 * [Sign up](https://app.fleek.co) to try yourself
