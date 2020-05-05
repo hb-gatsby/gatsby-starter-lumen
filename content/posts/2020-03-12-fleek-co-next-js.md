@@ -6,7 +6,7 @@ draft: false
 date: 2020-03-12T14:06:38.733Z
 description: >-
   We’ll create a Next.js app and deploy it on Fleek. This whole process
-  should take 10 minutes.
+  It should take 10 minutes.
 category: Tutorial
 socialImage: ./media/nextjs/Next.png
 tags:
@@ -111,7 +111,7 @@ git add, commit, push
 
 ### Step 2: Set Up Fleek
 
-Sign into: https://app.fleek.co/
+Sign into https://app.fleek.co/
 
 Sign in with Github
 
@@ -139,7 +139,7 @@ Publish directory: `out`
 
 Of course, fleek will autodetect next-js and enter those configurations automatically. :P
 
-It's worth nothing that the docker image `fleek/next-js` runs the most recent version of node.js by default, which, by the time of this writing, is version 13.
+It's worth noting that the docker image `fleek/next-js` runs the most recent version of node.js by default, which, by the time of this writing, is version 13.
 
 If you need to use another node version, you can do so via the docker tag.
 EG: For node 10, use `fleek/next-js:node-10`
@@ -164,7 +164,7 @@ Or verify with the CID.
 
 ### Step 3: Updates
 
-Fleek will automatically redeploy your website whenever you make changes on GitHub. Make sure to provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
+Fleek will automatically redeploy your website whenever you make changes to GitHub. Make sure to provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
 
 * [Sign up](https://app.fleek.co) to try yourself
 * Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
