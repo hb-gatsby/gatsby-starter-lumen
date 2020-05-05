@@ -5,8 +5,7 @@ slug: Gatsby-Fleek
 draft: false
 date: 2020-03-19T04:02:37.816Z
 description: >-
-  Gatsby allows for the creation of static sites in a simple, straightforward
-  manner. In this tutorial, we will show you how to create a Gatsby project and
+  Gatsby allows for the creation of static sites in a simple, straightforward manner. In this tutorial, we will show you how to create a Gatsby project and
   deploy it to IPFS thanks to Fleek.
 category: Guide
 socialImage: ./media/GatsbySocialimage.png
@@ -39,13 +38,13 @@ Beautiful!
 
 ## Deploying Through Fleek
 
-We must create a github repository to store our site so Fleek can pick it up. For this tutorial, we will use the following repo:  https://github.com/SamueleA/gatsby-fleek
+We must create a GitHub repository to store our site so Fleek can pick it up. For this tutorial, we will use the following repo:  https://github.com/SamueleA/gatsby-fleek
 
 Now, we must log to Fleek and add a new site.
 
 ![](./media/gatsby2.png)
 
-We select the github repo containing the Gatsby project.
+We select the GitHub repo containing the Gatsby project.
 
 ![](./media/gatsby3.png)
 
