@@ -55,7 +55,7 @@ And that is all! Once the site is done deploying, which should take around a min
 
 ## Share!
 
-Congratulations! Your content is now deployed and a part of IPFS! Your cool site can be shared with the world either with the Fleek-provided URL, or by adding one of your own domains to Fleek, or through IPFS by clicking on “Verify on IPFS”. You can now be confident that your site is safe and untouchable on IPFS!
+Congratulations! Your content is now deployed and a part of IPFS! Your cool site can be shared with the world either with the Fleek-provided URL, or by adding one of your domains to Fleek, or through IPFS by clicking on “Verify on IPFS”. You can now be confident that your site is safe and untouchable on IPFS!
 
 * [Sign up](https://app.fleek.co) to try yourself
 * Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
