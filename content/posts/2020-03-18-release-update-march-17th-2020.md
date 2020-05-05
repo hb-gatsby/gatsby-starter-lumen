@@ -5,12 +5,8 @@ slug: release+update+3+17+20
 draft: false
 date: 2020-03-17T12:18:31.636Z
 description: >-
-  Its been a few weeks of 150+ onboarding calls with users excited to get their
-  hands on Fleek. The feedback has been resounding and very appreciated. The
-  Starter team plan comes with a full set of hosting and DNS features. Now we
-  are releasing the Pro team plan that includes more build minutes, more
-  bandwidth, and more sites per month. The Pro team plan will also include team
-  features soon.
+  Its been a few weeks of 150+ onboarding calls with users excited to get their hands on Fleek. The feedback has been resounding and very appreciated. The
+  The starter team plan comes with a full set of hosting and DNS features. Now we are releasing the Pro team plan that includes more build minutes, more bandwidth, and more sites per month. The Pro team plan will also include team features soon.
 category: Release
 socialImage: ./Release-Update-Pro-plan.png
 tags:
@@ -24,13 +20,13 @@ Its been a few weeks of 250+ onboarding calls with users and tons of IPFS deploy
 
 ### Pro Team Plan
 
-The Pro team plan to start includes up to 20 sites, 750 build minutes, and 100 GB Bandwidth. There's even more coming to the Pro plan for the next release including Team features. [Check out](https://Fleek.co/pricing) the pricing page for more details!
+The Pro team plan to start includes up to 20 sites, 750 build minutes, and 100 GB Bandwidth. There's, even more, coming to the Pro plan for the next release including Team features. [Check out](https://Fleek.co/pricing) the pricing page for more details!
 
 ![](./media/Screen Shot 2020-03-17 at 11.32.41 PM.png)
 
 ### Billing Page
 
-The Billing page has usage metric, payment method, and billing contact info. The usage metrics track the amount of build minutes and bandwidth used for the month. You can add/change your payment method details and billing contact info.
+The Billing page has a usage metric, payment method, and billing contact info. The usage metrics track the amount of build minutes and bandwidth used for the month. You can add/change your payment method details and billing contact info.
 
 ![](./media/Screen Shot 2020-03-17 at 11.36.57 PM.png)
 
