@@ -5,9 +5,7 @@ slug: fleek-create-react-app
 draft: false
 date: 2020-03-10T02:38:34.993Z
 description: >-
-  A React application can be bootstrapped in a matter of minutes with
-  create-react-app. Fleek allows apps to be deployed to IPFS in a matter of
-  minutes. These two go together like peanut butter and jelly, allowing for
+  A React application can be bootstrapped in a matter of minutes with create-react-app. Fleek allows apps to be deployed to IPFS in a matter of minutes. These two go together like peanut butter and jelly, allowing for
   development and deployment to be complete in a flash.
 category: Tutorial
 socialImage: ./media/CreateReactAppSocialimage.png
@@ -81,7 +79,7 @@ Finally, we need to make a slight modification to the package.json file by addin
 }
 ```
 
-This will make it so the page will also work on IPFS gateways whose urls are in the format `/ipfs/HASH`
+This will make it so the page will also work on IPFS gateways whose URLs are in the format `/ipfs/HASH`
 
 Fleek will grab the application from your github repo, so the next thing to do is to create a github repository with our app in it.This is the repo for the app above: <https://github.com/SamueleA/create-react-app-ipfs-deploy>Feel free to fork it.Let’s deploy it now!
 
