@@ -81,7 +81,7 @@ Finally, we need to make a slight modification to the package.json file by addin
 
 This will make it so the page will also work on IPFS gateways whose URLs are in the format `/ipfs/HASH`
 
-Fleek will grab the application from your github repo, so the next thing to do is to create a github repository with our app in it.This is the repo for the app above: <https://github.com/SamueleA/create-react-app-ipfs-deploy>Feel free to fork it.Let’s deploy it now!
+Fleek will grab the application from your GitHub repo, so the next thing to do is to create a GitHub repository with our app in it. This is the repo for the app above: <https://github.com/SamueleA/create-react-app-ipfs-deploy>Feel free to fork it. Let’s deploy it now!
 
 ### Step 2: Deploying the App Through Fleek
 
@@ -89,7 +89,7 @@ Upon first signing up on Fleek, we are asked to add a new site.
 
 ![](./media/3-add-site.png)
 
-Next, we input additional information such as the repo branch, the build commands and the build directory. Luckily for us, the default values will work perfectly so there is no need to change anything. Clicking the “Deploy Site” button at the bottom will commence the deployment.
+Next, we input additional information such as the repo branch, the build commands, and the build directory. Luckily for us, the default values will work perfectly so there is no need to change anything. Clicking the “Deploy Site” button at the bottom will commence the deployment.
 
 Note: The default docker image is `fleek/create-react-app` which runs the latest node.js version (13 as of this writing). If you have an app requiring another version, you can specify it in the docker tag. EG: For node 10, `fleek/create-react-app:node-10`
 
