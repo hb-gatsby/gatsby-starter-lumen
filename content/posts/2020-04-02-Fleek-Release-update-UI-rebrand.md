@@ -37,7 +37,7 @@ Using a .fleek.json configuration file, placed at the root of a git repository, 
 
 ### Framework Auto-detection 
 
-Fleek reads your package.json, Fleek configuration file, or other deployment services config files (ex. Netlify's toml) to auto-fill your build settings for deployments. We detect the framework you're using an auto select the correct build settings you should use to deploy, whether its Gatsby, Hugo, Nextjs, etc. Of course its still completely customizable and you can even bring your own dockerfile. We've made your deployment experience as seamless as it can possibly be.
+Fleek reads your package.json, Fleek configuration file, or other deployment services config files (ex. Netlify's toml) to auto-fill your build settings for deployments. We detect the framework you're using auto-select the correct build settings you should use to deploy, whether its Gatsby, Hugo, Nextjs, etc. Of course, it's still completely customizable and you can even bring your own docker file. We've made your deployment experience as seamless as it can possibly be.
 
 ![](./media/Rebrand-release/frameworkDropdown.png)
 ![](./media/Rebrand-release/GatsbyPrefilledSettings.png)
@@ -56,10 +56,10 @@ We cut off build time from future deployments by caching docker images that have
 ## Bugs
 
 ### Auto-deployment Subscription
-When you deploy to your git provider, your list of deploys in the Fleek UI will update immediately and without touching a button. We wanted to make sure the auto-deployments are fast and a smooth experience.
+When you deploy to your git provider, your list of deploys in the Fleek UI will update immediately and without touching a button. We wanted to make sure the auto-deployments are fast and smooth experience.
 
 ### Validate Environment Variables
-We're now ensuring that before you deploy, if your environment variables are going to cause a deployment issue we show you the error message before you even try so you dont waste your time.
+We're now ensuring that before you deploy if your environment variables are going to cause a deployment issue we show you the error message before you even try so you dont waste your time.
 
 ### Deployment Logs Loading 
 We fixed up the UI and Log subscription to pull in the logs nice and smooth. You may have noticed before that the deployment logs container that displays the logs might glitch up and down a bit with fast incoming logs. Fixed!
