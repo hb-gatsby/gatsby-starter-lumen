@@ -7,9 +7,7 @@ slug: Release-update-1
 draft: false
 date: 2020-03-05T04:30:23.237Z
 description: >-
-  We are currently in private beta and from all the amazing feedback from our
-  groundfloor users, we have released several updates that focus on improving
-  the deployment process. We've also enhanced the experience all around the app
+  We are currently in private beta and from all the amazing feedback from our groundfloor users, we have released several updates that focus on improving the deployment process. We've also enhanced the experience all around the app
   and fixed many bugs.
 category: Release
 socialImage: ./Release-Update-Docker.png 
@@ -26,7 +24,7 @@ From starting the private beta a couple of weeks ago we have already onboarded 1
 
 ##### Custom Docker Images (BYOD: Bring Your Own Dockerfile):
 
-Before your app or site is deployed onto IPFS it is built using docker images. We already store many docker images that support the most popular frameworks (Create React App, NextJS, GatsbyJS, etc.), however there are many different frameworks, web servers, languages, versions, etc. so being able to pull your own docker image for the build process makes it easy and can support any custom configurations.
+Before your app or site is deployed onto IPFS it is built using docker images. We already store many docker images that support the most popular frameworks (Create React App, NextJS, GatsbyJS, etc.), however, there are many different frameworks, web servers, languages, versions, etc. so being able to pull your own docker image for the build process makes it easy and can support any custom configurations.
 
 ![](./media/Screen Shot 2020-03-05 at 12.01.29 AM.png "Dockerfile upload component")
 
