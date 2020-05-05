@@ -4,7 +4,7 @@ title: Deploy and Host your site on IPFS Using Fleek
 slug: fleek helloWorld
 draft: false
 date: 2020-03-06T03:02:20.010Z
-description: Create and deploy static website using Fleek and IPFS
+description: Create and deploy a static website using Fleek and IPFS
 category: Tutorial
 socialImage: ./HelloWorld.png 
 tags:
@@ -17,7 +17,7 @@ tags:
 
 We're going to deploy a site onto IPFS in under 30 seconds using [Fleek](http://Fleek.co/). Let's get started!
 
-If you dont have a site or app handy in a github repo, let's create a simple `index.html`. If you do, just skip directly to STEP 2. 
+If you don't have a site or app handy in a GitHub repo, let's create a simple `index.html`. If you do, just skip directly to STEP 2. 
 
 Fleek will connect to your git provider and auto detect whatever framework your site is using for a quick deployment (you can also customize build settings if you'd like).
 
