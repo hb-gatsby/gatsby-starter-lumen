@@ -19,14 +19,14 @@ We're going to deploy a site onto IPFS in under 30 seconds using [Fleek](http://
 
 If you don't have a site or app handy in a GitHub repo, let's create a simple `index.html`. If you do, just skip directly to STEP 2. 
 
-Fleek will connect to your git provider and auto detect whatever framework your site is using for a quick deployment (you can also customize build settings if you'd like).
+Fleek will connect to your git provider and auto-detect whatever framework your site is using for quick deployment (you can also customize build settings if you'd like).
 
 ![](./media/Rebrand-release/GatsbyPrefilledSettings.png)
 
 
 ## Step 1: Set Up a Repo on Github
 
-Create an empty repository, clone it and start coding.
+Create an empty repository, clone it, and start coding.
 
 ![](./media/image 2.png)
 
@@ -38,7 +38,7 @@ add, commit, push (you know the drill)
 
 ![](./media/image 4.png)
 
-Now you’re repository is ready to go!
+Now your repository is ready to go!
 
 ![](./media/image 5.png)
 
