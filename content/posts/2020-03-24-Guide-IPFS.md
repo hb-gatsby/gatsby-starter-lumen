@@ -5,7 +5,7 @@ slug: Guide-IPFS
 draft: false
 date: 2020-03-24T04:02:37.816Z
 description: >-
-  IPFS presents itself as a radical innovation whose aim is to reshape the entire web as we know it into a system that is more secure, efficient and reliable.
+  IPFS presents itself as a radical innovation whose aim is to reshape the entire web as we know it into a system that is more secure, efficient, and reliable.
 category: Tutorial
 socialImage: ./media/intro/IPFS.png
 tags:
@@ -17,15 +17,15 @@ tags:
 “You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete.”
 ― Buckminster Fuller
 
-IPFS presents itself as a radical innovation whose aim is to reshape the entire web as we know it into a system that is more secure, efficient and reliable. This is not science fiction. IPFS is in active development and companies are already using it to solve real world problems, including [Netflix](https://www.youtube.com/watch?v=wNfk05D887M). It is only a matter of time before IPFS gains wide adoption.
+IPFS presents itself as a radical innovation whose aim is to reshape the entire web as we know it into a system that is more secure, efficient, and reliable. This is not science fiction. IPFS is in active development and companies are already using it to solve real-world problems, including [Netflix](https://www.youtube.com/watch?v=wNfk05D887M). It is only a matter of time before IPFS gains wide adoption.
 
-But what is IPFS exactly and why should we care? In this article, we’ll answer this question in a straightforward manner. We will see the problems inherent with the web’s current architecture and discuss how IPFS addresses those issues.
+But what is IPFS exactly and why should we care? In this article, we’ll straightforwardly answer this question. We will see the problems inherent with the web’s current architecture and discuss how IPFS addresses those issues.
 
 ## The Internet Trilogy: Return of the Web
 
-You might have heard the term Web3 thrown around in association to IPFS. It means web3 as in the third version of the web. But this begs the question: What is Web1 and Web2 and what does IPFS bring to the table?
+You might have heard the term Web3 thrown around in association with IPFS. It means web3 as in the third version of the web. But this begs the question: What are Web1 and Web2 and what does IPFS bring to the table?
 
-Web1 corresponds to a simple static web page. Think of a simple company page with a description of the products and services and some contact information whose functionality is limited to fetching a web page and displaying information. Web2, on the other hand, describes a more sophisticated client-server architecture powering many of our modern web applications, in which content constantly updates and changes dynamically. Think twitter, facebook and other apps in which users can create accounts and post content.
+Web1 corresponds to a simple static web page. Think of a simple company page with a description of the products and services and some contact information whose functionality is limited to fetching a web page and displaying information. Web2, on the other hand, describes a more sophisticated client-server architecture powering many of our modern web applications, in which content constantly updates and changes dynamically. Think twitter, Facebook, and other apps in which users can create accounts and post content.
 
 Both Web1 and Web2 both work on HTTP. HTTP is the method of communication of the current internet. Most web browsers communicate through HTTP and it is the reason why web addresses are often prefixed with http://. This method of communication (also called a protocol) requires a client to request data to a server. For instance, let’s say you wish to connect to facebook. The client, your web browser, will ask the server, facebook’s servers, for a copy of the facebook web application. The server will then respond with the data. Similarly, fetching posts and images is done through a series of requests and responses.
 
