@@ -1,27 +1,27 @@
 ---
 template: post
-title: Immutable Links in IPFS - IPNS vs DNSLink VS ENS
+title: Constant Links in IPFS - IPNS vs DNSLink VS ENS
 slug: immutable-ipfs
-draft: true
+draft: false
 date: 2020-05-04T04:02:37.816Z
 description: >-
-    How can immutable links be generated for IPFS websites? What is IPNS, DNS Link and ENS?
+    How can constant links be generated for IPFS websites? What is IPNS, DNS Link and ENS?
 category: "General"
-socialImage: ./media/ImmutableLinks/thumbnail.png
+socialImage: ./media/ConstantLinks/thumbnail.png
 tags:
   - General
   - Informational
 ---
 
-![](./media/ImmutableLinks/thumbnail.png)
+![](./media/ConstantLinks/thumbnail.png)
 
-We tend to take immutability for granted when navigating the web. For example, if I invited you to visit Fleek's homepage, I'd give you the following link: <https://fleek.co>. This link never changes, that is why I can share it with you.
+We tend to take constant links for granted when navigating the web. For example, if I invited you to visit Fleek's homepage, I'd give you the following link: <https://fleek.co>. This link never changes, that is why I can share it with you.
 
-In this article, we will explain how immutable links, such as the one above, are achieved in IPFS.
+In this article, we will explain how constant links, such as the one above, are achieved in IPFS.
 
-# Mutable vs Immutable Links
-![](./media/ImmutableLinks/house.jpg)
-*Immutable links are like the address of a house*
+# Constant vs Changing Links
+![](./media/ConstantLinks/house.jpg)
+*Constant links are like the address of a house*
 
 Content in IPFS is addressed by its content in the form of a hash. This is of great importance for the hosting of IPFS site. 
 
@@ -31,16 +31,16 @@ What would happen if we made an update, such as fixing a typo or adding more con
 
 For example, it could become: `QmRW3V9znzFW9M5FYbitSEvd5dQrPWGvPvgQD6LM22Tv8e`.
 
-If I wanted to share the Fleek homepage with you, it would be impossible to point to a single link because the hash would change anytime I updated the site. That is because we want an *immutable* link to share the site, even though the content of the website itself is *mutable*.
+If I wanted to share the Fleek homepage with you, it would be impossible to point to a single link because the hash would change anytime I updated the site. That is because we want an *constant* link to share the site, even though the content of the website itself is *changing*.
 
 
-This mutable vs immutable distinction is comparable to the address of a house. If I invited you to a party at my house, I would share with you an *immutable link* in the form of the address of the house. However, the content of the house is *mutable*, because we do not know which guest has arrived yet!
+This constant vs changing distinction is comparable to the address of a house. If I invited you to a party at my house, I would share with you an *constant link* in the form of the address of the house. However, the content of the house is *changing*, because we do not know which guest has arrived yet!
 
-So how to we create immutable link to content hosted on IPFS, if a new hash is created everytime an update occurs?
+So how to we create constant link to content hosted on IPFS, if a new hash is created everytime an update occurs?
 
 There are three main solutions to this problem.
 
-## 1. IPNS: Immutable Hashes
+## 1. IPNS: Constant Hashes
 IPNS links use public-key crytography to produce a hash that links to an IPFS hash.
 They can look just like IPFS hashes: `QmSrPmbaUKA3ZodhzPWZnpFgcPMFWF4QsxXbkWfEptTBJd`.
 
