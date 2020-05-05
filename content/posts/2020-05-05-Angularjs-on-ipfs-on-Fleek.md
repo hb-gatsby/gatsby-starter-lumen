@@ -5,12 +5,12 @@ slug: angularjs-on-ipfs-on-fleek
 draft: false
 date: 2020-05-05T04:02:37.816Z
 description: >-
-  Get started with deploying your AnhularJS app on IPFS on Fleek
+  Get started with deploying your AngularJS app on IPFS on Fleek
 category: Tutorial
 socialImage: ./media/angular/hero.png
 tags:
   - general
-  - nuxtjs
+  - angularjs
   - ipfs
   - getting started
 ---
