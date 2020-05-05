@@ -30,7 +30,7 @@ Get your AngularJS app sailing on the IPFS. In this short tutorial, we will lear
 
 # Install Angular CLI
 
-Before you can make any comand work with any angular project or even run your own angular project, you would have to  install the `angular-cli` using the comand below, this comand installs the `angular-cli` globally on your system.
+Before you can make any command work with any angular project or even run your angular project, you would have to install the `angular-cli` using the command below, this command installs the `angular-cli` globally on your system.
 
 ```
 npm install -g @angular/cli
@@ -38,29 +38,29 @@ npm install -g @angular/cli
 
 ## Creating an Angular Project
 
-Once the first step is done, you would have to create an angular project using the comand below
+Once the first step is done, you would have to create an angular project using the command below
 
 ```
 ng new your-app-name
 ```
 
-This comand will bootstarap a complete AngularJS app for you, you would also be prompted if you would like to add Angular routing, that should be a yes and also the kind of css style you would like to use for example, CSS, SCSS, LESS and the likes. You can see a picture of my process below
+This command will bootstrap a complete AngularJS app for you, you would also be prompted if you would like to add Angular routing, that should be a yes and also the kind of css style you would like to use, for example, CSS, SCSS, LESS, and the likes. You can see a picture of my process below
 
 ![](images/angular/terminal.png)
 
-Once that is done creacting the next step is to enter into the directory of the app you are working on using the comand below
+Once that is done creating the next step is to enter into the directory of the app you are working on using the command below
 
 ```
 cd your-app-name
 ```
 
-Start your angular projcet using the comand below
+Start your angular project using the command below
 
 ```
 ng serve --open
 ```
 
-This command will start the Angular project and open up right away in your browser one the privew on `http://localhost:4200/` is ready
+This command will start the Angular project and open up right away in your browser one the preview on `http://localhost:4200/` is ready
 
 
 ![](images/angular/1.png)
@@ -84,3 +84,16 @@ Upon deployment, Fleek will automatically assign a default URL to the site.
 Here is mine: 
 
 ![](images/angular/3.png)
+
+## Congratulations!
+
+Congrats! You've just joined the family by deploying an Angular app to IPFS with Fleek.
+
+We love to see what our users come up with. Do not hesitate to share your work with us by tweeting your deployed site!
+
+* [Sign up](https://app.fleek.co) to try for yourself
+* [Join](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A) our Community Chat
+* [Follow](https://twitter.com/FleekHQ) us on Twitter
+* [Read](https://docs.fleek.co/) out our Tech Docs
+* Contact us at support@fleek.co 
+
