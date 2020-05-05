@@ -99,11 +99,11 @@ The deployment is in progress! In a few minutes, we’ll have access to our depl
 
 ![](./media/5reactapp.png)
 
-Success! The deployment worked and the yellow indicator at the top turned blue and a clickable url ending in .tmnl.co appeared. This url is provided by Fleek and it points to the IPFS deployment.
+Success! The deployment worked and the yellow indicator at the top turned blue and a clickable URL ending in .tmnl.co appeared. This URL is provided by Fleek and it points to the IPFS deployment.
 
 ![](./media/6-og-success.png)
 
-Here is the link to see the result: <https://polished-hat-0578.on.fleek.co/> You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory. Creating the default react app and deploying it to IPFS literally takes less than 10 minutes, so I invite you to create and deploy your own application by signing up for [Fleek](https://app.fleek.co).
+Here is the link to see the result: <https://polished-hat-0578.on.fleek.co/> You can also click on the “Verify on IPFS” link which will lead you to an IPFS gateway using the IPFS hash, where the app can be admired in all its distributed, uncensorable glory. Creating the default react app and deploying it to IPFS takes less than 10 minutes, so I invite you to create and deploy your application by signing up for [Fleek](https://app.fleek.co).
 
 **\
 Documentation** 
