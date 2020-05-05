@@ -29,11 +29,11 @@ Next, search for the plugin called “WP2Static”, download it and activate it.
 
 ![](./media/wordpress2.png)
 
-The plugin will create a new menu option on the left-hand side menu name “W2PStatic”.When clicking on it, we must fill the form as shown in the image below by selecting “Zip archive (.zip)” in the dropdown menu and checking the “Allow offline usage” option. This will create a zip archive with no preset root path which will render the site’s paths compatible with the IPFS deployment.After that, click “Start static site export”, wait until the export is done and download the file via the “Download ZIP” button.
+The plugin will create a new menu option on the left-hand side menu name “W2PStatic”.When clicking on it, we must fill the form as shown in the image below by selecting the “Zip archive (.zip)” in the dropdown menu and checking the “Allow offline usage” option. This will create a zip archive with no preset root path which will render the site’s paths compatible with the IPFS deployment. After that, click “Start static site export”, wait until the export is done, and download the file via the “Download ZIP” button.
 
 ![](./media/wordpress3.png)
 
-Finally, the downloaded file can be unzipped. The folder contains the totality of the Wordpress Site. Next step is to push it to IPFS!
+Finally, the downloaded file can be unzipped. The folder contains the totality of the Wordpress Site. The next step is to push it to IPFS!
 
 ## Pushing the Site to IPFS through Fleek
 
