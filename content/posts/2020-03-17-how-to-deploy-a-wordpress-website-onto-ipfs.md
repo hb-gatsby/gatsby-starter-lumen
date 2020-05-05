@@ -5,8 +5,7 @@ slug: wordpress+fleek
 draft: false
 date: 2020-03-17T01:24:42.196Z
 description: >-
-  Fleek allows websites to easily find a home on IPFS where they can rest
-  readily accessible, permanent and uncensorable. In this tutorial, we will show
+  Fleek allows websites to easily find a home on IPFS where they can rest readily accessible, permanent, and uncensorable. In this tutorial, we will show
   you how simple it is to export a Wordpress site, host it on IPFS and share it
   with the world.
 category: Tutorial
@@ -18,11 +17,11 @@ tags:
 ---
 ![](./media/WordpressSocialImage.png)
 
-Fleek allows websites to easily find a home on IPFS where they can rest readily accessible, permanent and uncensorable. In this tutorial, we will show you how simple it is to export a Wordpress site, host it on IPFS and share it with the world. First, we will show how to export the site using a plugin and then we will upload the exported site to wordpress.
+Fleek allows websites to easily find a home on IPFS where they can rest readily accessible, permanent, and uncensorable. In this tutorial, we will show you how simple it is to export a Wordpress site, host it on IPFS and share it with the world. First, we will show how to export the site using a plugin and then we will upload the exported site to WordPress.
 
 ## Exporting the Wordpress Site as a Static Website
 
-First, we must install a plugin which will allow us to export the site’s HTML, CSS and JavaScript files.In the Wordpress site’s admin panel go to “Plugins” => “Add New” on the left-hand side menu.
+First, we must install a plugin that will allow us to export the site’s HTML, CSS, and JavaScript files. In the Wordpress site’s admin panel go to “Plugins” => “Add New” on the left-hand side menu.
 
 ![](./media/wordpress1.png)
 
