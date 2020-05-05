@@ -37,11 +37,11 @@ Finally, the downloaded file can be unzipped. The folder contains the totality o
 
 ## Pushing the Site to IPFS through Fleek
 
-Fleek will take care of deploying the site to IPFS. In order to allow Fleek to get the files, we must first push the exported site to [github](https://github.com/). To do so, simply create a new repository and follow the instructions. Once you are done, the result should look similar to the following repo: <https://github.com/SamueleA/wordpress-fleek>, with the index.html file in the root folder.Then, we log into Fleek and add a new site.
+Fleek will take care of deploying the site to IPFS. To allow Fleek to get the files, we must first push the exported site to [github](https://github.com/). To do so, simply create a new repository and follow the instructions. Once you are done, the result should look similar to the following repo: <https://github.com/SamueleA/wordpress-fleek>, with the index.html file in the root folder. Then, we log into Fleek and add a new site.
 
 ![](./media/wordpress4.png)
 
-We must authenticate with our github account and find the repo containing the Wordpress file.
+We must authenticate with our GitHub account and find the repo containing the Wordpress file.
 
 ![](./media/wordpress5.png)
 
@@ -55,7 +55,7 @@ And that is all! Once the site is done deploying, which should take around a min
 
 ## Share!
 
-Congratulations! Your content is now deployed and a part of IPFS! Your cool site can be shared with the world either with the Fleek-provided url, or by adding one of your own domains to Fleek, or through IPFS by clicking on “Verify on IPFS”. You can now be confident that your site is safe and untouchable on IPFS!
+Congratulations! Your content is now deployed and a part of IPFS! Your cool site can be shared with the world either with the Fleek-provided URL, or by adding one of your own domains to Fleek, or through IPFS by clicking on “Verify on IPFS”. You can now be confident that your site is safe and untouchable on IPFS!
 
 * [Sign up](https://app.fleek.co) to try yourself
 * Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
