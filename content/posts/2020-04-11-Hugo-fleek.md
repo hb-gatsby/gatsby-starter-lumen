@@ -75,10 +75,10 @@ There’s one called Terminal which looks nice so let’s use it. Here is the [t
 
 ![](./Hugo/hugo-themes.png)
 
-Clicking on Download will bring us to the [project’s github page](https://github.com/panr/hugo-theme-terminal). Now we need to get this theme in our blog. Here’s what the file structure of the project should look like right now:
+Clicking on Download will bring us to the [project’s GitHub page](https://github.com/panr/hugo-theme-terminal). Now we need to get this theme in our blog. Here’s what the file structure of the project should look like right now:
 
 ```
-tree .
+tree.
 
 .
 ├── archetypes
@@ -108,7 +108,7 @@ The theme is now installed! If you go to the themes folder, you will find “ter
 Let’s take a quick look at the site structure again.
 
 ```
-tree . -L 1
+tree. -L 1
 
 
 .
@@ -272,7 +272,7 @@ relativeUrls = true
         url = "https://gohugo.io"
 ```
 
-Please note the line `relativeUrls = true` which I added at the top. This line is important to make the blog work on IPFS gateways which use paths in their url in the format /ipfs/HASH. If you have issues having your site show CSS styling on an IPFS gateway, that's the line you are likely missing!
+Please note the line `relativeUrls = true` which I added at the top. This line is important to make the blog work on IPFS gateways which use paths in their URL in the format /ipfs/HASH. If you have issues having your site show CSS styling on an IPFS gateway, that's the line you are likely missing!
 
 And the result below:
 
@@ -291,7 +291,7 @@ hugo new posts/hello-world.md
 
 Now, a new file appeared in this location: `/content/posts/hello-world.md`.
 
-Why did we add the blog post to `/posts`? Because that’s what I could gather from looking at the `contentTypeName` variable in `config.toml`. So with this theme, it is `/posts`, but other themes might require posts to be at a different directory. Just make sure that the `config.toml` matches with the location of the blog posts.
+Why did we add the blog post to `/posts`? Because that’s what I could gather from looking at the `contentTypeName` variable in `config.toml`. So with this theme, it is `/posts`, but other themes might require posts to be at a different directory. Just make sure that the `config.toml` matches the location of the blog posts.
 
 So, let’s take a look at our newly created blog post.
 
@@ -299,7 +299,7 @@ So, let’s take a look at our newly created blog post.
 ---
 title: "Hello World"
 date: 2020-03-11T16:23:24-04:00
-draft: flase
+draft: false
 ---
 ```
 
