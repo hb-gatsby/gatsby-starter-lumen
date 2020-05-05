@@ -35,7 +35,7 @@ When creating a site, you can specify one of those images by filling the docker 
 
 ![](./media/Docker-hub-overview/3-gatsby-builds.png)
 
-Many frameworks rely on a specific Node.js version, otherwise the build fails. By default, our docker images will use the latest Node.js version available.
+Many frameworks rely on a specific Node.js version, otherwise, the build fails. By default, our docker images will use the latest Node.js version available.
 
 You can specify a specific Node version through the Docker tag. For example, look at the [repository for Gatsby](https://hub.docker.com/repository/docker/fleek/gatsby).
 
