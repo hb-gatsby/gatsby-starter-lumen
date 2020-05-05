@@ -24,6 +24,7 @@ Get your AngularJS app sailing on the IPFS. In this short tutorial, we will lear
 # Table of Contents
 - Install Angular CLI
 - Creating an Angular Project
+- Push to GitHub and Linking Fleek
 
 ```
 
@@ -53,5 +54,33 @@ Once that is done creacting the next step is to enter into the directory of the 
 cd your-app-name
 ```
 
+Start your angular projcet using the comand below
+
+```
+ng serve --open
+```
+
+This command will start the Angular project and open up right away in your browser one the privew on `http://localhost:4200/` is ready
 
 
+![](images/angular/1.png)
+
+# Push to GitHub and Linking Fleek
+
+The first step is to push the Angular app to Github. That will allow Fleek to gain access to your project for the deployment.
+
+In our case, I've pushed my project to this repo: https://github.com/Developerayo/angularjs-on-ipfs-on-fleek
+
+Now, we must log to fleek and create a new site and click/find the repo you created
+
+![](images/angular/2.png)
+
+Luckily for us, Fleek has automatically detected our Angular project and filled the build settings with the right information. All we have to do is click on `Deploy Site`.
+
+
+Let's wait a bit for the site to deploy. This should take no longer than a few minutes.
+
+Upon deployment, Fleek will automatically assign a default URL to the site. 
+Here is mine: 
+
+![](images/angular/3.png)
