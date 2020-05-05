@@ -45,7 +45,7 @@ hugo version
 In my case, the console returns the following:
 
 ```
-Hugo Static Site Generator v0.67.1/extended linux/amd64 BuildDate: unknown
+Hugo Static Site Generator v0.67.1/extended Linux/amd64 BuildDate: unknown
 ```
 
 
@@ -60,13 +60,13 @@ Run the command below to initialize a new project.
 hugo new site name_of_project
 ```
 
-Now that the project is created, change directory into the newly created project (`cd name_of_project`) . Now run this command inside the project:
+Now that the project is created, change directory into the newly created project (`cd name_of_project`). Now run this command inside the project:
 
 ```
 hugo server
 ```
 
-This will run your website on localhost with live reload by going to http://localhost:1313.
+This will run your website on the localhost with live reload by going to http://localhost:1313.
 But you might have noticed we are seeing....a blank screen. That’s because we still need to select a theme!
 
 ## Selecting a theme
