@@ -10,6 +10,7 @@ socialImage: ./media/Getting Started.png
 tags:
   - general
   - getting started
+  - fleek
 ---
 ![](./media/Getting Started.png)
 
