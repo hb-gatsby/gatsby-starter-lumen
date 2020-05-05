@@ -28,7 +28,7 @@ Earlier this year we successfully launched a new platform, announced a new compa
 
 We love the name Fleek and we feel it’s a perfect fit for our current platform, product, and future roadmap, so we hope you’ll love it as much as we do. It’s short, one syllable, fun to say, and most importantly it has no existing meaning in the developer world (but we look forward to giving it one).
 
-For users, the name change has no impact on the platform besides small cosmetic/design updates, so you can login and continue using the platform with your existing account as if nothing happened. Any existing tmnl.co subdomains you have in your account will still function as intended, and going forward any new sites you deploy will be given a fleek.co subdomain instead. The only other small changes are that emails will come from a fleek.co email from now on, and visiting terminal.co will auto-redirect you to fleek.co.
+For users, the name change has no impact on the platform besides small cosmetic/design updates, so you can log in and continue using the platform with your existing account as if nothing happened. Any existing tmnl.co subdomains you have in your account will still function as intended, and going forward any new sites you deploy will be given a fleek.co subdomain instead. The only other small changes are that emails will come from a fleek.co email from now on, and visiting terminal.co will auto-redirect you to fleek.co.
 
 As we begin our future as Fleek, we’d like to take this opportunity to thank our amazing users for all the feedback and support thus far, because without you none of this would be possible. We’ve got some super exciting stuff on the roadmap this year and can’t wait to share it with you all. 
 
