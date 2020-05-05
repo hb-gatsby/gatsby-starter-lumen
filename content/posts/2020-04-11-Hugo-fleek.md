@@ -303,7 +303,7 @@ draft: false
 ---
 ```
 
-Title and date correspond to the title of the blog post. Draft means the blog post is in draft mode and will, therefore, not show up in the blog. We can turn it to false in order to see the article once we are done writing our content.
+Title and date corresponding to the title of the blog post. Draft means the blog post is in draft mode and will, therefore, not show up in the blog. We can turn it to false to see the article once we are done writing our content.
 
 You might have noticed that the blog post’s extension is `.md`, signaling that the file is written in markdown. Markdown is a popular markup language. If you’ve never heard of it, check out this [cheat sheet](https://www.markdownguide.org/cheat-sheet/). Markdown is pretty straightforward and can get you productive immediately. Below, I’ve written a sample blog post.
 
@@ -335,7 +335,7 @@ But we want to share our content with the world ASAP, so let’s deploy the blog
 
 ## Deploying with Fleek
 
-First, we need to create a github repository and push all of our project’s content to the repo. It will look like this: https://github.com/SamueleA/hugo-fleek. Fleek will pull the repo’s content, build it and publish it.
+First, we need to create a GitHub repository and push all of our project’s content to the repo. It will look like this: https://github.com/SamueleA/hugo-fleek. Fleek will pull the repo’s content, build it, and publish it.
 
 Next, log in to your Fleek account and add a new site.
 
@@ -347,11 +347,11 @@ Select the repo containing the Hugo blog.
 
 Now we must enter the build settings. Luckily for us, Fleek auto-detects our Hugo settings and fills the fields for us. There is only one change we need to make. Remember how we added the Terminal theme as a git submodule? We'll have to take this factor into account by downloading the module before building with Hugo.
 
-So, we will modify the `build settings` for `git submodule update --init && hugo`.
+So, we will modify the `build settings` for `git submodule update --init && Hugo`.
 
 ![](./Hugo/3-settings-submodule.png)
 
-Next we click “DEPLOY SITE” and wait until completion of the deployment. The screen will look like this once it is done:
+Next, we click “DEPLOY SITE” and wait until the completion of the deployment. The screen will look like this once it is done:
 
 ![](./Hugo/4-success-deploy.png)
 
