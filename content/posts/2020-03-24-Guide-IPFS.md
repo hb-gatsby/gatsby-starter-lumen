@@ -37,9 +37,9 @@ Simply put, the internet is becoming a victim of its success and needs to be red
 
 Second, the system is **unsecure**. How do we know the data we asked for has not been tampered with? How do we know a hacker has not compromised facebook’s server or even intercepted our requests? With current web2 systems, it is impossible to interact with the web without making dangerous assumptions regarding the trustworthiness of its actors.
 
-Furthermore, our data might become inaccessible if some catastrophic incident ever occured to the server.
+Furthermore, our data might become inaccessible if some catastrophic incident ever occurred to the server.
 
-Finally, Web2 applications are susceptible to **censorship**. Basically, whoever controls the server, controls the data. This becomes an increasing cause of concern as our lives become intrinsically connected to the internet in the areas of information, business and even our social lives. Companies, governments and agencies can control which data people have access to, and thus, who is allowed to live digitally on the web.
+Finally, Web2 applications are susceptible to **censorship**. Whoever controls the server, controls the data. This becomes an increasing cause of concern as our lives become intrinsically connected to the internet in the areas of information, business, and even our social lives. Companies, governments, and agencies can control which data people have access to, and thus, who is allowed to live digitally on the web.
 
 IPFS addresses all of the aforementioned problems and is the Web3 that will allow the internet to grow further.
 
@@ -47,7 +47,7 @@ IPFS addresses all of the aforementioned problems and is the Web3 that will allo
 
 IPFS consists of an amalgamation of innovations in areas such as cryptography and distributed technology, attempting to be a replacement of the HTTP protocol and a departure from the client-server architecture described above.
 
-Unlike HTTP, IPFS uses a DHT(distributed hash table) to fetch its data through a **peer-to-peer network**. This works a bit like BitTorrent, a popular file sharing protocol. For IPFS, the protocol is called BitSwap. Files are cut in many chunks and organised in a special structure called a merkle dag which allows each piece to be securely shared in a network peers. Just like in BitTorrent, the data is still available if a peer goes down. This removes the problem of having a single central server doing all the processing and the risks of that one server going down, which, in turn, creates a more robust internet infrastructure. And with reliance on a network of peers rather than a central server, the data is censorship-resistant since removing the data would require removing the data from every single peer possessing that data, which is infeasible.
+Unlike HTTP, IPFS uses a DHT(distributed hash table) to fetch its data through a **peer-to-peer network**. This works a bit like BitTorrent, a popular file-sharing protocol. For IPFS, the protocol is called BitSwap. Files are cut in many chunks and organized in a special structure called a Merkle dag which allows each piece to be securely shared in a network peers. Just like in BitTorrent, the data is still available if a peer goes down. This removes the problem of having a single central server doing all the processing and the risks of that one server going down, which, in turn, creates a more robust internet infrastructure. And with reliance on a network of peers rather than a central server, the data is censorship-resistant since removing the data would require removing the data from every single peer possessing that data, which is infeasible.
 
 ![](./media/intro/intro2.jpg)
 
