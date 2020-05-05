@@ -63,7 +63,7 @@ Pagination has been added to the list of sites and lists of deploys. You may hav
 
 ## Thanks for Reading
 
-We're really excited to keep pushing out new releases and there's plenty more where that came from. Stay posted!
+We're excited to keep pushing out new releases and there's plenty more where that came from. Stay posted!
 
 * [Sign up](https://app.fleek.co) to try yourself
 * Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)
