@@ -2,7 +2,7 @@
 template: post
 title: AngularJS on IPFS on Fleek
 slug: angularjs-on-ipfs-on-fleek
-draft: true
+draft: false
 date: 2020-05-05T04:02:37.816Z
 description: >-
   Get started with deploying your AngularJS app on IPFS on Fleek
