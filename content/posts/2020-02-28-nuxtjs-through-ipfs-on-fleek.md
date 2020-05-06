@@ -13,7 +13,7 @@ tags:
   - ipfs
   - getting started
 ---
-![](images/nuxtjs/main.png)
+![](images/nuxtjs/main.png) 
 
 
 In this article, we will show you how to deploy your site built on NuxtJS and deploying using IPFS on Fleek 

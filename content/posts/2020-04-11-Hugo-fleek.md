@@ -45,7 +45,7 @@ hugo version
 In my case, the console returns the following:
 
 ```
-Hugo Static Site Generator v0.67.1/extended linux/amd64 BuildDate: unknown
+Hugo Static Site Generator v0.67.1/extended Linux/amd64 BuildDate: unknown
 ```
 
 
@@ -60,13 +60,13 @@ Run the command below to initialize a new project.
 hugo new site name_of_project
 ```
 
-Now that the project is created, change directory into the newly created project (`cd name_of_project`) . Now run this command inside the project:
+Now that the project is created, change directory into the newly created project (`cd name_of_project`). Now run this command inside the project:
 
 ```
 hugo server
 ```
 
-This will run your website on localhost with live reload by going to http://localhost:1313.
+This will run your website on the localhost with live reload by going to http://localhost:1313.
 But you might have noticed we are seeing....a blank screen. That’s because we still need to select a theme!
 
 ## Selecting a theme
@@ -75,10 +75,10 @@ There’s one called Terminal which looks nice so let’s use it. Here is the [t
 
 ![](./Hugo/hugo-themes.png)
 
-Clicking on Download will bring us to the [project’s github page](https://github.com/panr/hugo-theme-terminal). Now we need to get this theme in our blog. Here’s what the file structure of the project should look like right now:
+Clicking on Download will bring us to the [project’s GitHub page](https://github.com/panr/hugo-theme-terminal). Now we need to get this theme in our blog. Here’s what the file structure of the project should look like right now:
 
 ```
-tree .
+tree.
 
 .
 ├── archetypes
@@ -108,7 +108,7 @@ The theme is now installed! If you go to the themes folder, you will find “ter
 Let’s take a quick look at the site structure again.
 
 ```
-tree . -L 1
+tree. -L 1
 
 
 .
@@ -272,7 +272,7 @@ relativeUrls = true
         url = "https://gohugo.io"
 ```
 
-Please note the line `relativeUrls = true` which I added at the top. This line is important to make the blog work on IPFS gateways which use paths in their url in the format /ipfs/HASH. If you have issues having your site show CSS styling on an IPFS gateway, that's the line you are likely missing!
+Please note the line `relativeUrls = true` which I added at the top. This line is important to make the blog work on IPFS gateways which use paths in their URL in the format /ipfs/HASH. If you have issues having your site show CSS styling on an IPFS gateway, that's the line you are likely missing!
 
 And the result below:
 
@@ -291,7 +291,7 @@ hugo new posts/hello-world.md
 
 Now, a new file appeared in this location: `/content/posts/hello-world.md`.
 
-Why did we add the blog post to `/posts`? Because that’s what I could gather from looking at the `contentTypeName` variable in `config.toml`. So with this theme, it is `/posts`, but other themes might require posts to be at a different directory. Just make sure that the `config.toml` matches with the location of the blog posts.
+Why did we add the blog post to `/posts`? Because that’s what I could gather from looking at the `contentTypeName` variable in `config.toml`. So with this theme, it is `/posts`, but other themes might require posts to be at a different directory. Just make sure that the `config.toml` matches the location of the blog posts.
 
 So, let’s take a look at our newly created blog post.
 
@@ -299,11 +299,11 @@ So, let’s take a look at our newly created blog post.
 ---
 title: "Hello World"
 date: 2020-03-11T16:23:24-04:00
-draft: flase
+draft: false
 ---
 ```
 
-Title and date correspond to the title of the blog post. Draft means the blog post is in draft mode and will, therefore, not show up in the blog. We can turn it to false in order to see the article once we are done writing our content.
+Title and date corresponding to the title of the blog post. Draft means the blog post is in draft mode and will, therefore, not show up in the blog. We can turn it to false to see the article once we are done writing our content.
 
 You might have noticed that the blog post’s extension is `.md`, signaling that the file is written in markdown. Markdown is a popular markup language. If you’ve never heard of it, check out this [cheat sheet](https://www.markdownguide.org/cheat-sheet/). Markdown is pretty straightforward and can get you productive immediately. Below, I’ve written a sample blog post.
 
@@ -335,7 +335,7 @@ But we want to share our content with the world ASAP, so let’s deploy the blog
 
 ## Deploying with Fleek
 
-First, we need to create a github repository and push all of our project’s content to the repo. It will look like this: https://github.com/SamueleA/hugo-fleek. Fleek will pull the repo’s content, build it and publish it.
+First, we need to create a GitHub repository and push all of our project’s content to the repo. It will look like this: https://github.com/SamueleA/hugo-fleek. Fleek will pull the repo’s content, build it, and publish it.
 
 Next, log in to your Fleek account and add a new site.
 
@@ -347,11 +347,11 @@ Select the repo containing the Hugo blog.
 
 Now we must enter the build settings. Luckily for us, Fleek auto-detects our Hugo settings and fills the fields for us. There is only one change we need to make. Remember how we added the Terminal theme as a git submodule? We'll have to take this factor into account by downloading the module before building with Hugo.
 
-So, we will modify the `build settings` for `git submodule update --init && hugo`.
+So, we will modify the `build settings` for `git submodule update --init && Hugo`.
 
 ![](./Hugo/3-settings-submodule.png)
 
-Next we click “DEPLOY SITE” and wait until completion of the deployment. The screen will look like this once it is done:
+Next, we click “DEPLOY SITE” and wait until the completion of the deployment. The screen will look like this once it is done:
 
 ![](./Hugo/4-success-deploy.png)
 

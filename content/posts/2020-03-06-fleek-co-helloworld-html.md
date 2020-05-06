@@ -4,7 +4,7 @@ title: Deploy and Host your site on IPFS Using Fleek
 slug: fleek helloWorld
 draft: false
 date: 2020-03-06T03:02:20.010Z
-description: Create and deploy static website using Fleek and IPFS
+description: Create and deploy a static website using Fleek and IPFS
 category: Tutorial
 socialImage: ./HelloWorld.png 
 tags:
@@ -17,16 +17,16 @@ tags:
 
 We're going to deploy a site onto IPFS in under 30 seconds using [Fleek](http://Fleek.co/). Let's get started!
 
-If you dont have a site or app handy in a github repo, let's create a simple `index.html`. If you do, just skip directly to STEP 2. 
+If you don't have a site or app handy in a GitHub repo, let's create a simple `index.html`. If you do, just skip directly to STEP 2. 
 
-Fleek will connect to your git provider and auto detect whatever framework your site is using for a quick deployment (you can also customize build settings if you'd like).
+Fleek will connect to your git provider and auto-detect whatever framework your site is using for quick deployment (you can also customize build settings if you'd like).
 
 ![](./media/Rebrand-release/GatsbyPrefilledSettings.png)
 
 
 ## Step 1: Set Up a Repo on Github
 
-Create an empty repository, clone it and start coding.
+Create an empty repository, clone it, and start coding.
 
 ![](./media/image 2.png)
 
@@ -38,7 +38,7 @@ add, commit, push (you know the drill)
 
 ![](./media/image 4.png)
 
-Now you’re repository is ready to go!
+Now your repository is ready to go!
 
 ![](./media/image 5.png)
 
@@ -90,7 +90,7 @@ Or verify with the CID.
 
 ## Step 3: Updates
 
-Fleek will automatically redeploy your website whenever you make changes on GitHub. The provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
+Fleek will automatically redeploy your website whenever you make changes to GitHub. The provided domain name will remain the same and will point to the new CID. This enables you to build fast modern websites hosted on IPFS.
 
 * [Sign up](https://app.fleek.co)
 * Join our [Community Chat](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A)

@@ -7,9 +7,7 @@ slug: Release-update-1
 draft: false
 date: 2020-03-05T04:30:23.237Z
 description: >-
-  We are currently in private beta and from all the amazing feedback from our
-  groundfloor users, we have released several updates that focus on improving
-  the deployment process. We've also enhanced the experience all around the app
+  We are currently in private beta and from all the amazing feedback from our groundfloor users, we have released several updates that focus on improving the deployment process. We've also enhanced the experience all around the app
   and fixed many bugs.
 category: Release
 socialImage: ./Release-Update-Docker.png 
@@ -26,13 +24,13 @@ From starting the private beta a couple of weeks ago we have already onboarded 1
 
 ##### Custom Docker Images (BYOD: Bring Your Own Dockerfile):
 
-Before your app or site is deployed onto IPFS it is built using docker images. We already store many docker images that support the most popular frameworks (Create React App, NextJS, GatsbyJS, etc.), however there are many different frameworks, web servers, languages, versions, etc. so being able to pull your own docker image for the build process makes it easy and can support any custom configurations.
+Before your app or site is deployed onto IPFS it is built using docker images. We already store many docker images that support the most popular frameworks (Create React App, NextJS, GatsbyJS, etc.), however, there are many different frameworks, web servers, languages, versions, etc. so being able to pull your docker image for the build process makes it easy and can support any custom configurations.
 
 ![](./media/Screen Shot 2020-03-05 at 12.01.29 AM.png "Dockerfile upload component")
 
 ##### Environment Variables:
 
-Users can now specify any number of environment variables before deploying their app. They can also be edited and updated later on to support flexible and robust dev ops practices. 
+Users can now specify any number of environment variables before deploying their app. They can also be edited and updated later on to support flexible and robust DevOps practices. 
 
 ![](./media/Screen Shot 2020-03-05 at 12.01.19 AM.png "Environment Variables Component")
 
@@ -56,9 +54,9 @@ Deploy any combination of files or directories that do not require specifying an
 
 * Fixed user authorization redirect issues. When a user was logged in for more than 30 minutes the page sometimes hard refreshed. Now there is no noticeable authorization redirect or page refresh.
 * Editing deploy settings did not save. You can now update and save deploy settings and they will work with the next triggered redeploy.
-* Improved branch selection dropdown in the step 3 of adding sites. We also reused that same dropdown in the deploy settings for updating the branch that the site deploys from.
+* Improved branch selection dropdown in step 3 of adding sites. We also reused that same dropdown in the deploy settings for updating the branch that the site deploys from.
 * Leaving a site while it was in the middle of a deploy required a refresh to update the site to the successfully deployed state. Not anymore.
-* and many more fixes from our incredible developer team...
+* And many more fixes from our incredible developer team...
 
 We're very excited to be launching the Public Beta soon! In the meantime:
 

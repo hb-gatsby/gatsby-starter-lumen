@@ -10,10 +10,11 @@ socialImage: ./media/Getting Started.png
 tags:
   - general
   - getting started
+  - fleek
 ---
 ![](./media/Getting Started.png)
 
-So you're ready to get started on Fleek? Well, let's get right into it. In this guide we will walk through deploying a website to IPFS using Fleek. This guide is most helpful if you are already signed up for Fleek. If you haven’t already signed up you can [request early access](https://terminalbeta.typeform.com/to/kionHH).
+So you're ready to get started on Fleek? Well, let's get right into it. In this guide, we will walk through deploying a website to IPFS using Fleek. This guide is most helpful if you are already signed up for Fleek. If you haven’t already signed up you can [request early access](https://terminalbeta.typeform.com/to/kionHH).
 
 Let’s get started by signing up for Fleek and deploying a website:
 
@@ -37,7 +38,7 @@ Let’s get started by signing up for Fleek and deploying a website:
 
 ### **5**. **Fill in your build command and publish directory as described in your package.json**
 
-#### (We will auto populate the build command and directory if we find it)
+#### (We will auto-populate the build command and directory if we find it)
 
 ![Unfilled Build Settings](./media/Deploy Settings.png "Unfilled Build Settings")
 
@@ -47,7 +48,7 @@ Let’s get started by signing up for Fleek and deploying a website:
 
 
 
-While your site is deploying you’re redirected to monitor it’s progress with detailed logs during each step of the deployment.
+While your site is deploying you’re redirected to monitor its progress with detailed logs during each step of the deployment.
 
 ![Deploy Progress](./media/Deploy In Progress2.png "Deploy Progress")
 
@@ -55,7 +56,7 @@ Once the site is deployed successfully, the site will be uploaded to IPFS and th
 
 ![Success](./media/Deploy Complete.png "Success")
 
-Now that you have deployed a performant website on IPFS, lets add or buy a domain to your site. There’s three ways to add a domain to your site: You can add a subdomain, add a root domain, or purchase a new domain.
+Now that you have deployed a performant website on IPFS, let's add or buy a domain to your site. There are three ways to add a domain to your site: You can add a subdomain, add a root domain, or purchase a new domain.
 
 ## Adding a Subdomain
 

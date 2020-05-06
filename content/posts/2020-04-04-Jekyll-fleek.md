@@ -24,14 +24,14 @@ Before anything, you will need to have Jekyll installed. Follow the instructions
 Once installed, we need to generate a blog, so run the command below.
 
 ```
-jekyll new myblog
+jekyll new my blog
 ```
 
-This will create a blog called `myblog`.
+This will create a blog called `my blog`.
 
 Updating the Jekyll blog is very easy. In the root directory of the newly created blog, you will find a file named `_config.yml`.
 
-This file will allow you to modify configurations which will be used when generating the blog. In my case, I've changed the title and description.
+This file will allow you to modify configurations that will be used when generating the blog. In my case, I've changed the title and description.
 
 ```
 # Welcome to Jekyll!
@@ -92,7 +92,7 @@ plugins:
 
 In the `_config.yml` file, you may have noticed a line with `theme: minima`. That is because we are using the default theme. For this tutorial, we will keep the default so we can focus on deploying the site, but you can go [here](https://jekyllrb.com/docs/themes/#pick-up-a-theme) to learn more!
 
-Finally, what is a blog without an awesome blog post? Go to `_posts` folder which is the root directory. There you will find a sample blog post. You can make a copy of this file to use as a reference for creating new posts. Essentially, all future new posts will be in the `_posts` folder and named in the format `yyyy-mm-dd-title.md` just like the reference post file.
+Finally, what is a blog without an awesome blog post? Go to the `_posts` folder which is the root directory. There you will find a sample blog post. You can make a copy of this file to use as a reference for creating new posts. Essentially, all future new posts will be in the `_posts` folder and named in the format `yyyy-mm-dd-title.md` just like the reference post file.
 
 If you open the blog post file, you will notice that it is written in markdown. [Click here](https://markdown-guide.readthedocs.io/en/latest/basics.html) to learn more about markdown. Markdown will make it very straightforward for you to write your content.
 
@@ -131,7 +131,7 @@ Awesome! Now we are ready to deploy to IPFS!!
 
 ### Deploying to IPFS through Fleek
 
-The first step is to push the Jekyll project to Github. That will allow Fleek to get access our project for the deployment.
+The first step is to push the Jekyll project to Github. That will allow Fleek to get access to our project for the deployment.
 
 In our case, I've pushed my project to this repo: https://github.com/SamueleA/fleek-jekyll-blog
 
@@ -149,7 +149,7 @@ Luckily for us, Fleek has automatically detected our Jekyll project and filled t
 
 Let's wait a bit for the site to deploy. This should take no longer than a few minutes.
 
-Upon deployment, Fleek will automatically assign a default url to the site. 
+Upon deployment, Fleek will automatically assign a default URL to the site. 
 Here is mine: https://sweet-forest-4329.on.fleek.co/
 
 ![](./Jekyll/5-deployed.png)
