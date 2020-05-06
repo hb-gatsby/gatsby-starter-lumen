@@ -345,13 +345,11 @@ Select the repo containing the Hugo blog.
 
 ![](./Hugo/2-select-repo.png)
 
-Now we must enter the build settings. Luckily for us, Fleek auto-detects our Hugo settings and fills the fields for us. There is only one change we need to make. Remember how we added the Terminal theme as a git submodule? We'll have to take this factor into account by downloading the module before building with Hugo.
-
-So, we will modify the `build settings` for `git submodule update --init && Hugo`.
+Now we must enter the build settings. Luckily for us, Fleek auto-detects our Hugo settings and fills the fields for us, so we don't have anything to change!
 
 ![](./Hugo/3-settings-submodule.png)
 
-Next, we click “DEPLOY SITE” and wait until the completion of the deployment. The screen will look like this once it is done:
+Next, we click `DEPLOY SITE` button and wait until the completion of the deployment. The screen will look like this once it is done:
 
 ![](./Hugo/4-success-deploy.png)
 
