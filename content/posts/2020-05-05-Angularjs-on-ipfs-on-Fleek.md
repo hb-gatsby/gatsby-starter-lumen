@@ -2,7 +2,7 @@
 template: post
 title: AngularJS on IPFS on Fleek
 slug: angularjs-on-ipfs-on-fleek
-draft: false
+draft: true
 date: 2020-05-05T04:02:37.816Z
 description: >-
   Get started with deploying your AngularJS app on IPFS on Fleek
@@ -25,7 +25,7 @@ Get your AngularJS app sailing on the IPFS. In this short tutorial, we will lear
 - Install Angular CLI
 - Creating an Angular Project
 - Push to GitHub and Linking Fleek
-
+- Congratulations
 ```
 
 # Install Angular CLI
@@ -75,13 +75,12 @@ Now, we must log to fleek and create a new site and click/find the repo you crea
 
 ![](images/angular/2.png)
 
-Luckily for us, Fleek has automatically detected our Angular project and filled the build settings with the right information. All we have to do is click on `Deploy Site`.
-
+Luckily for us, Fleek has automatically detected our Angular project and filled the build settings with the right information, but the one thing you have to specifiy is the publish directory, which should be set to `dist/your-app-name.com`. Immediately that is set lick on `Deploy Site`. 
 
 Let's wait a bit for the site to deploy. This should take no longer than a few minutes.
 
 Upon deployment, Fleek will automatically assign a default URL to the site. 
-Here is mine: 
+Here is mine: https://calm-shape-3413.on.fleek.co
 
 ![](images/angular/3.png)
 
