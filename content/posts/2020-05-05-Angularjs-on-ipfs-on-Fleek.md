@@ -30,7 +30,7 @@ Get your AngularJS app sailing on the IPFS. In this short tutorial, we will lear
 
 # Install Angular CLI
 
-Before you can make any command work with any angular project or even run your angular project, you would have to install the `angular-cli` using the command below, this command installs the `angular-cli` globally on your system.
+Before you can make any command work with any angular project or even run your angular project, you would have to install the `angular-cli` using the command below. This command installs the `angular-cli` globally on your system.
 
 ```
 npm install -g @angular/cli
@@ -44,7 +44,7 @@ Once the first step is done, you would have to create an angular project using t
 ng new your-app-name
 ```
 
-This command will bootstrap a complete AngularJS app for you, you would also be prompted if you would like to add Angular routing, that should be a yes and also the kind of css style you would like to use, for example, CSS, SCSS, LESS, and the likes. You can see a picture of my process below
+This command will bootstrap a complete AngularJS app for you. You would also be prompted if you would like to add Angular routing, that should be a yes and also the kind of css style you would like to use. For example, CSS, SCSS, LESS, and the likes. You can see a picture of my process below
 
 ![](images/angular/terminal.png)
 
