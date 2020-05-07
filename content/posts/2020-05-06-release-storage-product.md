@@ -5,7 +5,7 @@ slug: Fleek-Storage-Release
 draft: false
 date: 2020-05-06T04:02:37.816Z
 description: >-
-    We're excited to release Fleek Storage! Storing files on IPFS is easier and more performant than ever. We've leveraged an already popular S3 interface to interact with IPFS via our easy to use application, CLI, and SDK. The Storage comes with a built-in CDN and File Compression to achieve upmost performance.
+    We're excited to release Fleek Storage! Storing files on IPFS is easier and more performant than ever. We've leveraged an already popular S3 interface to interact with IPFS via our easy to use application, CLI, and SDK. The Storage solution comes with a built-in CDN, File Compression, and image resizing to achieve upmost performance.
 category: "Announcement"
 socialImage: /StorageReleaseCover.png
 tags:
@@ -13,9 +13,9 @@ tags:
   - Product Release
 ---
 
-![](StorageReleaseCover.png)
+![](media/StorageReleaseCover.png)
 
-We're excited to release Fleek Storage! Storing files on IPFS is easier and more performant than ever. We've leveraged an already popular S3 interface to interact with IPFS via our easy to use application, CLI, and SDK. The Storage comes with a built-in CDN and File Compression to achieve best in class performance.
+We're excited to release Fleek Storage! Storing files on IPFS is easier and more performant than ever. We've leveraged an already popular S3 interface to interact with IPFS via our easy to use application, CLI, and SDK. The Storage solution comes with a built-in CDN, File Compression, and image resizing to achieve upmost performance.
 
 # Fleek Storage App
 
