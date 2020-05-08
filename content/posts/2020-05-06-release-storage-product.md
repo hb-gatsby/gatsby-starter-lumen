@@ -13,6 +13,12 @@ tags:
   - Product Release
 ---
 
+<!--
+  TODO BEFORE RELEASING
+  Link for tech docs
+  Link for talk given at IPFS summit 
+--->
+
 ![](media/StorageReleaseCover.png)
 
 We're excited to release Fleek Storage! Storing files on IPFS is easier and more performant than ever. We've leveraged an already popular S3 interface to interact with IPFS via our easy to use application, CLI, and SDK. The Storage solution comes with a built-in CDN, File Compression, and image resizing to achieve upmost performance.
@@ -27,11 +33,13 @@ The Fleek app now has a Storage page. If you're already a Fleek user you'll see 
 
 # Fleek Programmable Interfaces
 
-We've release the Fleek CLI, [here's the link](https://www.npmjs.com/package/@fleekhq/fleek-cli) to the npm package. To start, the Fleek CLI is to log in and create API keys. Since our interface is S3 compatible, you can use the S3 CLI and APIs to interact with your Fleek storage buckets. The AWS CLI and SDK work with any language that your app is built with, such as JavaScript, Go, C++, Python and Ruby. [Take a look]() at our docs for getting set up with the CLI and integrating storage directly in your app.
+We've release the Fleek CLI, [here's the link](https://www.npmjs.com/package/@fleekhq/fleek-cli) to the npm package manager. To start, the Fleek CLI is to log in and create API keys. Since our interface is S3 compatible, you can use the S3 CLI and APIs to interact with your Fleek storage buckets. The AWS CLI and SDK work with any language that your app is built with, such as JavaScript, Go, C++, Python and Ruby. [Take a look]() at our docs for getting set up with the CLI and integrating storage directly in your app.
 
-# Live Demo
+# Unveiling at the IPFS Pinning Summit
 
-We're going to be presenting the new Storage release via a live demo and talking about how we do our IPFS pinning at the [IPFS Pinning Summit](https://ipfspinningsummit.com/) today!
+We first unveiled the storage product during the [IPFS Pinning Summit](https://ipfspinningsummit.com/) event held on the 7th-8th of May 2020. Fleek's COO Brett Shear gave a live demo of the new product which received amazing positive feedback. We're thankful to the organizers who have made this event possible.
+
+Missed the event? No worry! You can [watch a recording]() of the presentation and demo as though you were there!
 
 # Stay Tuned!
 

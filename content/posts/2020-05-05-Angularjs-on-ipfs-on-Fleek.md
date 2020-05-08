@@ -18,7 +18,7 @@ tags:
 ![](images/angular/hero.png)
 
 
-Get your AngularJS app sailing on the IPFS. In this short tutorial, we will learn how to create an Angular app and deploy it on Fleek so it can be shared through IPFS.
+Get your AngularJS app sailing on IPFS. In this short tutorial, we will learn how to create an Angular app and deploy it on Fleek so it can be shared on the decentralized web.
 
 ```
 # Table of Contents
@@ -30,7 +30,7 @@ Get your AngularJS app sailing on the IPFS. In this short tutorial, we will lear
 
 # Install Angular CLI
 
-Before you can make any command work with any angular project or even run your angular project, you would have to install the `angular-cli` using the command below. This command installs the `angular-cli` globally on your system.
+Before anything else, let's install the `angular-cli` using the command below. This command installs the `angular-cli` globally on your system.
 
 ```
 npm install -g @angular/cli
@@ -38,44 +38,44 @@ npm install -g @angular/cli
 
 ## Creating an Angular Project
 
-Once the first step is done, you would have to create an angular project using the command below
+Next, let's create an angular project using the command below.
 
 ```
 ng new your-app-name
 ```
 
-This command will bootstrap a complete AngularJS app for you. You would also be prompted if you would like to add Angular routing, that should be a yes and also the kind of css style you would like to use. For example, CSS, SCSS, LESS, and the likes. You can see a picture of my process below
+This command will bootstrap a complete AngularJS app for you. You will also be prompted if you would like to add Angular routing, that should be a yes and also the kind of css style you would like to use. For example, CSS, SCSS, LESS, and the likes. You can see a picture of my process below:
 
 ![](images/angular/terminal.png)
 
-Once that is done creating the next step is to enter into the directory of the app you are working on using the command below
+The next step is to enter into the directory of the app you are working on.
 
 ```
 cd your-app-name
 ```
 
-Start your angular project using the command below
+Start your angular project.
 
 ```
 ng serve --open
 ```
 
-This command will start the Angular project and open up right away in your browser one the preview on `http://localhost:4200/` is ready
+The Angular project will start and open right away in your browser once the preview on `http://localhost:4200/` is ready.
 
 
 ![](images/angular/1.png)
 
 # Push to GitHub and Linking Fleek
 
-The first step is to push the Angular app to Github. That will allow Fleek to gain access to your project for the deployment.
+The first step is to push the Angular app to Github which will allow Fleek to gain access to your project for the deployment.
 
-In our case, I've pushed my project to this repo: https://github.com/Developerayo/angularjs-on-ipfs-on-fleek
+In our case, I've pushed my project to this repo: https://github.com/Developerayo/angularjs-on-ipfs-on-fleek.
 
-Now, we must log to fleek and create a new site and click/find the repo you created
+Now, we must log to fleek and create a new site and find the repo you created.
 
 ![](images/angular/2.png)
 
-Luckily for us, Fleek has automatically detected our Angular project and filled the build settings with the right information, but the one thing you have to specifiy is the publish directory, which should be set to `dist/your-app-name.com`. Immediately that is set lick on `Deploy Site`. 
+Luckily for us, Fleek has automatically detected our Angular project and filled the build settings with the right information, but we must also specifiy the publish directory, which should be set to `dist/your-app-name.com`. Then, click on `Deploy Site`. 
 
 Let's wait a bit for the site to deploy. This should take no longer than a few minutes.
 
@@ -86,9 +86,9 @@ Here is mine: https://calm-shape-3413.on.fleek.co
 
 ## Congratulations!
 
-Congrats! You've just joined the family by deploying an Angular app to IPFS with Fleek.
+Congrats! You've just joined the web3 family by deploying an Angular app to IPFS with Fleek.
 
-We love to see what our users come up with. Do not hesitate to share your work with us by tweeting your deployed site!
+We love to see what our users come up with. Do not hesitate to share your work with us by tweeting about your deployed site!
 
 * [Sign up](https://app.fleek.co) to try for yourself
 * [Join](https://join.slack.com/t/fleek-public/shared_invite/zt-bxna7y1d-PbVdut4rgHt5jM6Zjg9g9A) our Community Chat
