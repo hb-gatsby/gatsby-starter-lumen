@@ -39,7 +39,7 @@ We've release the Fleek CLI, [here's the link](https://www.npmjs.com/package/@fl
 
 We first unveiled the storage product during the [IPFS Pinning Summit](https://ipfspinningsummit.com/) event held on the 7th-8th of May 2020. Fleek's COO Brett Shear gave a live demo of the new product which received amazing positive feedback. We're thankful to the organizers who have made this event possible.
 
-Missed the event? No worry! You can [watch a recording]() of the presentation and demo as though you were there!
+Missed the event? No worries! You can [watch a recording]() of the presentation and demo as though you were there!
 
 # Stay Tuned!
 
