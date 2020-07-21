@@ -40,7 +40,7 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
-    "codecov": "^3.7.0",
+    "codecov": "^3.7.1",
     "gatsby": "^2.24.5",
     "gatsby-link": "^2.4.13",
     "gatsby-plugin-catch-links": "^2.3.11",
