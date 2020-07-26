@@ -10,8 +10,11 @@ import type { RenderCallback } from '../types';
 describe('TagsListTemplate', () => {
   const props = {
     ...siteMetadata,
-    ...allMarkdownRemark
+    data: {
+      ...allMarkdownRemark
+    },
   };
+  console.log(props.data.allMarkdownRemark)
 
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(
@@ -23,7 +26,7 @@ describe('TagsListTemplate', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<TagsListTemplate />).toJSON();
+    const tree = renderer.create(<TagsListTemplate {...props} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
