@@ -1,5 +1,5 @@
 // @flow strict
-import { graphql } from "gatsby";
+import { graphql } from 'gatsby';
 
 const useTagsList = () => {
   const { allMarkdownRemark } = graphql`
