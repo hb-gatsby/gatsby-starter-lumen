@@ -14,7 +14,7 @@ describe('TagsListTemplate', () => {
       ...allMarkdownRemark
     },
   };
-  console.log(props.data.allMarkdownRemark)
+  console.log(props.data.allMarkdownRemark);
 
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(

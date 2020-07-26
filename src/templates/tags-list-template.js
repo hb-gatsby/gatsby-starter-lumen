@@ -7,9 +7,17 @@ import Sidebar from '../components/Sidebar';
 import Page from '../components/Page';
 import { useSiteMetadata } from '../hooks';
 
-const TagsListTemplate = ({data}) => {
+type Props = {
+  data: {
+    allMarkdownRemark: {
+      group: Array<{ fieldValue: string, totalCount: number }>
+    },
+  },
+};
+
+const TagsListTemplate = ({ data }: Props) => {
   const { title, subtitle } = useSiteMetadata();
-  const tags = data.allMarkdownRemark.group
+  const tags = data.allMarkdownRemark.group;
 
   return (
     <Layout title={`Tags - ${title}`} description={subtitle}>
