@@ -252,7 +252,7 @@ exports[`TagTemplate renders correctly 1`] = `
                 className="feed__item-meta-time"
                 dateTime="September 1, 2016"
               >
-                September 2016
+                September 1, 2016
               </time>
               <span
                 className="feed__item-meta-divider"
@@ -300,7 +300,7 @@ exports[`TagTemplate renders correctly 1`] = `
                 className="feed__item-meta-time"
                 dateTime="September 1, 2016"
               >
-                September 2016
+                September 1, 2016
               </time>
               <span
                 className="feed__item-meta-divider"
