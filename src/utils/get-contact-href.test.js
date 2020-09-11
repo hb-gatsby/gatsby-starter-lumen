@@ -17,4 +17,5 @@ test('getContactHref', () => {
   expect(getContactHref('codepen', '#')).toBe('https://www.codepen.io/#');
   expect(getContactHref('youtube', '#')).toBe('https://www.youtube.com/channel/#');
   expect(getContactHref('soundcloud', '#')).toBe('https://soundcloud.com/#');
+  expect(getContactHref('stackoverflow', '#')).toBe('https://stackoverflow.com/users/#');
 });
