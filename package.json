@@ -53,7 +53,7 @@
     "gatsby-plugin-offline": "^3.3.2",
     "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-react-helmet": "^3.3.14",
-    "gatsby-plugin-sass": "^2.4.2",
+    "gatsby-plugin-sass": "^2.3.22",
     "gatsby-plugin-sharp": "^2.7.1",
     "gatsby-plugin-sitemap": "^2.5.0",
     "gatsby-remark-autolink-headers": "^2.4.1",
