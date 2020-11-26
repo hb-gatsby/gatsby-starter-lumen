@@ -64,7 +64,7 @@ Your site is now running at `http://localhost:8000`!
 
 Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).
 
-Open the `blog` directory in your code editor of choice and edit `src/templates/index-template.js`. Save your changes and the browser will update in real time!
+Open the `blog` directory in your code editor of choice and edit `src/templates/index-template.tsx`. Save your changes and the browser will update in real time!
 
 ## Deploy with Netlify
 
@@ -78,8 +78,8 @@ After clicking that button, you’ll authenticate with GitHub and choose a repos
 
 To deploy to github pages, simply do the following:
 
-- Ensure that your `package.json` file correctly reflects where this repo lives
-- Change the `pathPrefix` in your `config.js`
+- Ensure that your `package.tsxon` file correctly reflects where this repo lives
+- Change the `pathPrefix` in your `config.tsx`
 - Run the standard deploy command
 
 ```sh

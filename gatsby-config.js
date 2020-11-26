@@ -208,7 +208,6 @@ module.exports = {
         tracesSampleRate: 1
       }
     },
-    'gatsby-plugin-flow',
     'gatsby-plugin-optimize-svgs'
   ]
 };
