@@ -114,7 +114,7 @@
     "react-test-renderer": "17.0.1",
     "rimraf": "3.0.2",
     "sass": "^1.32.8",
-    "stylelint": "13.9.0",
+    "stylelint": "13.11.0",
     "stylelint-config-recommended-scss": "4.2.0",
     "stylelint-scss": "3.19.0"
   }
