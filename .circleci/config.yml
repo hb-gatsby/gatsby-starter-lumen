@@ -62,7 +62,7 @@ jobs:
             - coverage-{{ .Environment.CIRCLE_SHA1 }}
       - run: yarn global add codecov
       - run: yarn codecov
-    
+
 workflows:
   version: 2
   test:
