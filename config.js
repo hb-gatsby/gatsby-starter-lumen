@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Amaury Faure',
+  subtitle: 'Engineering student at Centrale Lille',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,7 +12,7 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Home',
       path: '/'
     },
     {
@@ -25,19 +25,19 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Amaury Faure',
+    photo: '/photo_perso.jpg',
+    bio: 'Engineering Student at Centrale Lille. Data Scientist.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'faureamaury@gmail.com',
+      facebook: 'amaury.faure.14',
+      telegram: 'AmauryFaure',
+      twitter: 'Amaumo',
+      github: 'AmauryFaure',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'amauryfaure',
+      instagram: 'amaury__fr',
       line: '',
       gitlab: '',
       weibo: '',
