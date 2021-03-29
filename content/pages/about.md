@@ -4,12 +4,9 @@ template: "page"
 socialImage: "/media/image-2.jpg"
 ---
 
-I am an Engineering Student at Ecole Centrale de Lille, focusing on Data Science. 
-I am  interested in using technologies for the benefit of the society. 
-In that sense I focus on themes like the environment but also information access (and it's quality).
+I'm a 24 years old engineering student from Lille in northern France interested in technologies,
+our planet and social impact.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
-
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
-
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+I studied at Centrale Lille, a general engineering school in which I developed my problem resolution skills.
+In my last year I focused on Data Science, learning about models to predict outcomes. 
+I now wish to develop those skills in a professional context but also bring valuable insights from data.

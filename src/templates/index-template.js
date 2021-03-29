@@ -34,16 +34,14 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
       <Page>
         <p>Welcome to my personal website.
           There is more to come. </p>
+        <Feed edges={edges}/>
+        <Pagination
+          prevPagePath={prevPagePath}
+          nextPagePath={nextPagePath}
+          hasPrevPage={hasPrevPage}
+          hasNextPage={hasNextPage}
+        />
       </Page>
-      {/* <Page> */}
-      {/*  <Feed edges={edges} /> */}
-      {/*  <Pagination */}
-      {/*    prevPagePath={prevPagePath} */}
-      {/*    nextPagePath={nextPagePath} */}
-      {/*    hasPrevPage={hasPrevPage} */}
-      {/*    hasNextPage={hasNextPage} */}
-      {/*  /> */}
-      {/* </Page> */}
     </Layout>
   );
 };

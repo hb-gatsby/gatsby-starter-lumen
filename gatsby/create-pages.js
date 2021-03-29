@@ -6,7 +6,10 @@ const createCategoriesPages = require('./pagination/create-categories-pages.js')
 const createTagsPages = require('./pagination/create-tags-pages.js');
 const createPostsPages = require('./pagination/create-posts-pages.js');
 
-const createPages = async ({ graphql, actions }) => {
+const createPages = async ({
+  graphql,
+  actions
+}) => {
   const { createPage } = actions;
 
   // 404
@@ -60,6 +63,12 @@ const createPages = async ({ graphql, actions }) => {
       createPage({
         path: edge.node.fields.slug,
         component: path.resolve('./src/templates/post-template.js'),
+        context: { slug: edge.node.fields.slug }
+      });
+    } else if (_.get(edge, 'node.frontmatter.template') === 'index') {
+      createPage({
+        path: '/',
+        component: path.resolve('./src/templates/page-template.js'),
         context: { slug: edge.node.fields.slug }
       });
     }
