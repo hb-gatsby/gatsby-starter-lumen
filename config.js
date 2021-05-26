@@ -16,6 +16,10 @@ module.exports = {
       path: '/'
     },
     {
+      label: 'Articles',
+      path: '/page/0'
+    },
+    {
       label: 'About me',
       path: '/pages/about'
     },
@@ -27,7 +31,9 @@ module.exports = {
   author: {
     name: 'Amaury Faure',
     photo: '/photo.jpg',
-    bio: 'Engineering student at Centrale Lille, currently living in Paris. Data Scientist.',
+    bio: `Engineering student at Centrale Lille,
+ Data Analyst intern at Cafeyn/Blendle,
+ based in Paris.`,
     contacts: {
       email: 'faureamaury@gmail.com',
       facebook: 'amaury.faure.14',
