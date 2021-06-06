@@ -16,10 +16,20 @@
   dependencies:
     "@babel/highlight" "^7.12.13"
 
-"@babel/code-frame@7.12.11":
-  "integrity" "sha512-Zt1yodBx1UcyiePMSkWnU4hPqhwq7hGi2nFL1LeA3EUl+q2LQx16MISgJ0+z7dnmgvP9QtIleuETGOiOH1RcIw=="
-  "resolved" "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.12.11.tgz"
-  "version" "7.12.11"
+"@babel/compat-data@^7.13.11", "@babel/compat-data@^7.13.12", "@babel/compat-data@^7.13.15", "@babel/compat-data@^7.13.8":
+  version "7.13.15"
+  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.13.15.tgz#7e8eea42d0b64fda2b375b22d06c605222e848f4"
+  integrity sha512-ltnibHKR1VnrU4ymHyQ/CXtNXI6yZC0oJThyW78Hft8XndANwi+9H+UIklBDraIjFEJzw8wmcM427oDd9KS5wA==
+
+"@babel/compat-data@^7.14.4":
+  version "7.14.4"
+  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.14.4.tgz#45720fe0cecf3fd42019e1d12cc3d27fadc98d58"
+  integrity sha512-i2wXrWQNkH6JplJQGn3Rd2I4Pij8GdHkXwHMxm+zV5YG/Jci+bCNrWZEWC4o+umiDkRrRs4dVzH3X4GP7vyjQQ==
+
+"@babel/core@7.10.5":
+  version "7.10.5"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.10.5.tgz#1f15e2cca8ad9a1d78a38ddba612f5e7cdbbd330"
+  integrity sha512-O34LQooYVDXPl7QWCdW9p4NR+QlzOr7xShPPJz8GsuCU3/8ua/wqTr7gmnxXv+WBESiGU/G5s16i6tUvHkNb+w==
   dependencies:
     "@babel/highlight" "^7.10.4"
 
@@ -129,6 +139,16 @@
     "browserslist" "^4.14.5"
     "semver" "^6.3.0"
 
+"@babel/helper-compilation-targets@^7.14.4":
+  version "7.14.4"
+  resolved "https://registry.yarnpkg.com/@babel/helper-compilation-targets/-/helper-compilation-targets-7.14.4.tgz#33ebd0ffc34248051ee2089350a929ab02f2a516"
+  integrity sha512-JgdzOYZ/qGaKTVkn5qEDV/SXAh8KcyUVkCoSWGN8T3bwrgd6m+/dJa2kVGi6RJYJgEYPBdZ84BZp9dUjNWkBaA==
+  dependencies:
+    "@babel/compat-data" "^7.14.4"
+    "@babel/helper-validator-option" "^7.12.17"
+    browserslist "^4.16.6"
+    semver "^6.3.0"
+
 "@babel/helper-create-class-features-plugin@^7.13.0":
   "integrity" "sha512-ays0I7XYq9xbjCSvT+EvysLgfc3tOkwCULHjrnscGT3A9qD4sk3wXnJ3of0MAWsWGjdinFvajHU2smYuqXKMrw=="
   "resolved" "https://registry.npmjs.org/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.13.11.tgz"
@@ -162,6 +182,18 @@
     "@babel/helper-member-expression-to-functions" "^7.13.12"
     "@babel/helper-optimise-call-expression" "^7.12.13"
     "@babel/helper-replace-supers" "^7.14.3"
+    "@babel/helper-split-export-declaration" "^7.12.13"
+
+"@babel/helper-create-class-features-plugin@^7.14.3":
+  version "7.14.4"
+  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.14.4.tgz#abf888d836a441abee783c75229279748705dc42"
+  integrity sha512-idr3pthFlDCpV+p/rMgGLGYIVtazeatrSOQk8YzO2pAepIjQhCN3myeihVg58ax2bbbGK9PUE1reFi7axOYIOw==
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.12.13"
+    "@babel/helper-function-name" "^7.14.2"
+    "@babel/helper-member-expression-to-functions" "^7.13.12"
+    "@babel/helper-optimise-call-expression" "^7.12.13"
+    "@babel/helper-replace-supers" "^7.14.4"
     "@babel/helper-split-export-declaration" "^7.12.13"
 
 "@babel/helper-create-regexp-features-plugin@^7.12.13":
@@ -318,6 +350,16 @@
     "@babel/traverse" "^7.13.0"
     "@babel/types" "^7.13.12"
 
+"@babel/helper-replace-supers@^7.14.4":
+  version "7.14.4"
+  resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.14.4.tgz#b2ab16875deecfff3ddfcd539bc315f72998d836"
+  integrity sha512-zZ7uHCWlxfEAAOVDYQpEf/uyi1dmeC7fX4nCf2iz9drnCwi1zvwXL3HwWWNXUQEJ1k23yVn3VbddiI9iJEXaTQ==
+  dependencies:
+    "@babel/helper-member-expression-to-functions" "^7.13.12"
+    "@babel/helper-optimise-call-expression" "^7.12.13"
+    "@babel/traverse" "^7.14.2"
+    "@babel/types" "^7.14.4"
+
 "@babel/helper-replace-supers@^7.14.3":
   "integrity" "sha512-Rlh8qEWZSTfdz+tgNV/N4gz1a0TMNwCUcENhMjHTHKp3LseYH5Jha0NSlyTQWMnjbYcwFt+bqAMqSLHVXkQ6UA=="
   "resolved" "https://registry.npmjs.org/@babel/helper-replace-supers/-/helper-replace-supers-7.14.3.tgz"
@@ -437,10 +479,10 @@
     "@babel/helper-create-class-features-plugin" "^7.13.0"
     "@babel/helper-plugin-utils" "^7.13.0"
 
-"@babel/plugin-proposal-class-static-block@^7.13.11":
-  "integrity" "sha512-HEjzp5q+lWSjAgJtSluFDrGGosmwTgKwCXdDQZvhKsRlwv3YdkUEqxNrrjesJd+B9E9zvr1PVPVBvhYZ9msjvQ=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-class-static-block/-/plugin-proposal-class-static-block-7.14.3.tgz"
-  "version" "7.14.3"
+"@babel/plugin-proposal-class-static-block@^7.14.3":
+  version "7.14.3"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-static-block/-/plugin-proposal-class-static-block-7.14.3.tgz#5a527e2cae4a4753119c3a3e7f64ecae8ccf1360"
+  integrity sha512-HEjzp5q+lWSjAgJtSluFDrGGosmwTgKwCXdDQZvhKsRlwv3YdkUEqxNrrjesJd+B9E9zvr1PVPVBvhYZ9msjvQ==
   dependencies:
     "@babel/helper-create-class-features-plugin" "^7.14.3"
     "@babel/helper-plugin-utils" "^7.13.0"
@@ -499,8 +541,8 @@
   "resolved" "https://registry.npmjs.org/@babel/plugin-proposal-object-rest-spread/-/plugin-proposal-object-rest-spread-7.14.2.tgz"
   "version" "7.14.2"
   dependencies:
-    "@babel/compat-data" "^7.14.0"
-    "@babel/helper-compilation-targets" "^7.13.16"
+    "@babel/compat-data" "^7.14.4"
+    "@babel/helper-compilation-targets" "^7.14.4"
     "@babel/helper-plugin-utils" "^7.13.0"
     "@babel/plugin-syntax-object-rest-spread" "^7.8.3"
     "@babel/plugin-transform-parameters" "^7.14.2"
@@ -720,10 +762,10 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/plugin-transform-block-scoping@^7.14.2":
-  "integrity" "sha512-neZZcP19NugZZqNwMTH+KoBjx5WyvESPSIOQb4JHpfd+zPfqcH65RMu5xJju5+6q/Y2VzYrleQTr+b6METyyxg=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.14.2.tgz"
-  "version" "7.14.2"
+"@babel/plugin-transform-block-scoping@^7.14.4":
+  version "7.14.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-block-scoping/-/plugin-transform-block-scoping-7.14.4.tgz#caf140b0b2e2462c509553d140e6d0abefb61ed8"
+  integrity sha512-5KdpkGxsZlTk+fPleDtGKsA+pon28+ptYmMO8GBSa5fHERCJWAzj50uAfCKBqq42HO+Zot6JF1x37CRprwmN4g==
   dependencies:
     "@babel/helper-plugin-utils" "^7.13.0"
 
@@ -736,7 +778,7 @@
     "@babel/helper-function-name" "^7.14.2"
     "@babel/helper-optimise-call-expression" "^7.12.13"
     "@babel/helper-plugin-utils" "^7.13.0"
-    "@babel/helper-replace-supers" "^7.13.12"
+    "@babel/helper-replace-supers" "^7.14.4"
     "@babel/helper-split-export-declaration" "^7.12.13"
     "globals" "^11.1.0"
 
@@ -747,10 +789,10 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.13.0"
 
-"@babel/plugin-transform-destructuring@^7.13.17":
-  "integrity" "sha512-UAUqiLv+uRLO+xuBKKMEpC+t7YRNVRqBsWWq1yKXbBZBje/t3IXCiSinZhjn/DC3qzBfICeYd2EFGEbHsh5RLA=="
-  "resolved" "https://registry.npmjs.org/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.13.17.tgz"
-  "version" "7.13.17"
+"@babel/plugin-transform-destructuring@^7.14.4":
+  version "7.14.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-destructuring/-/plugin-transform-destructuring-7.14.4.tgz#acbec502e9951f30f4441eaca1d2f29efade59ed"
+  integrity sha512-JyywKreTCGTUsL1OKu1A3ms/R1sTP0WxbpXlALeGzF53eB3bxtNkYdMj9SDgK7g6ImPy76J5oYYKoTtQImlhQA==
   dependencies:
     "@babel/helper-plugin-utils" "^7.13.0"
 
@@ -1007,26 +1049,26 @@
     "@babel/helper-create-regexp-features-plugin" "^7.12.13"
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/preset-env@^7.12.1", "@babel/preset-env@7.14.2":
-  "integrity" "sha512-7dD7lVT8GMrE73v4lvDEb85cgcQhdES91BSD7jS/xjC6QY8PnRhux35ac+GCpbiRhp8crexBvZZqnaL6VrY8TQ=="
-  "resolved" "https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.14.2.tgz"
-  "version" "7.14.2"
+"@babel/preset-env@7.14.4":
+  version "7.14.4"
+  resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.14.4.tgz#73fc3228c59727e5e974319156f304f0d6685a2d"
+  integrity sha512-GwMMsuAnDtULyOtuxHhzzuSRxFeP0aR/LNzrHRzP8y6AgDNgqnrfCCBm/1cRdTU75tRs28Eh76poHLcg9VF0LA==
   dependencies:
-    "@babel/compat-data" "^7.14.0"
-    "@babel/helper-compilation-targets" "^7.13.16"
+    "@babel/compat-data" "^7.14.4"
+    "@babel/helper-compilation-targets" "^7.14.4"
     "@babel/helper-plugin-utils" "^7.13.0"
     "@babel/helper-validator-option" "^7.12.17"
     "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining" "^7.13.12"
     "@babel/plugin-proposal-async-generator-functions" "^7.14.2"
     "@babel/plugin-proposal-class-properties" "^7.13.0"
-    "@babel/plugin-proposal-class-static-block" "^7.13.11"
+    "@babel/plugin-proposal-class-static-block" "^7.14.3"
     "@babel/plugin-proposal-dynamic-import" "^7.14.2"
     "@babel/plugin-proposal-export-namespace-from" "^7.14.2"
     "@babel/plugin-proposal-json-strings" "^7.14.2"
     "@babel/plugin-proposal-logical-assignment-operators" "^7.14.2"
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.2"
     "@babel/plugin-proposal-numeric-separator" "^7.14.2"
-    "@babel/plugin-proposal-object-rest-spread" "^7.14.2"
+    "@babel/plugin-proposal-object-rest-spread" "^7.14.4"
     "@babel/plugin-proposal-optional-catch-binding" "^7.14.2"
     "@babel/plugin-proposal-optional-chaining" "^7.14.2"
     "@babel/plugin-proposal-private-methods" "^7.13.0"
@@ -1049,10 +1091,10 @@
     "@babel/plugin-transform-arrow-functions" "^7.13.0"
     "@babel/plugin-transform-async-to-generator" "^7.13.0"
     "@babel/plugin-transform-block-scoped-functions" "^7.12.13"
-    "@babel/plugin-transform-block-scoping" "^7.14.2"
-    "@babel/plugin-transform-classes" "^7.14.2"
+    "@babel/plugin-transform-block-scoping" "^7.14.4"
+    "@babel/plugin-transform-classes" "^7.14.4"
     "@babel/plugin-transform-computed-properties" "^7.13.0"
-    "@babel/plugin-transform-destructuring" "^7.13.17"
+    "@babel/plugin-transform-destructuring" "^7.14.4"
     "@babel/plugin-transform-dotall-regex" "^7.12.13"
     "@babel/plugin-transform-duplicate-keys" "^7.12.13"
     "@babel/plugin-transform-exponentiation-operator" "^7.12.13"
@@ -1079,7 +1121,7 @@
     "@babel/plugin-transform-unicode-escapes" "^7.12.13"
     "@babel/plugin-transform-unicode-regex" "^7.12.13"
     "@babel/preset-modules" "^0.1.4"
-    "@babel/types" "^7.14.2"
+    "@babel/types" "^7.14.4"
     "babel-plugin-polyfill-corejs2" "^0.2.0"
     "babel-plugin-polyfill-corejs3" "^0.2.0"
     "babel-plugin-polyfill-regenerator" "^0.2.0"
@@ -1213,7 +1255,23 @@
   "version" "7.14.2"
   dependencies:
     "@babel/helper-validator-identifier" "^7.14.0"
-    "to-fast-properties" "^2.0.0"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.14.2":
+  version "7.14.2"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.14.2.tgz#4208ae003107ef8a057ea8333e56eb64d2f6a2c3"
+  integrity sha512-SdjAG/3DikRHpUOjxZgnkbR11xUlyDMUFJdvnIgZEE16mqmY0BINMmc4//JMJglEmn6i7sq6p+mGrFWyZ98EEw==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.14.0"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.14.4":
+  version "7.14.4"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.14.4.tgz#bfd6980108168593b38b3eb48a24aa026b919bc0"
+  integrity sha512-lCj4aIs0xUefJFQnwwQv2Bxg7Omd6bgquZ6LGC+gGMh6/s5qDVfjuCMlDmYQ15SLsWHd9n+X3E75lKIhl5Lkiw==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.14.0"
+    to-fast-properties "^2.0.0"
 
 "@bcoe/v8-coverage@^0.2.3":
   "integrity" "sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw=="
@@ -2266,87 +2324,87 @@
   "resolved" "https://registry.npmjs.org/@react-dnd/shallowequal/-/shallowequal-2.0.0.tgz"
   "version" "2.0.0"
 
-"@sentry/browser@6.4.1":
-  "integrity" "sha512-3cDud6GWutnJqcnheIq0lPNTsUJbrRLevQ+g1YfawVXFUxfmmY2bOsGd/Mxq17LxYeBHgKTitXv3DU1bsQ+WBQ=="
-  "resolved" "https://registry.npmjs.org/@sentry/browser/-/browser-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/browser@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-6.5.1.tgz#9a6ed5607b3b0f4e83f38720e3e202906f8c5bdb"
+  integrity sha512-iVLCdEFwsoWAzE/hNknexPQjjDpMQV7mmaq9Z1P63bD6MfhwVTx4hG4pHn8HEvC38VvCVf1wv0v/LxtoODAYXg==
   dependencies:
-    "@sentry/core" "6.4.1"
-    "@sentry/types" "6.4.1"
-    "@sentry/utils" "6.4.1"
+    "@sentry/core" "6.5.1"
+    "@sentry/types" "6.5.1"
+    "@sentry/utils" "6.5.1"
     "tslib" "^1.9.3"
 
-"@sentry/core@6.4.1":
-  "integrity" "sha512-Lx13oTiP+Tjvm5VxulcCszNVd2S1wY4viSnr+ygq62ySVERR+t7uOZDSARZ0rZ259GwW6nkbMh9dDmD0d6VCGQ=="
-  "resolved" "https://registry.npmjs.org/@sentry/core/-/core-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/core@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/core/-/core-6.5.1.tgz#c8b6c3ed86ed07b193c95d599c1b9a4a161e500e"
+  integrity sha512-Mh3sl/iUOT1myHmM6RlDy2ARzkUClx/g4DAt1rJ/IpQBOlDYQraplXSIW80i/hzRgQDfwhwgf4wUa5DicKBjKw==
   dependencies:
-    "@sentry/hub" "6.4.1"
-    "@sentry/minimal" "6.4.1"
-    "@sentry/types" "6.4.1"
-    "@sentry/utils" "6.4.1"
+    "@sentry/hub" "6.5.1"
+    "@sentry/minimal" "6.5.1"
+    "@sentry/types" "6.5.1"
+    "@sentry/utils" "6.5.1"
     "tslib" "^1.9.3"
 
-"@sentry/gatsby@^6.4.1":
-  "integrity" "sha512-aPqgFm5HynCaPMLXnH10NysMm+nTPzvvsSfzB787+wEP7wSImZ4kEwcVv3P5GAO/jBlxLWEyLX0zBt7qqY5RpA=="
-  "resolved" "https://registry.npmjs.org/@sentry/gatsby/-/gatsby-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/gatsby@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/gatsby/-/gatsby-6.5.1.tgz#f3540e44a8a4717a884971c558ee6ad0409536eb"
+  integrity sha512-3e+f7eAlmoajppJ3CFNKxnwGLCOXcFe6Lz9MPkHisTIg6fiJc6FGr11sXp0NDE3M+yXfx6ZkJ5UijKqOwsMt7A==
   dependencies:
-    "@sentry/react" "6.4.1"
-    "@sentry/tracing" "6.4.1"
+    "@sentry/react" "6.5.1"
+    "@sentry/tracing" "6.5.1"
 
-"@sentry/hub@6.4.1":
-  "integrity" "sha512-7IZRP5buDE6s/c3vWzzPR/ySE+8GUuHPgTEPiDCPOCWwUN11zXDafJDKkJqY3muJfebUKmC/JG67RyBx+XlnlQ=="
-  "resolved" "https://registry.npmjs.org/@sentry/hub/-/hub-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/hub@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/hub/-/hub-6.5.1.tgz#135ef09d07d32e87a53f664c0ae8fcc4f5963519"
+  integrity sha512-lBRMBVMYP8B4PfRiM70murbtJAXiIAao/asDEMIRNGMP6pI2ArqXfJCBYDkStukhikYD0Kqb4trXq+JYF07Hbg==
   dependencies:
-    "@sentry/types" "6.4.1"
-    "@sentry/utils" "6.4.1"
+    "@sentry/types" "6.5.1"
+    "@sentry/utils" "6.5.1"
     "tslib" "^1.9.3"
 
-"@sentry/minimal@6.4.1":
-  "integrity" "sha512-4x/PRbDZACCKJqjta9EkhiIMyGMf7VgBX13EEWEDVWLP7ymFukBuTr4ap/Tz9429kB/yXZuDGGMIZp/G618H3g=="
-  "resolved" "https://registry.npmjs.org/@sentry/minimal/-/minimal-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/minimal@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/minimal/-/minimal-6.5.1.tgz#b8c1b382c2ea788eec3d32d203e5081b00eb6838"
+  integrity sha512-q9Do/oreu1RP695CXCLowVDuQyk7ilE6FGdz2QLpTXAfx8247qOwk6+zy9Kea/Djk93+BoSDVQUSneNiVwl0nQ==
   dependencies:
-    "@sentry/hub" "6.4.1"
-    "@sentry/types" "6.4.1"
+    "@sentry/hub" "6.5.1"
+    "@sentry/types" "6.5.1"
     "tslib" "^1.9.3"
 
-"@sentry/react@6.4.1":
-  "integrity" "sha512-/rbp9jFgFc+m3DWhI58uKSLQxXtIW5bKqu5eVO/9jedhLzGRGBp0eOlJ5qtZ3KtYKSyPbA4uEBY5qI0rGwipeA=="
-  "resolved" "https://registry.npmjs.org/@sentry/react/-/react-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/react@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/react/-/react-6.5.1.tgz#1c7019fc3d8b1168c1ab8936cb65971b314d060d"
+  integrity sha512-YeGi7FzInhMZQxiy5fKqb7kS6W+u4NfsjzsVV3bLjJ1kiVtbpzZ2gs+ObHqW3zVE622V4nL7A4P8/CBHbcm5PA==
   dependencies:
-    "@sentry/browser" "6.4.1"
-    "@sentry/minimal" "6.4.1"
-    "@sentry/types" "6.4.1"
-    "@sentry/utils" "6.4.1"
+    "@sentry/browser" "6.5.1"
+    "@sentry/minimal" "6.5.1"
+    "@sentry/types" "6.5.1"
+    "@sentry/utils" "6.5.1"
     "hoist-non-react-statics" "^3.3.2"
     "tslib" "^1.9.3"
 
-"@sentry/tracing@^6.4.1", "@sentry/tracing@6.4.1":
-  "integrity" "sha512-EPRadE9n/wpUjx4jqP/8vXdOAZBk7vjlzRKniJgKgQUO3v03i0ui6xydaal2mvhplIyOCI2muXdGhjUO7ga4uw=="
-  "resolved" "https://registry.npmjs.org/@sentry/tracing/-/tracing-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/tracing@6.5.1", "@sentry/tracing@^6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/tracing/-/tracing-6.5.1.tgz#a5f3e497d4f1f319f36475df050e135cf65af750"
+  integrity sha512-y1W/xFC2hAuKqSuuaovkElHY4pbli3XoXrreesg8PtO7ilX6ZbatOQbHsEsHQyoUv0F6aVA+MABOxWH2jt7tfw==
   dependencies:
-    "@sentry/hub" "6.4.1"
-    "@sentry/minimal" "6.4.1"
-    "@sentry/types" "6.4.1"
-    "@sentry/utils" "6.4.1"
+    "@sentry/hub" "6.5.1"
+    "@sentry/minimal" "6.5.1"
+    "@sentry/types" "6.5.1"
+    "@sentry/utils" "6.5.1"
     "tslib" "^1.9.3"
 
-"@sentry/types@6.4.1":
-  "integrity" "sha512-sTu/GaLsLYk1AkAqpkMT4+4q665LtZjhV0hkgiTD4N3zPl5uSf1pCIzxPRYjOpe7NEANmWv8U4PaGKGtc2eMfA=="
-  "resolved" "https://registry.npmjs.org/@sentry/types/-/types-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/types@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/types/-/types-6.5.1.tgz#0a34ecfd1ae9275a416a105640eb4bed45a46a1d"
+  integrity sha512-b/7a6CMoytaeFPx4IBjfxPw3nPvsQh7ui1C8Vw0LxNNDgBwVhPLzUOWeLWbo5YZCVbGEMIWwtCUQYWxneceZSA==
 
-"@sentry/utils@6.4.1":
-  "integrity" "sha512-xJ1uVa5fvg23pXQfulvCIBb9pQ3p1awyd1PapK2AYi+wKjTuYl4B9edmhjRREEQEExznl/d2OVm78fRXLq7M9Q=="
-  "resolved" "https://registry.npmjs.org/@sentry/utils/-/utils-6.4.1.tgz"
-  "version" "6.4.1"
+"@sentry/utils@6.5.1":
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/@sentry/utils/-/utils-6.5.1.tgz#046baf7d1a6564d6d555437ad3674dba9bc0806a"
+  integrity sha512-Wv86JYGQH+ZJ5XGFQX7h6ijl32667ikenoL9EyXMn8UoOYX/MLwZoQZin1P60wmKkYR9ifTNVmpaI9OoTaH+UQ==
   dependencies:
-    "@sentry/types" "6.4.1"
+    "@sentry/types" "6.5.1"
     "tslib" "^1.9.3"
 
 "@sideway/address@^4.1.0":
@@ -4385,10 +4443,10 @@
     "escalade" "^3.1.1"
     "node-releases" "^1.1.71"
 
-"bser@2.1.1":
-  "integrity" "sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ=="
-  "resolved" "https://registry.npmjs.org/bser/-/bser-2.1.1.tgz"
-  "version" "2.1.1"
+browserslist@4.16.6, browserslist@^4.16.6:
+  version "4.16.6"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
+  integrity sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ==
   dependencies:
     "node-int64" "^0.4.0"
 
@@ -5329,10 +5387,10 @@
     "readable-stream" "^2.2.2"
     "typedarray" "^0.0.6"
 
-"concurrently@6.1.0":
-  "integrity" "sha512-jy+xj49pvqeKjc2TAVXRIhrgPG51eBKDZti0kZ41kaWk9iLbyWBjH6KMFpW7peOLkEymD+ZM83Lx6UEy3N/M9g=="
-  "resolved" "https://registry.npmjs.org/concurrently/-/concurrently-6.1.0.tgz"
-  "version" "6.1.0"
+concurrently@6.2.0:
+  version "6.2.0"
+  resolved "https://registry.yarnpkg.com/concurrently/-/concurrently-6.2.0.tgz#587e2cb8afca7234172d8ea55176088632c4c56d"
+  integrity sha512-v9I4Y3wFoXCSY2L73yYgwA9ESrQMpRn80jMcqMgHx720Hecz2GZAvTI6bREVST6lkddNypDKRN22qhK0X8Y00g==
   dependencies:
     "chalk" "^4.1.0"
     "date-fns" "^2.16.1"
@@ -6493,10 +6551,10 @@
   "resolved" "https://registry.npmjs.org/dns-equal/-/dns-equal-1.0.0.tgz"
   "version" "1.0.0"
 
-"dns-packet@^1.3.1":
-  "integrity" "sha512-dDwDMOJU+m6Qx+LhltSV+BWNrMaTqx3eXkAqgt/iouWTXGZMffg1rOSnG2xa3lWqmJ9xTBc7fgIe/css4S1rxA=="
-  "resolved" "https://registry.npmjs.org/dns-packet/-/dns-packet-1.3.3.tgz"
-  "version" "1.3.3"
+dns-packet@^1.3.1:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/dns-packet/-/dns-packet-1.3.4.tgz#e3455065824a2507ba886c55a89963bb107dec6f"
+  integrity sha512-BQ6F4vycLXBvdrJZ6S3gZewt6rcrks9KBgM9vrhW+knGRqc8uEdT7fuCwloc7nny5xNoMJ17HGH0R/6fpo8ECA==
   dependencies:
     "ip" "^1.1.0"
     "safe-buffer" "^5.0.1"
@@ -13342,10 +13400,10 @@
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
 
-"netlify-cms-app@^2.15.11":
-  "integrity" "sha512-VXC3SYjHhL6qaPb8b4/zkgozkwbzj2c9Snnz34dBpVrnRzoBPG8w9jmEfQons+KS9uXlTonKNwnQAFABOF8yDA=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-app/-/netlify-cms-app-2.15.11.tgz"
-  "version" "2.15.11"
+netlify-cms-app@^2.15.17:
+  version "2.15.17"
+  resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.15.17.tgz#ea62387ebc65f3db83132befaf0e2c9eda4e94c9"
+  integrity sha512-vVZMW+snXQEWsPK0y/iu9RycnbXt4+TznKFn6kU5zLCntHmhkv6BT8LwF6niz1u+nbbHi/3P2TRi+XreE/TDIw==
   dependencies:
     "@emotion/core" "^10.0.35"
     "@emotion/styled" "^10.0.27"
@@ -13353,30 +13411,30 @@
     "immutable" "^3.7.6"
     "lodash" "^4.17.11"
     "moment" "^2.24.0"
-    "netlify-cms-backend-azure" "^1.2.0"
-    "netlify-cms-backend-bitbucket" "^2.13.1"
-    "netlify-cms-backend-git-gateway" "^2.12.0"
-    "netlify-cms-backend-github" "^2.13.1"
-    "netlify-cms-backend-gitlab" "^2.11.2"
-    "netlify-cms-backend-proxy" "^1.2.1"
-    "netlify-cms-backend-test" "^2.11.1"
-    "netlify-cms-core" "^2.40.6"
+    "netlify-cms-backend-azure" "^1.2.2"
+    "netlify-cms-backend-bitbucket" "^2.13.3"
+    "netlify-cms-backend-git-gateway" "^2.12.2"
+    "netlify-cms-backend-github" "^2.13.3"
+    "netlify-cms-backend-gitlab" "^2.11.4"
+    "netlify-cms-backend-proxy" "^1.2.3"
+    "netlify-cms-backend-test" "^2.11.3"
+    "netlify-cms-core" "^2.40.11"
     "netlify-cms-editor-component-image" "^2.7.0"
-    "netlify-cms-lib-auth" "^2.4.1"
-    "netlify-cms-lib-util" "^2.13.1"
-    "netlify-cms-lib-widgets" "^1.6.1"
-    "netlify-cms-locales" "^1.30.1"
-    "netlify-cms-ui-default" "^2.13.3"
+    "netlify-cms-lib-auth" "^2.4.2"
+    "netlify-cms-lib-util" "^2.13.3"
+    "netlify-cms-lib-widgets" "^1.6.3"
+    "netlify-cms-locales" "^1.30.2"
+    "netlify-cms-ui-default" "^2.13.4"
     "netlify-cms-widget-boolean" "^2.4.1"
-    "netlify-cms-widget-code" "^1.3.2"
+    "netlify-cms-widget-code" "^1.3.3"
     "netlify-cms-widget-colorstring" "^1.1.1"
-    "netlify-cms-widget-date" "^2.6.1"
+    "netlify-cms-widget-date" "^2.6.2"
     "netlify-cms-widget-datetime" "^2.7.2"
     "netlify-cms-widget-file" "^2.10.1"
-    "netlify-cms-widget-image" "^2.8.0"
-    "netlify-cms-widget-list" "^2.9.1"
+    "netlify-cms-widget-image" "^2.8.1"
+    "netlify-cms-widget-list" "^2.9.2"
     "netlify-cms-widget-map" "^1.5.0"
-    "netlify-cms-widget-markdown" "^2.13.2"
+    "netlify-cms-widget-markdown" "^2.13.4"
     "netlify-cms-widget-number" "^2.5.0"
     "netlify-cms-widget-object" "^2.7.0"
     "netlify-cms-widget-relation" "^2.10.3"
@@ -13387,38 +13445,38 @@
     "react-immutable-proptypes" "^2.1.0"
     "uuid" "^3.3.2"
 
-"netlify-cms-backend-azure@^1.2.0":
-  "integrity" "sha512-XsvGWE7FtbpGCkzR244G7gAH2B+qoTvA0w/rXxkFbvdKG7Yot6nuxhrhfgg/TRTCsjnIPF9fEPEpOpXqm5V/8Q=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-backend-azure/-/netlify-cms-backend-azure-1.2.0.tgz"
-  "version" "1.2.0"
+netlify-cms-backend-azure@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-backend-azure/-/netlify-cms-backend-azure-1.2.2.tgz#5e0fe997c802a56cc6f32aee0aa8adbabbb472f1"
+  integrity sha512-xfGnMvSnZWOH2TPJygOrrIo/u+8F7LC9g77AZLnWPze3XqRYdaQNdgaHdOj3tAxr16T1SR5BHuzcGzZ3LAPznQ==
   dependencies:
     "js-base64" "^3.0.0"
     "semaphore" "^1.1.0"
 
-"netlify-cms-backend-bitbucket@^2.13.1":
-  "integrity" "sha512-vwhVRpD7+e2aWm4ksW5+LKUOCqYVqZAVByanRDV8MRHam6ove6++S/qnCHsHEjA9LSFbKohfLBtN0H6z4llzww=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-backend-bitbucket/-/netlify-cms-backend-bitbucket-2.13.1.tgz"
-  "version" "2.13.1"
+netlify-cms-backend-bitbucket@^2.13.3:
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/netlify-cms-backend-bitbucket/-/netlify-cms-backend-bitbucket-2.13.3.tgz#baf8df83187a3e8b6c27b5ff17a5b48cfe01a213"
+  integrity sha512-Bo/qQi2qlq5v63a3ihIrunsi2r+l+TLTHtkMZSf0LIA7qLHJIiEEN7rRB+Ll7MJTi8/P555mRRltdkEDvfPbQA==
   dependencies:
     "common-tags" "^1.8.0"
     "js-base64" "^3.0.0"
     "semaphore" "^1.1.0"
     "what-the-diff" "^0.6.0"
 
-"netlify-cms-backend-git-gateway@^2.12.0":
-  "integrity" "sha512-w582O8fEJjq4Wvyvbw1s4GGBMOQCaeKkage81CbDU7OvaHZbVh8H8O7CyyLOboTkHsvQEPw95bZZEIxiwwWQbg=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-backend-git-gateway/-/netlify-cms-backend-git-gateway-2.12.0.tgz"
-  "version" "2.12.0"
+netlify-cms-backend-git-gateway@^2.12.2:
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-backend-git-gateway/-/netlify-cms-backend-git-gateway-2.12.2.tgz#4f68ec97877cb142184440af992bd545a9bc89a5"
+  integrity sha512-n2YhM+0nkdtuYIEOGNHxAf/Fn6LePRql09TsU+tWMJTJxMxcMLPyZ5sORshdf19rx8WRV5sxIdj6kiIW8AL3dA==
   dependencies:
     "gotrue-js" "^0.9.24"
     "ini" "^2.0.0"
     "jwt-decode" "^3.0.0"
     "minimatch" "^3.0.4"
 
-"netlify-cms-backend-github@^2.13.1":
-  "integrity" "sha512-ozi3aUHTglMAnm4tswVqhDUKEoVKhcc3i1Tmo0P7NYL9o7EqagFl0q4LeP3z41uVzgJwLaPX1AeO3ksMlcj/pw=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-backend-github/-/netlify-cms-backend-github-2.13.1.tgz"
-  "version" "2.13.1"
+netlify-cms-backend-github@^2.13.3:
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/netlify-cms-backend-github/-/netlify-cms-backend-github-2.13.3.tgz#60a77f4af242c2dee70ad8d6b6dee9eea826e4ff"
+  integrity sha512-AijJbe6UjdUaOWH+g+Je0D8EarzT7JscizAXTnlOL7q6V01EneOErfPdtD+Qc2bqxHterTauIc/RUIygGHn87Q==
   dependencies:
     "apollo-cache-inmemory" "^1.6.2"
     "apollo-client" "^2.6.3"
@@ -13430,28 +13488,28 @@
     "js-base64" "^3.0.0"
     "semaphore" "^1.1.0"
 
-"netlify-cms-backend-gitlab@^2.11.2":
-  "integrity" "sha512-uMc/7Ew3FN9ewAtBvIxmbZPBQnFagI+cSxuTFQpPvDPLm91xwwXmvYZGYyhTRXGmcUudBPLG/NIYGUMhh4XaTQ=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-backend-gitlab/-/netlify-cms-backend-gitlab-2.11.2.tgz"
-  "version" "2.11.2"
+netlify-cms-backend-gitlab@^2.11.4:
+  version "2.11.4"
+  resolved "https://registry.yarnpkg.com/netlify-cms-backend-gitlab/-/netlify-cms-backend-gitlab-2.11.4.tgz#8df4bad3a02229b62e8c23714456cfdfd1030af7"
+  integrity sha512-J7rNQQe+ZWPIVLDLuHU23YmK5bu/3QSB/QJv2I4zXVncMppcqN4NMJid7DPluSfgTPBoP+n7Z65QHObyLurfMQ==
   dependencies:
     "js-base64" "^3.0.0"
     "semaphore" "^1.1.0"
 
-"netlify-cms-backend-proxy@^1.2.1":
-  "integrity" "sha512-1vaU7khQwqgIFBMIYQ3hsUdoeZgYKA7Pt7g49sB7WXOYFgpi7RKEid3ZfPpQz1nWHMoNSCPopAwsDv+2Yuzndw=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-backend-proxy/-/netlify-cms-backend-proxy-1.2.1.tgz"
-  "version" "1.2.1"
+netlify-cms-backend-proxy@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/netlify-cms-backend-proxy/-/netlify-cms-backend-proxy-1.2.3.tgz#276b9d8958a8d505fc7323aacf8e25c452588895"
+  integrity sha512-HSbTxER/QaYonr8JC8W2eULKmvCwgH42NHNqKAz4QZNE5qNdbNk7pccfHHa3YjE4JcEcpJEMkb3+GrdDhq2QCw==
 
-"netlify-cms-backend-test@^2.11.1":
-  "integrity" "sha512-Rwae2IuYEpEOjxN4m6MmN2Wyr4qu9ExQDX3kEdxchExy+guWWRL4veyGRP66q0jJonKCqyG2ziiHXBJc6V0J6g=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-backend-test/-/netlify-cms-backend-test-2.11.1.tgz"
-  "version" "2.11.1"
+netlify-cms-backend-test@^2.11.3:
+  version "2.11.3"
+  resolved "https://registry.yarnpkg.com/netlify-cms-backend-test/-/netlify-cms-backend-test-2.11.3.tgz#1a92b6bf139d705c725effbdd9a05462481aa0c4"
+  integrity sha512-L7WXjryPcZ8immIkrdDauZjqiOrKS5NIcc6ewP9QI1BrZr2jeqwDpeN2/45fPdg/TRxtRA3ik3MuKXXLJRJ0MQ==
 
-"netlify-cms-core@^2.40.6":
-  "integrity" "sha512-NkMFvTqWgyTyvS9/wCcwYPCuvHT2e/yvPOZqELL7aP5jipr9F4jxGCREC50nm44uvzQEXk93EkupiDRivOgfrA=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-core/-/netlify-cms-core-2.40.6.tgz"
-  "version" "2.40.6"
+netlify-cms-core@^2.40.11:
+  version "2.40.11"
+  resolved "https://registry.yarnpkg.com/netlify-cms-core/-/netlify-cms-core-2.40.11.tgz#6b67b9ee0d262536fbb222543d2b8a023dd5cee6"
+  integrity sha512-TxGuuxNTksEvelARS8+VBuFb6YQROqA92dY+vRi+4An3Tik0WQbejzg4Cn7gA8haSqdSohcGBFD1rj8RiJWEqw==
   dependencies:
     "@iarna/toml" "2.2.5"
     "ajv" "8.1.0"
@@ -13505,34 +13563,34 @@
   "resolved" "https://registry.npmjs.org/netlify-cms-editor-component-image/-/netlify-cms-editor-component-image-2.7.0.tgz"
   "version" "2.7.0"
 
-"netlify-cms-lib-auth@^2.4.1":
-  "integrity" "sha512-JkTotd4zmDshj1hjTlPIiUgGySiCzomRdU8S8+Kd8lnY4goHZWPWrr1eLE93qmQml2K+Be/hSokXqHkvLbCBfw=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-lib-auth/-/netlify-cms-lib-auth-2.4.1.tgz"
-  "version" "2.4.1"
+netlify-cms-lib-auth@^2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-lib-auth/-/netlify-cms-lib-auth-2.4.2.tgz#5c58b0a5e96e745f025ab6959445f63af96a3101"
+  integrity sha512-Ygq6qhYndgyxIHtWZ09dMGh6FgBnsEpaSUryvTholvAK4smRJMkOjlwZTSoblM82k/hE7hl/PD8EVIozafVcXg==
 
-"netlify-cms-lib-util@^2.13.1":
-  "integrity" "sha512-H39gfqeAkmZ6oqO9YGGwSWqsJBwehuxrH5I69XoAJovGpE+dpwfT0cIbMG1+OVzLMGRcjbErTe7j2mVTGPz04A=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-lib-util/-/netlify-cms-lib-util-2.13.1.tgz"
-  "version" "2.13.1"
+netlify-cms-lib-util@^2.13.3:
+  version "2.13.3"
+  resolved "https://registry.yarnpkg.com/netlify-cms-lib-util/-/netlify-cms-lib-util-2.13.3.tgz#092c056b697780ecc4405033dbca97efc2e64eb4"
+  integrity sha512-cMvrOY2VaRe52PMdwNoXfb37zzRJ+IJQqQrxj01gl/CTl7Xgzts47y3XEHhrh+BVQXPJYFl6o+EKqFB8IAy53A==
   dependencies:
     "js-sha256" "^0.9.0"
     "localforage" "^1.7.3"
     "semaphore" "^1.1.0"
 
-"netlify-cms-lib-widgets@^1.6.1":
-  "integrity" "sha512-UGBnoixI31VhKLeMtlz0y36LZtnn1DngxjYKAP2z53w4CiTzvkf7FL6Eu/2KzVfLhxIdel1KgWcfDOQtnmgxnQ=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-lib-widgets/-/netlify-cms-lib-widgets-1.6.1.tgz"
-  "version" "1.6.1"
+netlify-cms-lib-widgets@^1.6.3:
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/netlify-cms-lib-widgets/-/netlify-cms-lib-widgets-1.6.3.tgz#06bd3c364b1552a9640815e3ca0d72b56faf1544"
+  integrity sha512-/35bTvzuEOEOLeY+gQkgBMUu4NQz2gf3ItITUZtBNIbHhN0z6RiGtqVPmQu2PPcqzQXf+IUbhr2VVLUN6a/tpg==
 
-"netlify-cms-locales@^1.30.1":
-  "integrity" "sha512-AUFrTIj+5zPApVJD8FZFYpKkDsaqM3w1q5GMriU3on4I7U0e8UxYv16bunJrzMXNtTfoIm+GgVZtrQwM5/lCAw=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-locales/-/netlify-cms-locales-1.30.1.tgz"
-  "version" "1.30.1"
+netlify-cms-locales@^1.30.2:
+  version "1.30.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-locales/-/netlify-cms-locales-1.30.2.tgz#2ec5746eb8437827b5592115c4130b45288dc7af"
+  integrity sha512-U/pQ1YegxPJQlZe2+p1M7SntTj6D5J7WLsx+splTdKVruaz6w2dZqR/o3yTvTqIH/q9xNjpH3F5ARwIrqc6Wfg==
 
-"netlify-cms-ui-default@^2.13.3":
-  "integrity" "sha512-vQaNTlPoGHtzlGiTnFNkc0uxQWlBsy2NMJOfebSlgBcyeeGqQYLiAlnnVniMQMKZlWb9kUrBqxoMoiLIl6HEdg=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-ui-default/-/netlify-cms-ui-default-2.13.3.tgz"
-  "version" "2.13.3"
+netlify-cms-ui-default@^2.13.4:
+  version "2.13.4"
+  resolved "https://registry.yarnpkg.com/netlify-cms-ui-default/-/netlify-cms-ui-default-2.13.4.tgz#3f975dd1ede21737d4de6c6d4262d34b26948529"
+  integrity sha512-CD1yjgAwLQ8H7ZlCskKxowH55hzc+9qwc4Zd0Zy0CBYpo4wIUnN+ZJymO4R21IBgitbG2feCwmVOq+zmmvokTg==
   dependencies:
     "react-aria-menubutton" "^7.0.0"
     "react-toggled" "^1.1.2"
@@ -13543,10 +13601,10 @@
   "resolved" "https://registry.npmjs.org/netlify-cms-widget-boolean/-/netlify-cms-widget-boolean-2.4.1.tgz"
   "version" "2.4.1"
 
-"netlify-cms-widget-code@^1.3.2":
-  "integrity" "sha512-/96HqMvrby3TteQP06hUgZRrqrhnZ8wJ0ZNb/LngfCMP38ktrFukHpGRH7XHPHdIN85uWncXE74bsPe3kArVeQ=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-widget-code/-/netlify-cms-widget-code-1.3.2.tgz"
-  "version" "1.3.2"
+netlify-cms-widget-code@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/netlify-cms-widget-code/-/netlify-cms-widget-code-1.3.3.tgz#5db805f4c1c29d4f704f07739e62221f280bccc5"
+  integrity sha512-rWU5NkF3/alL9o6IxGw76AqCFN83RSEdrGHsSkFkl5RQWxLI6qeHh5gaksXv1Ikq/G+S0iRljzZQe1FQrrAT9w==
   dependencies:
     "react-codemirror2" "^7.0.0"
     "react-select" "^4.0.0"
@@ -13559,10 +13617,10 @@
     "react-color" "^2.18.1"
     "validate-color" "^2.1.0"
 
-"netlify-cms-widget-date@^2.6.1":
-  "integrity" "sha512-D6PfqVBDwYR/3h5SpUsPTMlowFvAswIzD2HSWCN8F8f+Fz9A7uXm0zEQKtajD4QTymfTKY0Ei+4nyT4b6zUJ9g=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-widget-date/-/netlify-cms-widget-date-2.6.1.tgz"
-  "version" "2.6.1"
+netlify-cms-widget-date@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-widget-date/-/netlify-cms-widget-date-2.6.2.tgz#f172d8f95d5ea44f1d7a11d4eaa92001797c35a5"
+  integrity sha512-RjYuAfiIuWKwqkhXVGPst0BZv0IVKCWcwPpEH+wEcqDFFMkUplKJFnv1x2yuP3nJHpNvJD5jBA8vtDrjimANfw==
   dependencies:
     "react-datetime" "^3.0.0"
 
@@ -13580,15 +13638,15 @@
     "common-tags" "^1.8.0"
     "react-sortable-hoc" "^2.0.0"
 
-"netlify-cms-widget-image@^2.8.0":
-  "integrity" "sha512-tPT2Lz40PNmLpvwcbtA3ZNrkMHojb9aWx0p71okkXm3udoErZQLWed5f/zDQsT1FDDPmdLhoeLF2CjtZUu80Qg=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-widget-image/-/netlify-cms-widget-image-2.8.0.tgz"
-  "version" "2.8.0"
+netlify-cms-widget-image@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/netlify-cms-widget-image/-/netlify-cms-widget-image-2.8.1.tgz#c5a7e3c7d6ecdb38ba54e5a1fdb53892dc8e4021"
+  integrity sha512-wuB++G1h3VJJW/EdmEyc7jNMyQtULdcxnAjTdTHnJpwn+WbC0t1m3phxP2gqQF4je9K6+5YppBwtw3xf0hNjCA==
 
-"netlify-cms-widget-list@^2.9.1":
-  "integrity" "sha512-oDUM7aNJGxOHg51VCeK0tzLBHSyY3IpFiK28Pdwzcg/kfoGk0LuJhAE0lJ0uvN8ZJD/d9xsJB3n3frQEgrebOQ=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-widget-list/-/netlify-cms-widget-list-2.9.1.tgz"
-  "version" "2.9.1"
+netlify-cms-widget-list@^2.9.2:
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/netlify-cms-widget-list/-/netlify-cms-widget-list-2.9.2.tgz#a7d3535500783a0798d1e9ca11c8188d46bc9020"
+  integrity sha512-4Je84jQVJnDxGwED00Hl60os2yOTYjuuTuygscyFpkwhv8KiZz4pvaU1k3xTDkQ08ypoHjZyXjf1ydNZDmgvHA==
   dependencies:
     "react-sortable-hoc" "^2.0.0"
 
@@ -13599,10 +13657,10 @@
   dependencies:
     "ol" "^5.3.1"
 
-"netlify-cms-widget-markdown@^2.13.2":
-  "integrity" "sha512-3f/fRbMPk9Le9C+YoG4bp6SyC/HqZvSq9sGDjgnNKKJsN6MNPsbJrpr1A5+6LhTwi3HL2wLHjKZGaY8Nd3+6HQ=="
-  "resolved" "https://registry.npmjs.org/netlify-cms-widget-markdown/-/netlify-cms-widget-markdown-2.13.2.tgz"
-  "version" "2.13.2"
+netlify-cms-widget-markdown@^2.13.4:
+  version "2.13.4"
+  resolved "https://registry.yarnpkg.com/netlify-cms-widget-markdown/-/netlify-cms-widget-markdown-2.13.4.tgz#31ee09bc8a806f1e0fe702b7ced9408d13f3446a"
+  integrity sha512-w4IC87gzwMoyAWXhNKJYMa6IIo2+aQA0ke5b09o6bawmFVYTpdokrV26lMVM4LOm7vgSZUN/Q67VZgYGXPhkBA==
   dependencies:
     "dompurify" "^2.2.6"
     "is-hotkey" "^0.2.0"
@@ -17349,10 +17407,10 @@
     "schema-utils" "^3.0.0"
     "semver" "^7.3.2"
 
-"sass@^1.34.0":
-  "integrity" "sha512-rHEN0BscqjUYuomUEaqq3BMgsXqQfkcMVR7UhscsAVub0/spUrZGBMxQXFS2kfiDsPLZw5yuU9iJEFNC2x38Qw=="
-  "resolved" "https://registry.npmjs.org/sass/-/sass-1.34.0.tgz"
-  "version" "1.34.0"
+sass@^1.34.1:
+  version "1.34.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.34.1.tgz#30f45c606c483d47b634f1e7371e13ff773c96ef"
+  integrity sha512-scLA7EIZM+MmYlej6sdVr0HRbZX5caX5ofDT9asWnUJj21oqgsC+1LuNfm0eg+vM0fCTZHhwImTiCU0sx9h9CQ==
   dependencies:
     "chokidar" ">=3.0.0 <4.0.0"
 
