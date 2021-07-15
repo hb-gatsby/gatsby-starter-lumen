@@ -2,7 +2,7 @@ version: 2
 
 defaults: &defaults
   docker:
-    - image: circleci/node:16.4.2
+    - image: circleci/node:16.5.0
   working_directory: ~/gatsby-starter-lumen
 
 jobs:
